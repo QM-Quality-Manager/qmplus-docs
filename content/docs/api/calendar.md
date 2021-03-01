@@ -55,7 +55,7 @@ You can execute this using the following curl statement. You'll need to provide 
 | `TENANT_ID` | The id of the tenant we are executing the operation against. | `104` |
 | `TOKEN` | The authentication token to execute the operation under. | `1698aabbbcff4bd7f1f6affd60552e4c` |
 
-```
+```bash
 curl 'https://app.qmplus.com/api/calendar' \
   -H 'auth-impersonate-user-id: TENANT_USER_ID' \
   -H 'Content-Type: application/json' \
@@ -98,7 +98,7 @@ The reference object contains a reference to a `FILE` document that is `INTERNAL
 
 The curl operation would look something like this.
 
-```
+```bash
 curl 'https://app.qmplus.com/api/calendar/1' \
   -H 'auth-impersonate-user-id: TENANT_USER_ID' \
   -H 'Content-Type: application/json' \
@@ -108,13 +108,3 @@ curl 'https://app.qmplus.com/api/calendar/1' \
   --data-raw '{"activities":["1"],"departmentId":"1","name":{"en_US":"Service Routines 2"},"description":{"en_US":"Contains all service activities for the ACME department 2"},"references":[{"id":"1","type":"FILE","location":"INTERNAL","reference":{"id":"1","version":0}}],"tags":["service"],"visibility":"DEPARTMENT"}' \
   --compressed
 ```
-
-## Activity Operations
-
-The activity operation are more complex than the `Calendar` operation as there are a lot of options. In this section we will outline the options and show how you can create a couple of different activies as well as explain an activity tree structure.
-
-### Creating a new Activity
-
-
-
-
