@@ -116,6 +116,24 @@ Lets look at the top level object returned in detail and what each field means. 
 
 ### Field Description
 
+A field represents a value that comes from a dialog field that was triggered by a transition. This could be for example a text field for a description or a selected current case worker.
+
+| Field | Description |
+| --- | --- |
+| `fieldId` | The id of the field in a workflow dialog that this entry is attached to |
+| `date` | The date the field was created |
+| `values` | A list of values stored for the field |
+| `componentValues` | A list of component values stored for the field |
+| `users` | A list of user ids associated with this field, could be the users assigned to a task for example |
+
+#### Field Component Description 
+
+Some field types have components associated with them. One example is when creating an action the field have several components such as a DUE_DATE.
+
+
+
+
+
 ### Task Description
 
 ### Attachment Description
