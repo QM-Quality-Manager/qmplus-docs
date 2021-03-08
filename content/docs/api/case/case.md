@@ -53,7 +53,17 @@ curl -X GET "https://app.qmplus.com/api/case/message/1" -H  "accept: application
       "departmentId": "1",
       "userId": "1"
     }],
-    "values": ["somevalue"]
+    "values": ["somevalue"],
+    "componentValues": [{
+      "type": "PLANNED_START_DATE",
+      "values": [1614289485234]
+    }, {
+      "type": "PLANNED_HOURS",
+      "values": [40.0]
+    }, {
+      "type": "DUE_DATE",
+      "values": [1614289485234]
+    }],
   }],
   "tasks": [{
     "doneDate": 1614289485234,
@@ -130,13 +140,175 @@ A field represents a value that comes from a dialog field that was triggered by 
 
 Some field types have components associated with them. One example is when creating an action the field have several components such as a DUE_DATE.
 
+The types of components available are.
 
+| Name | Description |
+| --- | --- |
+| `PLANNED_START_DATE` | The planned start date for this component |
+| `PLANNED_HOURS` | The number of hours expected for the task |
+| `DUE_DATE` | The date the task is due to be done |
 
-
+These can be considered sub elements of a field in a dialog and can be present or not depending on the original settings for a field in a form.
 
 ### Task Description
 
+A task represents an activity performed by one or more persons associated with the case.
+
+#### Top Level Object
+
+This represents the field at the top of a task object
+
+```json
+{
+  "doneDate": 1614289485234,
+  "dueDate": 1614289485234,
+  "participants": [{
+    "departmentId": "1",
+    "doneDate": 1614289485234,
+    "state": "PENDING",
+    "times": [{
+      "doneDate": 1614289485234,
+      "timeUsage": 0
+    }],
+    "type": "CASE_HANDLER",
+    "userId": "1"
+  }],
+  "plannedHours": 0,
+  "plannedStartDate": 1614289485234,
+  "registeredOn": 1614289485234,
+  "state": "PENDING",
+  "transitionId": "1",
+  "updatedBy": "1",
+  "updatedOn": 1614289485234
+}
+```
+
+| Name | Description |
+| --- | --- |
+| `doneDate` | The date the task was completed |
+| `dueDate` | The date the task was due to be completed |
+| `participants` | A list of participants on the task|
+| `plannedHours` | The number of planned hours the task will take |
+| `plannedStartDate` | The date the task should be started, should always be before the due date |
+| `registeredOn` | The date the task was created |
+| `state` | The state of the task |
+| `transitionId` | The id of the transition that triggered the task creation |
+| `updatedBy` | The id of the user who last updated the task |
+| `updatedOn` | The date the task was last updated |
+
+The task state can be one of the following values.
+
+| Name | Description |
+| --- | --- |
+| `PENDING` | The task is pending |
+| `COMPLETE` | The task was completed |
+| `INACTIVE` | The task is inactive |
+
+#### Participant Object
+
+The participants object represents the people associated with a task and what kind of participant type they have.
+
+```json
+This represents the field at the top of a task object
+
+```json
+{
+  "departmentId": "1",
+  "doneDate": 1614289485234,
+  "state": "PENDING",
+  "times": [{
+    "doneDate": 1614289485234,
+    "timeUsage": 0
+  }],
+  "type": "CASE_HANDLER",
+  "userId": "1"
+}
+```
+
+| Name | Description |
+| --- | --- |
+| `departmentId` | The department the case participant belongs to |
+| `doneDate` | The done date for this case participants work on the task |
+| `state` | The state of the case participants |
+| `times` | A list of work times registered for the case participant for this task |
+| `type` | The type of case participant | 
+| `userId` | The id of the user |
+
+The case participant `state` can be one of the following values.
+
+| Name | Description |
+| --- | --- |
+| `PENDING` | The task is pending |
+| `COMPLETE` | The task was completed |
+| `INACTIVE` | The task is inactive |
+
+The case participant `type` can be one of the following values.
+
+| Name | Description |
+| --- | --- |
+| `CASE_HANDLER` | The case participant is a task case handler |
+| `CASE_PARTICIPATOR` | The case particpant is a participant in the task |
+| `CASE_APPROVER` | The case participant is an approver for the task |
+
+The case participant `times` is a list of registered work done for for the particular task.
+
+```json
+{
+  "doneDate": 1614289485234,
+  "timeUsage": 0
+}
+```
+
+| Name | Description |
+| --- | --- |
+| `doneDate` | The date this amount of work was performed |
+| `timeUsage` | The time spend for this period of work |
+
 ### Attachment Description
 
+A list of case attachments.
+
+```json
+{
+  "contentType": "image/png",
+  "id": "111111",
+  "name": "acme.png",
+  "size": "131312321"
+}
+```
+
+| Name | Description |
+| --- | --- |
+| `contentType` | The MIME content type of the attachment |
+| `id` | The id of the attachment (used to download the attachment) |
+| `name` | The name of the file stored as an attachment |
+| `size` | The size of the file stored as an attachment |
+
 ### Refrence Description
+
+Contains references to the entities in the system. This allows you to link cases together to make it clear how they are related.
+
+```json
+{
+  "entityId": "10000",
+  "entityType": "MESSAGE_ENTITY",
+  "triggerOnTransactionIds": [],
+  "type": "CLOSE_ON"
+}
+```
+
+| Name | Description |
+| --- | --- |
+| `entityId` | The id of the entity we are referencing (document id, message id, action id, etc.) |
+| `entityType` | The entityType of the reference. It can be one of either [`MESSAGE_ENTITY`, `ACTION_ENTITY`, `DOCUMENT_ENTITY`, `HEARING_ENTITY`, `AUDIT_ENTITY`] |
+| `triggerOnTransitionIds` | A list of transition ids that will trigger an action on the reference, such as auto closing the associated message for an action |
+| `type` | The type of the reference |
+
+The case reference `type` can be one of the following values.
+
+| Name | Description |
+| --- | --- |
+| `REFERENCE` | Just a reference between entities |
+| `CLOSE_ON` | Close the referenced entity if a listed transition happens |
+
 
