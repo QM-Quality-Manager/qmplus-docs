@@ -32,7 +32,7 @@ Cases are created when they are associated to an entity. For each entity there i
 In this first use case we will show how to retrieve a case for a specific message.
 
 ```bash
-curl -X GET "https://app.qmplus.com/api/case/message/1" -H  "accept: application/json" -H  "auth-impersonate-tenant-id: 104" -H  "auth-impersonate-user-id: 1000001" -H  "auth-tenant-id: 0" -H  "auth-token: 1698b0b29c7d4bd7f1f6a73d60552e4c"
+curl -X GET "https://app.qmplus.com/api/case/message/1" -H  "accept: application/json" -H  "auth-impersonate-tenant-id: 104" -H  "auth-impersonate-user-id: 1000001" -H  "auth-tenant-id: 0" -H  "auth-token: TOKEN"
 ```
 
 ```json
