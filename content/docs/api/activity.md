@@ -49,7 +49,7 @@ Lets look at how we can create a basic activity with a single date entry.
 This will create a single activity on the `Calendar` with `calendarId` equal to `1`. Below is an example curl for creating an activity with the data above.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: 1698b0b29c7d4bd7f1f6a73d60552e4c" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Remember to fill in form A\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }}"
+curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Remember to fill in form A\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }}"
 ```
 
 > Creating an activity will add it to the existing calendar object. If you fetch the `Calendar` object with `id = 1` it will include the new activity id in it's list of activities.
@@ -83,7 +83,7 @@ In this example we will create multiple activity entries for a given activity. L
 The equivalent curl operation.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: 1698b0b29c7d4bd7f1f6a73d60552e4c" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Evaluate Engine\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"MULTIPLE\", \"dates\": [{ \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, { \"start\": \"2021-04-01T14:40:00.838Z\", \"end\": \"2021-04-01T16:40:00.838Z\" }] }}"
+curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Evaluate Engine\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"MULTIPLE\", \"dates\": [{ \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, { \"start\": \"2021-04-01T14:40:00.838Z\", \"end\": \"2021-04-01T16:40:00.838Z\" }] }}"
 ```
 
 ## Creating Periodic Activities
@@ -116,7 +116,7 @@ In this example we are going to create an activity that happens once a week for 
 The equivalent curl operation.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: 1698b0b29c7d4bd7f1f6a73d60552e4c" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Evaluate Engine\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"PERIOD\", \"periodType\": \"WEEKLY\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\", \"endAtDate\": \"2021-04-06T16:40:00.838Z\" }}"
+curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Evaluate Engine\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"PERIOD\", \"periodType\": \"WEEKLY\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\", \"endAtDate\": \"2021-04-06T16:40:00.838Z\" }}"
 ```
 
 This will create entiries until it reaches the `endAtDate` specified.
@@ -150,7 +150,7 @@ In this example we are going to create an activity that happens once a year but 
 The equivalent curl operation.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: 1698b0b29c7d4bd7f1f6a73d60552e4c" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Evaluate Engine\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"useSameDayOfWeekAsStartDate\": true, \"periodicity\": { \"type\": \"PERIOD\", \"periodType\": \"YEARLY\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\", \"endAfterTimes\": 3 }}"
+curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Evaluate Engine\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"useSameDayOfWeekAsStartDate\": true, \"periodicity\": { \"type\": \"PERIOD\", \"periodType\": \"YEARLY\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\", \"endAfterTimes\": 3 }}"
 ```
 
 This will create entiries until it reaches the `endAfterTimes` specified.
@@ -181,7 +181,7 @@ In this example we going to create an activity that will only happen on Monday, 
 The equivalent curl operation.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: 1698b0b29c7d4bd7f1f6a73d60552e4c" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Evaluate Engine\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"PERIOD\", \"days\": [\"MONDAY\", \"WEDNESDAY\", \"FRIDAY\"], \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\", \"endAfterTimes\": 5 }}"
+curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Evaluate Engine\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"PERIOD\", \"days\": [\"MONDAY\", \"WEDNESDAY\", \"FRIDAY\"], \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\", \"endAfterTimes\": 5 }}"
 ```
 
 ## Attaching Artefacts
@@ -225,7 +225,7 @@ Adding an activity with basic artefacts. The types available are.
 The equivalent curl operation.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: 1698b0b29c7d4bd7f1f6a73d60552e4c" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Do some work\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, \"artifacts\": [{ \"type\": \"FORM\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"QUESTIONNAIRE\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"DOCUMENT\", \"id\": \"1\", \"version\": 1 }]}"
+curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Do some work\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, \"artifacts\": [{ \"type\": \"FORM\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"QUESTIONNAIRE\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"DOCUMENT\", \"id\": \"1\", \"version\": 1 }]}"
 ```
 
 This will create an `Activity` that contains three artefacts. Next lets create an Activity that is only visible to specific people using the `CreateContext` to limit the distribution of the activity.
@@ -271,7 +271,7 @@ We can control who has access to the activity by using the `CreateContext` to sp
 The equivalent curl operation.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: 1698b0b29c7d4bd7f1f6a73d60552e4c" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Do some work\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, \"context\": { \"userIds\": [\"1\", \"2\", \"3\"] }, \"artifacts\": [{ \"type\": \"FORM\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"QUESTIONNAIRE\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"DOCUMENT\", \"id\": \"1\", \"version\": 1 }]}"
+curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Do some work\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, \"context\": { \"userIds\": [\"1\", \"2\", \"3\"] }, \"artifacts\": [{ \"type\": \"FORM\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"QUESTIONNAIRE\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"DOCUMENT\", \"id\": \"1\", \"version\": 1 }]}"
 ```
 
 ### Set Notficiation Settings
@@ -314,6 +314,6 @@ Lets take the activity from above and add some notification information notifyin
 The equivalent curl operation.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: 1698b0b29c7d4bd7f1f6a73d60552e4c" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Do some work\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, \"context\": { \"userIds\": [\"1\", \"2\", \"3\"] }, \"notifications\": { \"periodType\": \"DAILY\", \"types\": [\"EMAI\"], \"unitsBefore\": 7, \"time\": \"2021-03-01T13:00:00.838Z\" }, \"artifacts\": [{ \"type\": \"FORM\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"QUESTIONNAIRE\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"DOCUMENT\", \"id\": \"1\", \"version\": 1 }]}"
+curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Do some work\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, \"context\": { \"userIds\": [\"1\", \"2\", \"3\"] }, \"notifications\": { \"periodType\": \"DAILY\", \"types\": [\"EMAI\"], \"unitsBefore\": 7, \"time\": \"2021-03-01T13:00:00.838Z\" }, \"artifacts\": [{ \"type\": \"FORM\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"QUESTIONNAIRE\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"DOCUMENT\", \"id\": \"1\", \"version\": 1 }]}"
 ```
 

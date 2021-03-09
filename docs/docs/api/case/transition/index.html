@@ -1,4 +1,328 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=preload as=font href=https://qm-quality-manager.github.io/qmplus-docs/fonts/vendor/jost/jost-v4-latin-regular.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=https://qm-quality-manager.github.io/qmplus-docs/fonts/vendor/jost/jost-v4-latin-700.woff2 type=font/woff2 crossorigin><link rel=stylesheet href=https://qm-quality-manager.github.io/qmplus-docs/main.bed5d0850553941ed2d934154be9a76ba4f54b932a00328491379c027ed3d6b433c614d5876cd7b9a24a112aef4ce279b875533e28cc486b1ade683e1720019a.css integrity="sha512-vtXQhQVTlB7S2TQVS+mna6T1S5MqADKEkTecAn7T1rQzxhTVh2zXuaJKESrvTOJ5uHVTPijMSGsa3mg+FyABmg==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><meta name=robots content="index, follow"><meta name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>Transition - Doks</title><meta name=description content="Covering the transition handling API."><link rel=canonical href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/transition/><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://qm-quality-manager.github.io/qmplus-docs/doks.png"><meta name=twitter:title content="Transition"><meta name=twitter:description content="Covering the transition handling API."><meta name=twitter:site content="@henkverlinde"><meta name=twitter:creator content="@henkverlinde"><meta property="og:title" content="Transition"><meta property="og:description" content="Covering the transition handling API."><meta property="og:type" content="article"><meta property="og:url" content="https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/transition/"><meta property="og:image" content="https://qm-quality-manager.github.io/qmplus-docs/doks.png"><meta property="article:published_time" content="2020-10-13T15:21:01+02:00"><meta property="article:modified_time" content="2020-10-13T15:21:01+02:00"><meta property="og:site_name" content="Doks"><meta property="article:publisher" content="https://www.facebook.com/verlinde.henk"><meta property="article:author" content="https://www.facebook.com/verlinde.henk"><meta property="og:locale" content="en_US"><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs"},{"@type":"ListItem","position":3,"name":"Docs","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs\/docs\/"},{"@type":"ListItem","position":4,"name":"Api","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs\/docs\/api\/"},{"@type":"ListItem","position":5,"name":"Case","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs\/docs\/api\/case\/"},{"@type":"ListItem","position":6,"name":"Transition","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs\/docs\/api\/case\/transition\/"}]}</script><meta name=theme-color content="#fff"><link rel=apple-touch-icon sizes=180x180 href=https://qm-quality-manager.github.io/qmplus-docs/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://qm-quality-manager.github.io/qmplus-docs/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://qm-quality-manager.github.io/qmplus-docs/favicon-16x16.png><link rel=manifest href=https://qm-quality-manager.github.io/qmplus-docs/site.webmanifest></head><body class="docs single"><div class="header-bar fixed-top"></div><header class="navbar fixed-top navbar-expand-md navbar-light"><div class=container><input class="menu-btn order-0" type=checkbox id=menu-btn>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=preload as=font href=https://qm-quality-manager.github.io/qmplus-docs/fonts/vendor/jost/jost-v4-latin-regular.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=https://qm-quality-manager.github.io/qmplus-docs/fonts/vendor/jost/jost-v4-latin-700.woff2 type=font/woff2 crossorigin><link rel=stylesheet href=https://qm-quality-manager.github.io/qmplus-docs/main.b6add08e243cc3dfcec605b9601b0043974518ca6b952fa0f5354986d5dd9935f006cd7ba2c0c999a661ad70ae8b2ee39581e042c994044702343e6402f0cd01.css integrity="sha512-tq3QjiQ8w9/OxgW5YBsAQ5dFGMprlS+g9TVJhtXdmTXwBs17osDJmaZhrXCuiy7jlYHgQsmUBEcCND5kAvDNAQ==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><meta name=robots content="index, follow"><meta name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>Transition - Doks</title><meta name=description content="Covering the transition handling API."><link rel=canonical href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/transition/><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://qm-quality-manager.github.io/qmplus-docs/doks.png"><meta name=twitter:title content="Transition"><meta name=twitter:description content="Covering the transition handling API."><meta name=twitter:site content="@henkverlinde"><meta name=twitter:creator content="@henkverlinde"><meta property="og:title" content="Transition"><meta property="og:description" content="Covering the transition handling API."><meta property="og:type" content="article"><meta property="og:url" content="https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/transition/"><meta property="og:image" content="https://qm-quality-manager.github.io/qmplus-docs/doks.png"><meta property="article:published_time" content="2020-10-13T15:21:01+02:00"><meta property="article:modified_time" content="2020-10-13T15:21:01+02:00"><meta property="og:site_name" content="Doks"><meta property="article:publisher" content="https://www.facebook.com/verlinde.henk"><meta property="article:author" content="https://www.facebook.com/verlinde.henk"><meta property="og:locale" content="en_US"><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs"},{"@type":"ListItem","position":3,"name":"Docs","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs\/docs\/"},{"@type":"ListItem","position":4,"name":"Api","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs\/docs\/api\/"},{"@type":"ListItem","position":5,"name":"Case","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs\/docs\/api\/case\/"},{"@type":"ListItem","position":6,"name":"Transition","item":"https:\/\/qm-quality-manager.github.io\/qmplus-docs\/docs\/api\/case\/transition\/"}]}</script><meta name=theme-color content="#fff"><link rel=apple-touch-icon sizes=180x180 href=https://qm-quality-manager.github.io/qmplus-docs/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://qm-quality-manager.github.io/qmplus-docs/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://qm-quality-manager.github.io/qmplus-docs/favicon-16x16.png><link rel=manifest href=https://qm-quality-manager.github.io/qmplus-docs/site.webmanifest></head><body class="docs single"><div class="header-bar fixed-top"></div><header class="navbar fixed-top navbar-expand-md navbar-light"><div class=container><input class="menu-btn order-0" type=checkbox id=menu-btn>
 <label class="menu-icon d-md-none" for=menu-btn><span class=navicon></span></label><a class="navbar-brand order-1 order-md-0 mr-auto" href=https://qm-quality-manager.github.io/qmplus-docs>Doks</a>
 <button id=mode class="btn btn-link order-2 order-md-4" type=button aria-label="Toggle mode">
-<span class=toggle-dark><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></span><span class=toggle-light><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span></button><ul class="navbar-nav social-nav order-3 order-md-5"><li class=nav-item><a class=nav-link href=https://github.com/h-enk/doks><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77a5.44 5.44.0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg><span class="ml-2 sr-only">GitHub</span></a></li></ul><div class="collapse navbar-collapse order-4 order-md-1"><ul class="navbar-nav main-nav mr-auto order-5 order-md-2"><li class="nav-item active"><a class=nav-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/prologue/introduction/>Docs</a></li><li class=nav-item><a class=nav-link href=https://qm-quality-manager.github.io/qmplus-docs/blog/>Blog</a></li></ul><div class="break order-6 d-md-none"></div><form class="navbar-form flex-grow-1 order-7 order-md-3"><input id=userinput class="form-control is-search" type=search placeholder="Search docs..." aria-label="Search docs..." autocomplete=off><div id=suggestions class="shadow bg-white rounded"></div></form></div></div></header><div class="wrap container" role=document><div class=content><div class="row flex-xl-nowrap"><div class="col-lg-5 col-xl-4 docs-sidebar"><nav class=docs-links aria-label="Main navigation"><h3>Prologue</h3><ul class=list-unstyled><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/prologue/introduction/>Introduction</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/prologue/quick-start/>Quick Start</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/prologue/commands/>Commands</a></li></ul><h3>Help</h3><ul class=list-unstyled><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/help/how-to-update/>How to Update</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/help/troubleshooting/>Troubleshooting</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/help/faq/>FAQ</a></li></ul><h3>api</h3><ul class=list-unstyled><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/activity/>Activity</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/calendar/>Calendar</a></li></ul><h3>case</h3><ul class=list-unstyled><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/case/>Case</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/dialog/>Dialog</a></li><li><a class="docs-link active" href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/transition/>Transition</a></li></ul></nav></div><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"><div class=page-links><h3>On this page</h3><nav id=TableOfContents></nav></div></nav><main class="docs-content col-lg-11 col-xl-9"><h1>Transition</h1><p class=lead>Covers use of transition API.</p><div class="docs-navigation d-flex justify-content-between"><a href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/dialog/><div class="card my-1"><div class="card-body py-2">&larr; Dialog</div></div></a><a class=ml-auto href=https://qm-quality-manager.github.io/qmplus-docs/docs/help/how-to-update/><div class="card my-1"><div class="card-body py-2">How to Update &rarr;</div></div></a></div></main></div></div></div><footer class="footer text-muted"><div class=container><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a href=https://www.netlify.com/>Netlify</a>, <a href=https://gohugo.io/>Hugo</a>, and <a href=https://getdoks.org/>Doks</a></li></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-right"><ul class=list-inline></ul></div></div></div></footer><script src=https://qm-quality-manager.github.io/qmplus-docs/main.f6b484f556ad1f3bcf6061082139a2f21fa759f13930c39a25fe4a9f78f35e64122c2d86dffd56e67b292dabbda4095d8077194f196e0e348441c106a9f3d40e.js integrity="sha512-9rSE9VatHzvPYGEIITmi8h+nWfE5MMOaJf5Kn3jzXmQSLC2G3/1W5nspLau9pAldgHcZTxluDjSEQcEGqfPUDg==" crossorigin=anonymous defer></script><script src=https://qm-quality-manager.github.io/qmplus-docs/index.min.c6de2bd7f099b22919b7d9e2bf5e3838c25477db1097de59030846685eb71c817f90b01e5dd45b161bd71138bc4d7bea9afc8548a7f602c97aae69e0fb610be8.js integrity="sha512-xt4r1/CZsikZt9niv144OMJUd9sQl95ZAwhGaF63HIF/kLAeXdRbFhvXETi8TXvqmvyFSKf2Asl6rmng+2EL6A==" crossorigin=anonymous defer></script></body></html>
+<span class=toggle-dark><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></span><span class=toggle-light><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span></button><ul class="navbar-nav social-nav order-3 order-md-5"><li class=nav-item><a class=nav-link href=https://github.com/h-enk/doks><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77a5.44 5.44.0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg><span class="ml-2 sr-only">GitHub</span></a></li></ul><div class="collapse navbar-collapse order-4 order-md-1"><ul class="navbar-nav main-nav mr-auto order-5 order-md-2"><li class="nav-item active"><a class=nav-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/prologue/introduction/>Docs</a></li><li class=nav-item><a class=nav-link href=https://qm-quality-manager.github.io/qmplus-docs/blog/>Blog</a></li></ul><div class="break order-6 d-md-none"></div><form class="navbar-form flex-grow-1 order-7 order-md-3"><input id=userinput class="form-control is-search" type=search placeholder="Search docs..." aria-label="Search docs..." autocomplete=off><div id=suggestions class="shadow bg-white rounded"></div></form></div></div></header><div class="wrap container" role=document><div class=content><div class="row flex-xl-nowrap"><div class="col-lg-5 col-xl-4 docs-sidebar"><nav class=docs-links aria-label="Main navigation"><h3>Prologue</h3><ul class=list-unstyled><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/prologue/introduction/>Introduction</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/prologue/quick-start/>Quick Start</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/prologue/commands/>Commands</a></li></ul><h3>Help</h3><ul class=list-unstyled><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/help/how-to-update/>How to Update</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/help/troubleshooting/>Troubleshooting</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/help/faq/>FAQ</a></li></ul><h3>api</h3><ul class=list-unstyled><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/activity/>Activity</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/calendar/>Calendar</a></li></ul><h3>case</h3><ul class=list-unstyled><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/case/>Case</a></li><li><a class=docs-link href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/dialog/>Dialog</a></li><li><a class="docs-link active" href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/transition/>Transition</a></li></ul></nav></div><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"><div class=page-links><h3>On this page</h3><nav id=TableOfContents><ul><li><a href=#transitioning-between-states-with-no-dialog>Transitioning Between states with no Dialog</a></li><li><a href=#transitioning-between-states-with-a-dialog-that-contains-all-options>Transitioning between states with a Dialog that contains all options</a><ul><li><a href=#textfield-textarea-texteditor-fields>TEXTFIELD, TEXTAREA, TEXTEDITOR fields</a></li><li><a href=#number-field>NUMBER field</a></li><li><a href=#date-field>DATE field</a></li><li><a href=#perform_task-field>PERFORM_TASK field</a></li><li><a href=#action_name-field>ACTION_NAME field</a></li><li><a href=#comment_notification-field>COMMENT_NOTIFICATION field</a></li><li><a href=#acknowledgement-field>ACKNOWLEDGEMENT field</a></li><li><a href=#task_assignment_setup-field>TASK_ASSIGNMENT_SETUP field</a></li></ul></li></ul></nav></div></nav><main class="docs-content col-lg-11 col-xl-9"><h1>Transition</h1><p class=lead>Covers use of transition API.</p><p>In this section we will cover performing transitions for a case using the <code>API</code>.</p><h2 id=transitioning-between-states-with-no-dialog>Transitioning Between states with no Dialog<a href=#transitioning-between-states-with-no-dialog class=anchor aria-hidden=true>#</a></h2><p>In this example we will show to trigger a transition for a specific message going from one state to another where there is no dialog associated with the transition. Lets say if you for example are modeling a <code>Kanban</code> style process where you can freely move a case between states.</p><p>Give that we have a message of <code>entityTypeId : MESSAGE_ENTITY</code> and with id <code>1</code> that is in the <code>open</code> case status with id <code>1</code> to the status <code>closed</code> with case status id <code>2</code>.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;transitionId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;dialog&#34;</span><span class=p>:</span> <span class=kc>null</span>
+<span class=p>}</span>
+</code></pre></div><p>We trigger this with the following curl operation.</p><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash>curl -X POST <span class=s2>&#34;https://app.qmplus.com/api/case/message/1/transition&#34;</span> -H <span class=s2>&#34;accept: application/json&#34;</span> -H <span class=s2>&#34;auth-impersonate-tenant-id: 104&#34;</span> -H <span class=s2>&#34;auth-impersonate-user-id: 1000001&#34;</span> -H <span class=s2>&#34;auth-tenant-id: 0&#34;</span> -H <span class=s2>&#34;auth-token: TOKEN&#34;</span> -H <span class=s2>&#34;Content-Type: application/json&#34;</span> -d <span class=s2>&#34;{ \&#34;dialog\&#34;: null, \&#34;transitionId\&#34;: \&#34;string\&#34;}&#34;</span>
+</code></pre></div><h2 id=transitioning-between-states-with-a-dialog-that-contains-all-options>Transitioning between states with a Dialog that contains all options<a href=#transitioning-between-states-with-a-dialog-that-contains-all-options class=anchor aria-hidden=true>#</a></h2><p>In this example we are going to perform a transition for a case using an attached dialog that contains all the possible fields for simplicities sake. Lets look at a dialog object from a workflow with all fields enabled.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;Dialog&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;description&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;fields&#34;</span><span class=p>:</span> <span class=p>[</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;textfield&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;TEXTFIELD&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>0</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;3&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;textarea&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;TEXTAREA&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>1</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;4&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;number&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;NUMBER&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>2</span><span class=p>,</span>
+      <span class=nt>&#34;required&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;5&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;date&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;DATE&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>3</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;6&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Perform Task&#34;</span><span class=p>,</span>
+        <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;perform_task&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;PERFORM_TASK&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>4</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;7&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Action name&#34;</span><span class=p>,</span>
+        <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;action_name&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;ACTION_NAME&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>5</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;8&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Comment&#34;</span><span class=p>,</span>
+        <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;comment&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;COMMENT_NOTIFICATION&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>6</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;9&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Acknowledgement&#34;</span><span class=p>,</span>
+        <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;acknowledged&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;ACKNOWLEDGEMENT&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>7</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;11&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;texteditor&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;TEXTEDITOR&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>9</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;14&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Task assignment&#34;</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;TASK_ASSIGNMENT_SETUP&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;required&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+      <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[</span>
+        <span class=p>{</span>
+          <span class=nt>&#34;fieldComponentType&#34;</span><span class=p>:</span> <span class=s2>&#34;PLANNED_HOURS&#34;</span><span class=p>,</span>
+          <span class=nt>&#34;enabled&#34;</span><span class=p>:</span> <span class=kc>true</span>
+        <span class=p>},</span>
+        <span class=p>{</span>
+          <span class=nt>&#34;fieldComponentType&#34;</span><span class=p>:</span> <span class=s2>&#34;PLANNED_START_DATE&#34;</span><span class=p>,</span>
+          <span class=nt>&#34;enabled&#34;</span><span class=p>:</span> <span class=kc>true</span>
+        <span class=p>},</span>
+        <span class=p>{</span>
+          <span class=nt>&#34;fieldComponentType&#34;</span><span class=p>:</span> <span class=s2>&#34;DUE_DATE&#34;</span><span class=p>,</span>
+          <span class=nt>&#34;enabled&#34;</span><span class=p>:</span> <span class=kc>true</span>
+        <span class=p>}</span>
+      <span class=p>]</span>
+    <span class=p>}</span>
+  <span class=p>]</span>
+<span class=p>}</span>
+</code></pre></div><p>From the dialog definition above we have the following field types. For each file type we will show the appropriate transition dialog field values you must pass.</p><h3 id=textfield-textarea-texteditor-fields>TEXTFIELD, TEXTAREA, TEXTEDITOR fields<a href=#textfield-textarea-texteditor-fields class=anchor aria-hidden=true>#</a></h3><p>The fields for the <code>TEXTFIELD</code>, <code>TEXTAREA</code> and <code>TEXTEDITOR</code> components are pretty straightforward to create an transition dialog entry. Given the <code>TEXTFIELD</code> dialog field definition below.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;textfield&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;TEXTFIELD&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>0</span><span class=p>,</span>
+  <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+<span class=p>}</span>
+</code></pre></div><p>Lets build the <code>transition</code> object to send to the API to transition between two states with a dialog containing this field.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;transitionId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;dialog&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;dialogId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;fields&#34;</span><span class=p>:</span> <span class=p>[{</span>
+      <span class=nt>&#34;fileId&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;Text we are going to save&#34;</span><span class=p>]</span>
+    <span class=p>}]</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>This object will save the text entered for the field on the case. The same format for sending the value applies to <code>TEXTAREA</code> and <code>TEXTEDITOR</code>.</p><h3 id=number-field>NUMBER field<a href=#number-field class=anchor aria-hidden=true>#</a></h3><p>A <code>NUMBER</code> field is defined below.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;4&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;number&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;NUMBER&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>2</span><span class=p>,</span>
+  <span class=nt>&#34;required&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+<span class=p>}</span>
+</code></pre></div><p>To set the value on the field for a <code>transition</code> create the following dialog object.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;transitionId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;dialog&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;dialogId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;fields&#34;</span><span class=p>:</span> <span class=p>[{</span>
+      <span class=nt>&#34;fileId&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;10.0&#34;</span><span class=p>]</span>
+    <span class=p>}]</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>This will set field data to the string representation of the value</p><h3 id=date-field>DATE field<a href=#date-field class=anchor aria-hidden=true>#</a></h3><p>A <code>DATE</code> field is defined below.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;5&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;date&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;DATE&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>3</span><span class=p>,</span>
+  <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+<span class=p>}</span>
+</code></pre></div><p>To set the value on the field for a <code>transition</code> create the following dialog object.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;transitionId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;dialog&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;dialogId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;fields&#34;</span><span class=p>:</span> <span class=p>[{</span>
+      <span class=nt>&#34;fileId&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;2021-03-08T16:29:11.598Z&#34;</span><span class=p>]</span>
+    <span class=p>}]</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>Notice how the value is an ISO-8061 UTC formatted javascript date.</p><h3 id=perform_task-field>PERFORM_TASK field<a href=#perform_task-field class=anchor aria-hidden=true>#</a></h3><p>A <code>PERFORM_TASK</code> field is defined below.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;6&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Perform Task&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;perform_task&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;PERFORM_TASK&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>4</span><span class=p>,</span>
+  <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+<span class=p>}</span>
+</code></pre></div><p>To set the value on the field for a <code>transition</code> create the following dialog object.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;transitionId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;dialog&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;dialogId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;fields&#34;</span><span class=p>:</span> <span class=p>[{</span>
+      <span class=nt>&#34;fileId&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;1&#34;</span><span class=p>,</span> <span class=s2>&#34;2&#34;</span><span class=p>]</span>
+    <span class=p>}]</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>The values passed in the <code>values</code> field is the list of <code>userIds</code> that will perform the task. The server will validate that these users are valid users.</p><h3 id=action_name-field>ACTION_NAME field<a href=#action_name-field class=anchor aria-hidden=true>#</a></h3><p>A <code>ACTION_NAME</code> field is defined below.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;7&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Action name&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;action_name&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;ACTION_NAME&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>5</span><span class=p>,</span>
+  <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+<span class=p>}</span>
+</code></pre></div><p>To set the value on the field for a <code>transition</code> create the following dialog object.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;transitionId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;dialog&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;dialogId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;fields&#34;</span><span class=p>:</span> <span class=p>[{</span>
+      <span class=nt>&#34;fileId&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;The action name&#34;</span><span class=p>]</span>
+    <span class=p>}]</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>The value passed in the <code>values</code> field is name of the <code>ACTION_ENTITY</code> that will be created when this dialog is triggered in a transition.</p><h3 id=comment_notification-field>COMMENT_NOTIFICATION field<a href=#comment_notification-field class=anchor aria-hidden=true>#</a></h3><p>A <code>COMMENT_NOTIFICATION</code> field is defined below. It allows us to send a comment as part of performing a transition betweeen two states.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;8&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Comment&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;comment&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;COMMENT_NOTIFICATION&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>6</span><span class=p>,</span>
+  <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+<span class=p>}</span>
+</code></pre></div><p>To set the value on the field for a <code>transition</code> create the following dialog object.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;transitionId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;dialog&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;dialogId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;fields&#34;</span><span class=p>:</span> <span class=p>[{</span>
+      <span class=nt>&#34;fileId&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;The comment&#34;</span><span class=p>]</span>
+    <span class=p>}],</span>
+    <span class=nt>&#34;users&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;1&#34;</span><span class=p>,</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span> <span class=s2>&#34;3&#34;</span><span class=p>]</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>The value passed in the <code>values</code> field is comment text. We pass the list of <code>userIds</code> in the <code>users</code> field that will be notified about a new comment having been added.</p><h3 id=acknowledgement-field>ACKNOWLEDGEMENT field<a href=#acknowledgement-field class=anchor aria-hidden=true>#</a></h3><p>A <code>ACKNOWLEDGEMENT</code> field is defined below. It allows us to send a comment as part of performing a transition betweeen two states.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;9&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Acknowledgement&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;no-NB&#34;</span><span class=p>:</span> <span class=s2>&#34;acknowledged&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;ACKNOWLEDGEMENT&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;position&#34;</span><span class=p>:</span> <span class=mi>7</span><span class=p>,</span>
+  <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[]</span>
+<span class=p>}</span>
+</code></pre></div><p>To set the value on the field for a <code>transition</code> create the following dialog object.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;transitionId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;dialog&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;dialogId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;fields&#34;</span><span class=p>:</span> <span class=p>[{</span>
+      <span class=nt>&#34;fileId&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;1&#34;</span><span class=p>]</span>
+    <span class=p>}]</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>The value passed in the <code>values</code> field is the <code>userId</code> of the user who is approving the case. This applies primarely to cases that can be approved.</p><h3 id=task_assignment_setup-field>TASK_ASSIGNMENT_SETUP field<a href=#task_assignment_setup-field class=anchor aria-hidden=true>#</a></h3><p>A <code>TASK_ASSIGNMENT_SETUP</code> field is defined below. It allows us to assign a task to a set of users.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;id&#34;</span><span class=p>:</span> <span class=s2>&#34;14&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;name&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;en-GB&#34;</span><span class=p>:</span> <span class=s2>&#34;Task assignment&#34;</span>
+  <span class=p>},</span>
+  <span class=nt>&#34;active&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldType&#34;</span><span class=p>:</span> <span class=s2>&#34;TASK_ASSIGNMENT_SETUP&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;required&#34;</span><span class=p>:</span> <span class=kc>true</span><span class=p>,</span>
+  <span class=nt>&#34;fieldComponents&#34;</span><span class=p>:</span> <span class=p>[</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;fieldComponentType&#34;</span><span class=p>:</span> <span class=s2>&#34;PLANNED_HOURS&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;enabled&#34;</span><span class=p>:</span> <span class=kc>true</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;fieldComponentType&#34;</span><span class=p>:</span> <span class=s2>&#34;PLANNED_START_DATE&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;enabled&#34;</span><span class=p>:</span> <span class=kc>true</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nt>&#34;fieldComponentType&#34;</span><span class=p>:</span> <span class=s2>&#34;DUE_DATE&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;enabled&#34;</span><span class=p>:</span> <span class=kc>true</span>
+    <span class=p>}</span>
+  <span class=p>]</span>
+<span class=p>}</span>
+</code></pre></div><p>To set the value on the field for a <code>transition</code> create the following dialog object.</p><div class=highlight><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;transitionId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+  <span class=nt>&#34;dialog&#34;</span><span class=p>:</span> <span class=p>{</span>
+    <span class=nt>&#34;dialogId&#34;</span><span class=p>:</span> <span class=s2>&#34;1&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;fields&#34;</span><span class=p>:</span> <span class=p>[{</span>
+      <span class=nt>&#34;fileId&#34;</span><span class=p>:</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;1&#34;</span><span class=p>,</span> <span class=s2>&#34;2&#34;</span><span class=p>,</span> <span class=s2>&#34;3&#34;</span><span class=p>],</span>
+      <span class=nt>&#34;componentValues&#34;</span><span class=p>:</span> <span class=p>[{</span>
+        <span class=nt>&#34;type&#34;</span><span class=p>:</span> <span class=s2>&#34;PLANNED_START_DATE&#34;</span><span class=p>,</span>
+        <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;2021-03-08T16:29:11.598Z&#34;</span><span class=p>]</span>
+      <span class=p>},</span> <span class=p>{</span>
+        <span class=nt>&#34;type&#34;</span><span class=p>:</span> <span class=s2>&#34;DUE_DATE&#34;</span><span class=p>,</span>
+        <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;2021-03-08T16:29:11.598Z&#34;</span><span class=p>]</span>
+      <span class=p>},</span> <span class=p>{</span>
+        <span class=nt>&#34;type&#34;</span><span class=p>:</span> <span class=s2>&#34;PLANNED_HOURS&#34;</span><span class=p>,</span>
+        <span class=nt>&#34;values&#34;</span><span class=p>:</span> <span class=p>[</span><span class=s2>&#34;10.0&#34;</span><span class=p>]</span>
+      <span class=p>}]</span>
+    <span class=p>}]</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></div><p>The values passed in the <code>values</code> field is the <code>userIds</code> of the users who will have a task assigned. The <code>componentValues</code> specifies values for the fields sub components. In this case we have three sub components <code>PLANNED_START_DATE</code>, <code>DUE_DATE</code> and <code>PLANNED_HOURS</code>.</p><div class="docs-navigation d-flex justify-content-between"><a href=https://qm-quality-manager.github.io/qmplus-docs/docs/api/case/dialog/><div class="card my-1"><div class="card-body py-2">&larr; Dialog</div></div></a><a class=ml-auto href=https://qm-quality-manager.github.io/qmplus-docs/docs/help/how-to-update/><div class="card my-1"><div class="card-body py-2">How to Update &rarr;</div></div></a></div></main></div></div></div><footer class="footer text-muted"><div class=container><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a href=https://www.netlify.com/>Netlify</a>, <a href=https://gohugo.io/>Hugo</a>, and <a href=https://getdoks.org/>Doks</a></li></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-right"><ul class=list-inline></ul></div></div></div></footer><script src=https://qm-quality-manager.github.io/qmplus-docs/main.f6b484f556ad1f3bcf6061082139a2f21fa759f13930c39a25fe4a9f78f35e64122c2d86dffd56e67b292dabbda4095d8077194f196e0e348441c106a9f3d40e.js integrity="sha512-9rSE9VatHzvPYGEIITmi8h+nWfE5MMOaJf5Kn3jzXmQSLC2G3/1W5nspLau9pAldgHcZTxluDjSEQcEGqfPUDg==" crossorigin=anonymous defer></script><script src=https://qm-quality-manager.github.io/qmplus-docs/index.min.7f6ed79e4ebb2f1aaa272640658f70ab2bd0f17c8800c53f20855cad59eca33f3c170ec8491dc04250012c69ab6f344d8df62ad5bf72e6c9703ce20d56d60578.js integrity="sha512-f27Xnk67LxqqJyZAZY9wqyvQ8XyIAMU/IIVcrVnsoz88Fw7ISR3AQlABLGmrbzRNjfYq1b9y5slwPOINVtYFeA==" crossorigin=anonymous defer></script></body></html>
