@@ -19,9 +19,9 @@ This section covers the reset password functionality. This is only available for
 
 | Endpoint | Description |
 | --- | --- |
-| `/authentication/local/password/reset/request` | Request a password reset |
-| `/authentication/local/password/reset` | Validate if a user and password exists |
-| `/authentication/password/validate` | Validate a new password |
+| `/api/authentication/local/password/reset/request` | Request a password reset |
+| `/api/authentication/local/password/reset` | Validate if a user and password exists |
+| `/api/authentication/password/validate` | Validate a new password |
 
 ### Request Password
 

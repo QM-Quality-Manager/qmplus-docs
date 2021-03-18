@@ -19,7 +19,7 @@ In this section we look at local authentication and how to proceed with getting 
 
 | Endpoint | Description |
 | --- | --- |
-| `/authentication/local` | Validate if a user and password exists |
+| `/api/authentication/local` | Validate if a user and password exists |
 
 ### 1. Perform a user and password validation
 

@@ -23,7 +23,7 @@ This documentation covers the `tenant` authentication api calls. These are made 
 
 | Endpoint | Description |
 | --- | --- |
-| `/authentication/tenant` | Validates if a tenant exists. If it does it returns an object with the details of the tenant and its available authentication mechanism |
+| `/api/authentication/tenant` | Validates if a tenant exists. If it does it returns an object with the details of the tenant and its available authentication mechanism |
 
 ### Request a tenant
 
