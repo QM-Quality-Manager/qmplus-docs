@@ -19,7 +19,7 @@ This section is an overview of how to perform a two-factor authentication step. 
 
 | Endpoint | Description |
 | --- | --- |
-| `/authentication/twofactor` | Validate a two-factor code |
+| `/api/authentication/twofactor` | Validate a two-factor code |
 
 ### Two-factor validation
 
