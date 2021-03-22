@@ -92,7 +92,7 @@ Given the above user type.
 We call the following endpoint to set the `userTypeId`.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/authentication/usertype" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 1000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"departmentId\": \"1\", \"userTypeId\": \"1\" }"
+curl -X POST "https://app.qmplus.com/api/authentication/usertype" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"departmentId\": \"1\", \"userTypeId\": \"1\" }"
 ```
 
 We `POST` the following document.

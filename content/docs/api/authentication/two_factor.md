@@ -26,7 +26,7 @@ This section is an overview of how to perform a two-factor authentication step. 
 A call to the `username/password` authentication mechanism returned an object that has the two factor requirement enabled which triggered an email to the user. This email included the two-factor code `61345` that is required to perform the second step.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/authentication/twofactor" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 1000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"code\": \"61345\", \"username\": \"peter\" }"
+curl -X POST "https://app.qmplus.com/api/authentication/twofactor" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"code\": \"61345\", \"username\": \"peter\" }"
 ```
 
 We `POST` the following document.

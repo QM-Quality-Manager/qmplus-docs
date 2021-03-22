@@ -30,7 +30,7 @@ This documentation covers the `tenant` authentication api calls. These are made 
 We can check if a tenant exists by either it's `tenantId` or its `name`. Lets look at an example that queries by the tenant name.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/authentication/tenant" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 1000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"name\": \"ACME\"}"
+curl -X POST "https://app.qmplus.com/api/authentication/tenant" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"name\": \"ACME\"}"
 ```
 
 We `POST` the following document.
