@@ -26,7 +26,7 @@ This section covers the reset password functionality. This is only available for
 ### Request Password
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/authentication/local/password/reset/request" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 1000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"tenantId\": \"1\", \"username\": \"peter\" }"
+curl -X POST "https://app.qmplus.com/api/authentication/local/password/reset/request" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"tenantId\": \"1\", \"username\": \"peter\" }"
 ```
 
 We `POST` the following document.
@@ -64,7 +64,7 @@ The link includes the following fields
 ### Validate a new Password
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/authentication/password/validate" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 1000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"tenantId\": \"1\",\"userId\": \"1\", \"password\": \"newpassword\" }"
+curl -X POST "https://app.qmplus.com/api/authentication/password/validate" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"tenantId\": \"1\",\"userId\": \"1\", \"password\": \"newpassword\" }"
 ```
 
 We `POST` the following document.
@@ -100,7 +100,7 @@ An error will return a list of keys that can be resolved to error messages.
 Once you have received the token from the email.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/authentication/local/password/reset" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 1000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"tenantId\": \"1\",\"username\": \"peter\", \"token\": \"TOKEN\", \"password\": \"newpassword\", \"confirmPassword\": \"newpassword\" }"
+curl -X POST "https://app.qmplus.com/api/authentication/local/password/reset" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"tenantId\": \"1\",\"username\": \"peter\", \"token\": \"TOKEN\", \"password\": \"newpassword\", \"confirmPassword\": \"newpassword\" }"
 ```
 
 We `POST` the following document.

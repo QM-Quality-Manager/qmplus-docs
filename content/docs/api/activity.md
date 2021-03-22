@@ -213,11 +213,11 @@ Adding an activity with basic artefacts. The types available are.
     "end": "2021-03-01T16:40:00.838Z"
   },
   "artifacts": [{
-    "type": "FORM", "id": "1", "version": 1
+    "type": "FORM", "id": "1", "version": 1, "description": { "en_US": "Artefact 1" }
   }, {
-    "type": "QUESTIONNAIRE", "id": "1", "version": 1
+    "type": "QUESTIONNAIRE", "id": "1", "version": 1, "description": { "en_US": "Artefact 2" }
   }, {
-    "type": "DOCUMENT", "id": "1", "version": 1
+    "type": "DOCUMENT", "id": "1", "version": 1, "description": { "en_US": "Artefact 3" }
   }]
 }
 ```
@@ -225,7 +225,7 @@ Adding an activity with basic artefacts. The types available are.
 The equivalent curl operation.
 
 ```bash
-curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Do some work\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, \"artifacts\": [{ \"type\": \"FORM\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"QUESTIONNAIRE\", \"id\": \"1\", \"version\": 1 }, { \"type\": \"DOCUMENT\", \"id\": \"1\", \"version\": 1 }]}"
+curl -X POST "https://app.qmplus.com/api/activity" -H "accept: application/json" -H "auth-impersonate-tenant-id: 104" -H "auth-impersonate-user-id: 10000001" -H "auth-tenant-id: 0" -H "auth-token: TOKEN" -H "Content-Type: application/json" -d "{ \"visibility\": \"DEPARTMENT\", \"departmentId\": \"1\", \"name\": { \"en_US\": \"Do some work\" }, \"belongsTo\": \"CALENDAR\", \"belongsToId\": \"1\", \"periodicity\": { \"type\": \"SINGLE\", \"start\": \"2021-03-01T14:40:00.838Z\", \"end\": \"2021-03-01T16:40:00.838Z\" }, \"artifacts\": [{ \"type\": \"FORM\", \"id\": \"1\", \"version\": 1, \"description\": {} }, { \"type\": \"QUESTIONNAIRE\", \"id\": \"1\", \"version\": 1, \"description\": {} }, { \"type\": \"DOCUMENT\", \"id\": \"1\", \"version\": 1, \"description\": {} }]}"
 ```
 
 This will create an `Activity` that contains three artefacts. Next lets create an Activity that is only visible to specific people using the `CreateContext` to limit the distribution of the activity.
