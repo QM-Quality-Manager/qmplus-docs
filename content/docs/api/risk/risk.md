@@ -21,7 +21,7 @@ In this section we cover the `Risk Model` Api. The `Risk Model` api covers the f
 | --- | --- | -- |
 | `/riskmodel/{id}` | `GET` | Get the latest version specific for a given risk model definition |
 | `/riskmodel/{id}/version` | `GET` | Get the risk model versions |
-| `/riskmodel/{id}/version/{versionId}` | `GET` | Get a specific risk model version |
+| `/riskmodel/version/{versionId}` | `GET` | Get a specific risk model version |
 | `/riskmodel` | `GET` | List all registered risk models |
 | `/riskmodel` | `POST` | Create a new risk model |
 | `/riskmodel/{id}` | `POST` | Update an existing risk model, this creates a new risk model version instance |
@@ -331,7 +331,7 @@ To retireve a specific risk model version use the following endpoint.
 
 | Endpoint | Method | Description |
 | --- | --- | -- |
-| `/riskmodel/{id}/version/{versionId}` | `GET` | Get a specific risk model version |
+| `/riskmodel/version/{versionId}` | `GET` | Get a specific risk model version |
 
 This will return the object for the specific risk model version.
 
