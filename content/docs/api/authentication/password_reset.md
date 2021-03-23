@@ -109,7 +109,6 @@ We `POST` the following document.
 {
   "tenantId": "1",
   "token": "TOKEN",
-  "username": "peter",
   "password": "newpassword",
   "confirmPassword": "newpassword"
 }
