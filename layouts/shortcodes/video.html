@@ -1,5 +1,5 @@
 <div class="ratio ratio-{{ with .Get "ratio" }}{{.}}{{ end }}">
-  <video{{ with .Get "attributes" }} {{ . | safeHTMLAttr }}{{ end }} width="{{ with .Get "width" }}{{.}}{{ end }}" height="{{ with .Get "height" }}{{.}}{{ end }}">
+  <video{{ with .Get "attributes" }} {{ . | safeHTMLAttr }}{{ end }}>
     {{ with .Get "webm-src" -}}
     <source src="{{ . | relURL }}" type="video/webm">
     {{ end -}}
