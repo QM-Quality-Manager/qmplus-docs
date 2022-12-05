@@ -14,6 +14,9 @@ toc: true
 ---
 ## Video example
 
-{{< video ratio="16x9" height="400" width="600" attributes="controls" mp4-src-base="videos/documents_dashboard_create.mp4" >}}
+{{< video ratio="16x9" attributes="controls" mp4-src-base="videos/documents_dashboard_create.mp4" >}}
+
+Hello here we are lets try to fix this now
+
 
 
