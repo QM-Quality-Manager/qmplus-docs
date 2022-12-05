@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://christkv.github.io/qmplus-docs-publish/sitemap.xml
+Sitemap: https://docs.qmplus.app/sitemap.xml

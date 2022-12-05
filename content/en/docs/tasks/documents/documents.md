@@ -12,11 +12,15 @@ menu:
 weight: 100
 toc: true
 ---
-## Video example
+## Create a document dashboard
 
-{{< video ratio="16x9" attributes="controls" mp4-src-base="videos/documents_dashboard_create.mp4" >}}
+In this video we are going to show how we can create a new document dashboard with with a structured component as well as a search based component. We will go over the folloing checkpoints.
 
-Hello here we are lets try to fix this now
+- Create a document dashboard
+- Create a structured documents component
+- Create a search document component based on a tag
+
+{{< video ratio="16x9" attributes="controls" mp4-src-base="videos/create_document_dashboard_v2_en.mp4" >}}
 
 
 
