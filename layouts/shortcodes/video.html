@@ -6,6 +6,9 @@
     {{ with .Get "mp4-src" -}}
     <source src="{{ . | relURL }}" type="video/mp4">
     {{ end -}}
+    {{ with .Get "mp4-src-base" -}}
+    <source src="{{ . | absURL }}" type="video/mp4">
+    {{ end -}}
     Sorry, your browser doesn't support embedded videos.
   </video>
 </div>
