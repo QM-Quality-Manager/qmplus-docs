@@ -1,3 +1,11 @@
+# IMPORTANT
+
+This is published to docs.qmplus.app via the repository
+
+https://github.com/christkv/qmplus-docs-publish
+
+Until we have a team setup that can publish to pages
+
 <p align="center">
   <a href="https://getdoks.org/">
     <img alt="Doks" src="https://doks.netlify.app/doks.svg" width="60">
