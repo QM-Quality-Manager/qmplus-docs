@@ -21,6 +21,7 @@
     "prebuild": "npm run clean",
     "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
     "build-github-pages": "exec-bin node_modules/.bin/hugo/hugo --gc --minify -d ./docs -b https://docs.qmplus.app/",
+    "build-github-pages2": "exec-bin node_modules/.bin/hugo/hugo --gc --minify -d ./docs -b https://qm-quality-manager.github.io/qmplus-docs/",    
     "build:preview": "npm run build -D -F",
     "clean": "shx rm -rf public resources",
     "clean:install": "shx rm -rf package-lock.json node_modules ",
