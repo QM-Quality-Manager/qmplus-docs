@@ -45,8 +45,7 @@ All these filter can be combined to limit the search even more.
 
 {{< figure src="/images/users/user_4.png" caption="New workflow dialog" width="1024">}}
 
-The create user dialog lets us create new users for the system, and specify their usertypes as well as custom permissions. Finally we can adjust
-the notification settings.
+The create user dialog lets us create new users for the system, and specify their usertypes as well as custom permissions. Finally we can adjust the notification settings.
 
 The following are available.
 
