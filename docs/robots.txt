@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://qm-quality-manager.github.io/qmplus-docs/sitemap.xml
+Sitemap: https://docs.qmplus.app/sitemap.xml
