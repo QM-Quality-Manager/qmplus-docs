@@ -188,6 +188,8 @@ The available fields.
 
 The available strategies.
 
+| Strategy | Description|
+| --- | --- |
 | `Direct supervisor` | The case will be sent to the persons closest direct supervisor with permission to process cases. If there are more than one potential supervisor it will pick on of them on random. |
 
 
