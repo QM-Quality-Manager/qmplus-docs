@@ -163,9 +163,9 @@ The processing tab contains setting to set defaults for case deadlines and escal
 
 #### Due dates
 
-Allows the control of how due date notifications are handled. This allows one to set general due date handling settings for this workflow and thus `form types` and `forms` using this workflow.
+Allows the control of how due date notifications are handled. This allows one to set general due date handling settings for this workflow and thus `forms` using this workflow.
 
-> `Form types` and `Forms` let you override these so you can for example have a form `Accident` that have much shorter automatic due dates compared to the general workflow. `Form type` settings will override the workflow and `Form` settings will override `Form type` and `Workflow` settings.
+> `Forms` let you override these so you can for example have a form `Accident` that have much shorter automatic due dates compared to the general workflow. `Form` settings will override the workflow.
 
 The available fields.
 
@@ -177,9 +177,9 @@ The available fields.
 
 #### Escalation
 
-Allows the control of how escalations are handled. This allows one to set general escalation handling settings for this workflow and thus `form types` and `forms` using this workflow.
+Allows the control of how escalations are handled. This allows one to set general escalation handling settings for this workflow and thus `forms` using this workflow.
 
-> `Form types` and `Forms` let you override these so you can for example have a form `Accident` that have much shorter automatic escalation date compared to the general workflow. `Form type` settings will override the workflow and `Form` settings will override `Form type` and `Workflow` settings.
+> `Forms` let you override these so you can for example have a form `Accident` that have much shorter automatic escalation date compared to the general workflow. `Form` settings will override the workflow.
 
 The available fields.
 
