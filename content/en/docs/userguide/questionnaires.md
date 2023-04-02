@@ -46,7 +46,11 @@ As you can see from the image we can preview the current questionnaire.
 
 > Until you click the `Publish` button all changes to the questionnaire are private. Once the `Publish` button is clicked it will be visible to add to activities.
 
-### Questionnaire Layout
+{{< figure src="/images/questionnaires/questionnaires_7.png" caption="" width="1024">}}
+
+References can be added to documents stored in `Q` to add context to a Questionnaire or relevant documents.
+
+## Questionnaire Layout
 
 {{< figure src="/images/questionnaires/questionnaires_8.png" caption="" width="1024">}}
 
@@ -60,23 +64,100 @@ The available components are as follows.
 
 | Component | Description |
 | --- | --- |
-| `Text` | |
-| `Image` ||
-| `Single choice` ||
-| `Multi choice` ||
-| `Ranking` ||
-| `Integer` ||
-| `Decimal` ||
-| `Currency` ||
-| `Number in range` ||
-| `One-line text field` ||
-| `Multiline text field` ||
-| `Risk` ||
+| `Text` | A text description field to enter text information on the questionnaire. |
+| `Image` | Allows adding an image to the questionnaire, can be used to show information. |
+| `Single choice` | Create a question with answers, allowing the end user to choose one. |
+| `Multi choice` | Create a question with answers, allowing the end user to choose multiple ones. |
+| `Ranking` | Create a question with answers, allowing the end user to drag and drop them in the order of ranking. | 
+| `Integer` | A field that lets you specify a whole number. |
+| `Decimal` | A field that lets you specify a decimal number. |
+| `Currency` | A field that lets you specify a currency number. |
+| `Number in range` | A field that lets you specify a start and end value and the step size for the slider. |
+| `One-line text field` | A single line text field. |
+| `Multiline text field` | A multiple line text field. |
+| `Risk` | A Risk category group. |
 
+> Components can be resized horizontally and moved around. Depending on the number of columns you define you can organize the components side by side.
+
+### Page Settings
 
 {{< figure src="/images/questionnaires/questionnaires_9.png" caption="" width="1024">}}
 
+The page settings allow you change the page title as well as description. You can also add references to documents from Q as well as tags.
+
+### Text
+{{< figure src="/images/questionnaires/questionnaires_12.png" caption="" width="1024">}}
+
+A text field that lets you specify some read-only text for the questionnaire. Can be used for instructions related to a field or additional information.
+
+### Image
+{{< figure src="/images/questionnaires/questionnaires_13.png" caption="" width="1024">}}
+
+Add a read-only image to the questionnaire to show instructions or additional information related to a question.
+
+### Single choice
+{{< figure src="/images/questionnaires/questionnaires_14.png" caption="" width="1024">}}
+
+Create a question/answer combination that lets the person entering a questionnaire select one single option.
+
+### Multi choice 
+{{< figure src="/images/questionnaires/questionnaires_15.png" caption="" width="1024">}}
+
+Create a question/answer combination that lets the person entering a questionnaire select multipl options.
+
+### Ranking
+{{< figure src="/images/questionnaires/questionnaires_16.png" caption="" width="1024">}}
+
+Create a question/answer combination that lets the person entering a questionnaire rank the options from top to bottom.
+
+### Integer
+{{< figure src="/images/questionnaires/questionnaires_17.png" caption="" width="1024">}}
+
+Create a whole number entry field for you questionnaire (Age of a user, street number).
+
+### Decimal
+{{< figure src="/images/questionnaires/questionnaires_18.png" caption="" width="1024">}}
+
+Create a decimal number entry field for you questionnaire (for example percentage 5,5).
+
+### Currency
+{{< figure src="/images/questionnaires/questionnaires_19.png" caption="" width="1024">}}
+
+Create a currency number entry field for you questionnaire (for example cost 2000,20).
+
+### Number in range
+{{< figure src="/images/questionnaires/questionnaires_20.png" caption="" width="1024">}}
+
+Create a numeric range with a minimum and maximum and a step size. For example a age slider with a minimumm og 1 and maximum of 120 years where the step size is 5 will let you drag the slider in intervals of 5 years.
+
+### One-line text field
+{{< figure src="/images/questionnaires/questionnaires_21.png" caption="" width="1024">}}
+
+A single text input field. For example to capture a users last name.
+
+### Multiline text field
+{{< figure src="/images/questionnaires/questionnaires_22.png" caption="" width="1024">}}
+
+A multiple lines text input field to capture more information in text.
+
+### Risk
+{{< figure src="/images/questionnaires/questionnaires_23.png" caption="" width="1024">}}
+
+Select a risk model category group to add to the questionnaire.
+
+{{< figure src="/images/questionnaires/questionnaires_24.png" caption="" width="1024">}}
+
+Lets you perform a risk analaysis evaluation in the questionnaire.
+
+## Questionnaire Versions
 
 {{< figure src="/images/questionnaires/questionnaires_5.png" caption="" width="1024">}}
+
+Everytime you save the questionnaire we create a new version. Once you are ready you can click the `Publish` button to make the current version available to add to Activities.
+
+## Preview Questionnaire
+
 {{< figure src="/images/questionnaires/questionnaires_6.png" caption="" width="1024">}}
-{{< figure src="/images/questionnaires/questionnaires_7.png" caption="" width="1024">}}
+
+Vi can preview the Questionniare seting how it's rendered by clicking the `Preview (eye)` button. You can interact with the elements but not save it.
+
