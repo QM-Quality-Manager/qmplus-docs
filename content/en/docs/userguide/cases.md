@@ -16,7 +16,7 @@ This section deals with searching and accessing cases for messages, actions, doc
 
 Clicking on the `Cases` gives access to the lists of message, action, document, hearing and audit cases and lets you filter and search the entries.
 
-# Messages
+## Messages
 
 {{< figure src="/images/cases/cases_1.png" caption="cases_1.png" width="1024">}}
 
@@ -24,7 +24,7 @@ The messages view lets you slice and dice the message cases registered allowing 
 
 You can search the title and description, apply specific filters and toggle what columns are visible. An excel export function lets you extract the cases to an excel sheet easily.
 
-## Filters
+### Filters
 
 {{< figure src="/images/cases/cases_2.png" caption="cases_2.png" width="1024">}}
 
@@ -49,7 +49,7 @@ Above is an image showing the application of two filters. The filter will show a
 
 After clicking apply we can see the list view with the filter applied.
 
-## Columns
+### Columns
 
 {{< figure src="/images/cases/cases_3.png" caption="cases_3.png" width="1024">}}
 
@@ -73,13 +73,13 @@ The list view can be tailored to view your preferred columns.
 | `Cost` | The current cost of the case. |
 | `Workflow` | The name of the workflow associated with the case. |
 
-# Actions
+## Actions
 
 {{< figure src="/images/cases/cases_14.png" caption="cases_14.png" width="1024">}}
 
 The actions list is an overview of all the actions in the system. The user can apply filters to allow for easy location of a specific or set of specific message cases.
 
-## Filters
+### Filters
 
 {{< figure src="/images/cases/cases_15.png" caption="cases_15.png" width="1024">}}
 
@@ -94,7 +94,7 @@ The user can add filters to narrow down the action cases.
 | `Form types` | Filter by form type. |
 | `Forms` | Filter by forms. |
 
-## Columns
+### Columns
 
 {{< figure src="/images/cases/cases_12.png" caption="cases_12.png" width="1024">}}
 
@@ -110,13 +110,13 @@ The list view can be tailored to view your preferred columns.
 | `Changed on` | The last change date of the case. |
 | `Workflow` | The name of the workflow associated with the case. |
 
-# Documents
+## Documents
 
 {{< figure src="/images/cases/cases_4.png" caption="cases_4.png" width="1024">}}
 
 The documents list is an overview of all the documents in the system. The user can apply filters to allow for easy location of a specific or set of specific document cases.
 
-## Filters
+### Filters
 
 {{< figure src="/images/cases/cases_5.png" caption="cases_5.png" width="1024">}}
 
@@ -129,7 +129,7 @@ The user can add filters to narrow down the document cases.
 | `Registered on` | Filter the cases by the registered on date. |
 | `Changed on` | The last change date of the case. |
 
-## Columns
+### Columns
 
 {{< figure src="/images/cases/cases_6.png" caption="cases_6.png" width="1024">}}
 
@@ -146,13 +146,13 @@ The list view can be tailored to view your preferred columns.
 | `Status group` | The current case status group of the case. |
 | `Workflow` | The name of the workflow associated with the case. |
 
-# Hearings
+## Hearings
 
 {{< figure src="/images/cases/cases_7.png" caption="cases_7.png" width="1024">}}
 
 The hearings list is an overview of all the hearings in the system. The user can apply filters to allow for easy location of a specific or set of specific hearing cases.
 
-## Filters
+### Filters
 
 {{< figure src="/images/cases/cases_8.png" caption="cases_8.png" width="1024">}}
 
@@ -165,7 +165,7 @@ The user can add filters to narrow down the hearing cases.
 | `Registered on` | Filter the cases by the registered on date. |
 | `Changed on` | The last change date of the case. |
 
-## Columns
+### Columns
 
 {{< figure src="/images/cases/cases_9.png" caption="cases_9.png" width="1024">}}
 
@@ -181,13 +181,13 @@ The list view can be tailored to view your preferred columns.
 | `Status group` | The current case status group of the case. |
 | `Workflow` | The name of the workflow associated with the case. |
 
-# Audits
+## Audits
 
 {{< figure src="/images/cases/cases_10.png" caption="cases_10.png" width="1024">}}
 
 The audits list is an overview of all the audits in the system. The user can apply filters to allow for easy location of a specific or set of specific audit cases.
 
-## Filters
+### Filters
 
 {{< figure src="/images/cases/cases_11.png" caption="cases_11.png" width="1024">}}
 
@@ -199,7 +199,7 @@ The user can add filters to narrow down the audit cases.
 | `Case status` | Filter the cases by case status. |
 | `Registered on` | Filter the cases by the registered on date. |
 
-## Columns
+### Columns
 
 {{< figure src="/images/cases/cases_13.png" caption="cases_13.png" width="1024">}}
 
