@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 100
+weight: 2
 toc: true
 ---
 This section deals with using the Cases board.

@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 100
+weight: 13
 toc: true
 ---
 This section deals with managing forms in the system.

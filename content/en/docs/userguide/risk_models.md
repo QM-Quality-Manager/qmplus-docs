@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 100
+weight: 12
 toc: true
 ---
 This section deals with managing risk models in the system.

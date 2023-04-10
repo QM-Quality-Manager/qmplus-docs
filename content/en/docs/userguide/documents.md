@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 100
+weight: 3
 toc: true
 ---
 This section lets you browse the published document dashboards, access the documents and favorite documents.

@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 100
+weight: 7
 toc: true
 ---
 A user type is a collection of roles. It is used to create specific grouping of permissions and give them a name. Examples of user types can be **Administrator**, **Employee**, **Inspector** where each usertypes contains a set of roles that gives the user permissions to perform different actions or have access to specific features of the platform.

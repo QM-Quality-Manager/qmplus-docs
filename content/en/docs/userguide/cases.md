@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 100
+weight: 31
 toc: true
 ---
 This section deals with searching and accessing cases for messages, actions, documents, hearings and audits.

@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 100
+weight: 33
 toc: true
 ---
 This section explains the logged in users personal preference settings.

@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 100
+weight: 17
 toc: true
 ---
 This section deals with managing rules in the system.
