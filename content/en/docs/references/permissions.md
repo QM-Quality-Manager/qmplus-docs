@@ -30,6 +30,7 @@ toc: true
 | MENU_ADMIN_USER_ACCESS | `171` | The user has access to the Administrator API Tokens |
 | MENU_ADMIN_ACTIVITIES | `66` | The user has access to the Administrator Activities |
 | MENU_ADMIN_REPORTS | `91` | The user has access to the Administrator Reports |
+| MENU_ADMIN_TASK_TEMPLATE_MENU | `92` | The user has access to the Tasks Templates |
 
 ## Access system administrator permissions
 | Role | Id | Description |
