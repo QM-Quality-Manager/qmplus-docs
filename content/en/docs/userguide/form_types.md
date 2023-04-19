@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 14
+weight: 17
 toc: true
 ---
 This section deals with managing form types in the system.

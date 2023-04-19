@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 15
+weight: 19
 toc: true
 ---
 This section deals with managing questionnaires in the system.

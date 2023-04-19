@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "tutorials"
-weight: 16
+weight: 21
 toc: true
 ---
 This section deals with managing preferences in the system.
