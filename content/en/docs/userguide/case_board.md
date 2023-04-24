@@ -18,7 +18,7 @@ Upon clicking on the `Cases board`, you gain access to the Cases board interface
 
 ## Managing the Case Board
 
-{{< figure src="/images/case_board/case_board_1.png" caption="case_board_1.png" width="1024">}}
+{{< figure src="/images/case_board/case_board_1.png" caption="Overview of the case board" width="1024">}}
 
 The Case Board provides a user-friendly and efficient way to manage cases within various workflows. It enables you to effortlessly move cases between states, filter the board using different criteria, and access case information.
 
@@ -32,21 +32,21 @@ The Case Board provides a user-friendly and efficient way to manage cases within
 
 ### Case Status Transition
 
-{{< figure src="/images/case_board/case_board_6.png" caption="case_board_6.png" width="1024">}}
+{{< figure src="/images/case_board/case_board_6.png" caption="Transition between states" width="1024">}}
 
 To move cases, simply click and drag a case to a new status column. 
 
-{{< figure src="/images/case_board/case_board_3.png" caption="case_board_3.png" width="1024">}}
+{{< figure src="/images/case_board/case_board_3.png" caption="Filling out a dialog when transitioning between states" width="1024">}}
 
 If transitioning a case from its current status to a new status requires filling out a dialog box, it will pop up and must be completed before the case can be moved to the new status.
 
-{{< figure src="/images/case_board/case_board_5.png" caption="case_board_5.png" width="1024">}}
+{{< figure src="/images/case_board/case_board_5.png" caption="Transition between statuses using hamburger menu" width="1024">}}
 
 Alternatively, you can move a case by clicking the hamburger menu in the top-right corner of each case box and then selecting one of the allowed status transitions.
 
 ### Viewing Case Information
 
-{{< figure src="/images/case_board/case_board_4.png" caption="case_board_4.png" width="1024">}}
+{{< figure src="/images/case_board/case_board_4.png" caption="View compact case view" width="1024">}}
 
 By clicking on a case within the case board, you can access the `compact case view`. For a more detailed view, click on the arrow icon in the top right corner of the `compact case view` to open the full case view. The `compact case view` offers several useful options:
 

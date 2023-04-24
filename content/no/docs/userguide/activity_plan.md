@@ -19,17 +19,17 @@ Ved å klikke på `Aktivitetsplanen` får du tilgang til aktivitetsplan-grensesn
 
 ## Oversikt
 
-{{< figure src="/images/activity_plan/activity_plan_1.png" caption="Oversikt over aktivitetsplanen" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_1_no.png" caption="Oversikt over aktivitetsplanen" width="1024">}}
 
 `Aktivitetsplanens` oversikt viser to hovedvisninger: `Planleggingsvisningen` og `Kalendervisningen`. `Planleggingsvisningen` presenterer alle kalendere og deres tilknyttede aktiviteter i en visuell layout, mens `Kalendervisningen` tilbyr en mer tradisjonell kalenderpresentasjon. Brukere kan enkelt justere perioden for Planleggingsvisningen ved å klikke på pilknappene og endre periodevisningen for planleggeren ved å klikke på Måned-, Uke- eller Dag-knappene.
 
 ## Kalendervisning
 
-{{< figure src="/images/activity_plan/activity_plan_2.png" caption="Kalendervisning" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_2_no.png" caption="Kalendervisning" width="1024">}}
 
 `Kalendervisningen` gir en mer konvensjonell visning av kalenderhendelser. Likt som i `Planleggingsvisningen`, kan brukere navigere i perioden ved å klikke på pilknappene og justere visningen av kalenderen ved å klikke på Måned-, Uke-, Dag- eller Liste-knappene.
 
-{{< figure src="/images/activity_plan/activity_plan_3.png" caption="Visning av en aktivitet" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_3_no.png" caption="Visning av en aktivitet" width="1024">}}
 
 Når brukere klikker på en aktivitet i kalenderen, vises `Grunnleggende aktivitetsvisning`, som avslører viktige detaljer om aktiviteten. Ved å klikke på `Åpne aktivitet`-knappen, kan brukerne få tilgang til aktivitetsdetaljene. Hvis brukerne klikker på linjen med `Les og bekreft`, vises en sammendrag av resultatene, noe som gjør at de kan gjennomgå fullføringsstatusen for aktiviteten.
 
@@ -37,11 +37,11 @@ Ved å benytte `Aktivitetsplanen` kan brukere effektivt håndtere sine oppgaver,
 
 ## Konfigurer kalendere
 
-{{< figure src="/images/activity_plan/activity_plan_7.png" caption="Visning av kalenderkonfigurasjon" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_7_no.png" caption="Visning av kalenderkonfigurasjon" width="1024">}}
 
 Ved å klikke på Kalendere-knappen åpnes en sidefelt som viser en liste over tilgjengelige kalendere. Brukere kan opprette nye kalendere, søke etter eksisterende kalendere og slå av og på synligheten til kalendere i både Planleggings- og Kalendervisningene.
 
-{{< figure src="/images/activity_plan/activity_plan_19.png" caption="Vis kalenderalternativer" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_19_no.png" caption="Vis kalenderalternativer" width="1024">}}
 
 Når du får tilgang til menyen for en kalenderoppføring, får brukerne følgende alternativer:
 
@@ -54,7 +54,7 @@ Når du får tilgang til menyen for en kalenderoppføring, får brukerne følgen
 
 ### Opprett/Rediger kalender
 
-{{< figure src="/images/activity_plan/activity_plan_20.png" caption="Opprette/Redigere kalenderaktivitetsoppføring" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_20_no.png" caption="Opprette/Redigere kalenderaktivitetsoppføring" width="1024">}}
 
 Når du oppretter eller redigerer en kalenderoppføring, kan brukerne justere følgende innstillinger:
 
@@ -71,11 +71,11 @@ Ved å konfigurere kalendere og tilpasse innstillingene deres, kan brukerne orga
 ## Opprett aktivitet
 
 ### Generell fane
-{{< figure src="/images/activity_plan/activity_plan_10.png" caption="Ny aktivitet" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_10_no.png" caption="Ny aktivitet" width="1024">}}
 
 Ved å klikke på `Ny aktivitet`-knappen, åpnes skjemaet for ny aktivitet, der brukere kan opprette en ny aktivitet med én dato eller angi periodisitet for flere aktivitetsdatoer.
 
-{{< figure src="/images/activity_plan/activity_plan_21.png" caption="Angi periodisitet" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_21_no.png" caption="Angi periodisitet" width="1024">}}
 
 Skjemaet gir forskjellige alternativer som gjelder for både enkelt- og periodiske aktiviteter:
 
@@ -116,7 +116,7 @@ For `Periodisk`-aktivitetstypen inkluderer `Periodisitetsalternativene`:
 
 ### Oppgaver-fane
 
-{{< figure src="/images/activity_plan/activity_plan_11.png" caption="Legge til oppgaver i aktivitet" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_11_no.png" caption="Legge til oppgaver i aktivitet" width="1024">}}
 
 `Oppgaver`-fanen lar brukere legge til oppgaver i en aktivitet. Oppgaver kan være noen av følgende:
 
@@ -126,17 +126,17 @@ For `Periodisk`-aktivitetstypen inkluderer `Periodisitetsalternativene`:
 | `Spørreskjema` | Et spørreskjema som skal fullføres som en del av aktiviteten. |
 | `Les og bekreft` | En oppgave som krever at brukere bekrefter at de har lest og forstått et bestemt dokument. |
 
-{{< figure src="/images/activity_plan/activity_plan_14.png" caption="Legge til et skjema eller spørreskjema" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_14_no.png" caption="Legge til et skjema eller spørreskjema" width="1024">}}
 
 Bildet over viser hvordan du legger til et `Skjema` eller `Spørreskjema` i en aktivitet ved å klikke på `Legg til oppgave`-knappen, som åpner en sidebar med relevante alternativer.
 
 ### Deltakere-fane
 
-{{< figure src="/images/activity_plan/activity_plan_12.png" caption="Deltakere-fane" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_12_no.png" caption="Deltakere-fane" width="1024">}}
 
 `Deltakere`-fanen gjør det mulig for brukere å spesifisere hvem som skal utføre aktiviteten. Ved å klikke på `Konfigurer`-knappen åpnes et utvalgsgrensesnitt for å utpeke deltakere for `Aktiviteten`.
 
-{{< figure src="/images/activity_plan/activity_plan_13.png" caption="Deltakere utvalg sidebar" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_13_no.png" caption="Deltakere utvalg sidebar" width="1024">}}
 
 Brukere kan velges ved å lage et filter for å identifisere bestemte personer eller grupper og legge dem til i `Aktiviteten`.
 
@@ -150,21 +150,21 @@ Følgende filtre er tilgjengelige for å spesifisere hvilke brukere som skal leg
 
 ## Samhandle med aktiviteter
 
-{{< figure src="/images/activity_plan/activity_plan_16.png" caption="Samhandle med en aktivitet" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_16_no.png" caption="Samhandle med en aktivitet" width="1024">}}
 
 Når du klikker på en `Aktivitet`, vil en oversikt over aktiviteten vises. I dette eksemplet er det to forskjellige oppgaver knyttet til aktiviteten. Ved å klikke på linjen `Internkontroll foregå...`, åpnes en statusvisning for den spesifikke oppgaven.
 
-{{< figure src="/images/activity_plan/activity_plan_17.png" caption="Oversikt over aktivitetsoppføring" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_17_no.png" caption="Oversikt over aktivitetsoppføring" width="1024">}}
 
 Oppgaveoversikten har to faner: `Deltakere` og `Sammendrag`. `Deltakere`-fanen viser en liste over alle personer som er involvert i oppgaven. Ved å klikke på spørsmålstegn-ikonet til høyre, vil utfylte resultater for et skjema eller spørreskjema vises.
 
-{{< figure src="/images/activity_plan/activity_plan_18.png" caption="Aktivitetssammendrag" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_18_no.png" caption="Aktivitetssammendrag" width="1024">}}
 
 `Sammendrag`-fanen presenterer en rapport over all inntastet spørreskjemadata i dette tilfellet, slik at brukeren kan analysere resultatene av aktiviteten.
 
 Når du først åpner en aktivitet i kalenderen eller planleggeren, vil klikking på `Åpne aktivitet`-knappen ta deg til `Aktivitetsoversikten`.
 
-{{< figure src="/images/activity_plan/activity_plan_23.png" caption="Aktivitetsoversikten" width="1024">}}
+{{< figure src="/images/activity_plan/activity_plan_23_no.png" caption="Aktivitetsoversikten" width="1024">}}
 
 `Aktivitetsoversikten` gir tilgang til informasjon om oppgaven, lar deg redigere aktivitetsdetaljene og navigere mellom `Aktivitet`-datapunktene hvis det er en `Periodisk` aktivitet med flere oppføringer.
 
