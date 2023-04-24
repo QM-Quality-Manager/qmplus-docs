@@ -12,80 +12,82 @@ menu:
 weight: 2
 toc: true
 ---
-This section deals with using the Cases board.
+This section deals with utilizing the Cases Board.
 
-Clicking on the `Cases board` gives access to Cases board.
+Upon clicking on the `Cases board`, you gain access to the Cases board interface.
 
-## Handling the Case board
+## Managing the Case Board
 
 {{< figure src="/images/case_board/case_board_1.png" caption="case_board_1.png" width="1024">}}
 
-The case board is the easiest and powerful way of managing cases for workflows. It lets you move cases between states easily, filter the board by different criteria and access the case information.
+The Case Board provides a user-friendly and efficient way to manage cases within various workflows. It enables you to effortlessly move cases between states, filter the board using different criteria, and access case information.
 
 | Option | Description |
 | --- | --- |
-| `Select the workflow` | Select between the workflows you have access to, allowing you to switch between case boards. |
-| `Case status` | The workflow case statuses, are laid out as columns where cases in that status group is laid out. The exception is the `Close` case status columns where they are grouped by week to avoid information overload. |
-| `Collapse/Expand the column` | User can collapse/expand the columns to lessen the information density of the screen. |
-| `Case` | Each box represents a current case in the system. The user can click on the case to bring up the quick view of the case details. The ... menu on the case box allows access to a menu over statuses the case is allowed to move to. |
-| `Search` | The top right search box lets you filter the cases visible on the board by searching the title and description of the cases avaialble.|
+| `Select the workflow` | Choose from the workflows you have access to, allowing you to switch between different case boards. |
+| `Case status` | Workflow case statuses are displayed as columns, with cases grouped by their respective statuses. An exception is the `Close` case status column, where cases are grouped by week to prevent information overload. |
+| `Collapse/Expand the column` | Users can collapse or expand columns to reduce the information density on the screen. |
+| `Case` | Each box represents an active case in the system. Users can click on a case to access a quick view of its details. The ... menu on the case box provides access to a menu displaying the statuses the case can transition to. |
+| `Search` | The search box in the top-right corner allows you to filter cases visible on the board by searching the titles and descriptions of available cases.|
 
 ### Case Status Transition
 
 {{< figure src="/images/case_board/case_board_6.png" caption="case_board_6.png" width="1024">}}
 
-To move cases you can grab a case and drag it to a new status. 
+To move cases, simply click and drag a case to a new status column. 
 
 {{< figure src="/images/case_board/case_board_3.png" caption="case_board_3.png" width="1024">}}
 
-If the transition from the existing case status to the new case status requires filling in a dialog it will pop up and has to be completed before the case is moved to the new state.
+If transitioning a case from its current status to a new status requires filling out a dialog box, it will pop up and must be completed before the case can be moved to the new status.
 
 {{< figure src="/images/case_board/case_board_5.png" caption="case_board_5.png" width="1024">}}
 
-You can also move a case by clicking the hamburger menu on the top right corner of each case and then selecting one of the allowed state transitions.
+Alternatively, you can move a case by clicking the hamburger menu in the top-right corner of each case box and then selecting one of the allowed status transitions.
 
-### View Case Information
+### Viewing Case Information
 
 {{< figure src="/images/case_board/case_board_4.png" caption="case_board_4.png" width="1024">}}
 
-When clicking on a case in the case board we get the `compact case view`. You can click on the arrow icon in the top right corner of the `compact case view` to open the full case view. There are a fair bit of options in the `compact case view`.
+By clicking on a case within the case board, you can access the `compact case view`. For a more detailed view, click on the arrow icon in the top right corner of the `compact case view` to open the full case view. The `compact case view` offers several useful options:
 
 | Option | Description |
 | --- | --- |
-| `Title` | Clicking directly on the title will let the user edit the title for the case. |
-| `Description` | The user can edit the description of the case and click the `Save` button to save the changes. |
-| `Comment` | The comment section let the user add a quick comment to the case, use the `Notify` button to select users to notify about the new comment and then click `Comment` to save the comment to the case and send a notification to all the users selected. |
-| `Case handler` | Change or set the current case handler. |
-| `Case approver` | Change or set the current case approver. |
-| `Case status` | Change the case status of the case. |
-| `Department` | Change the current department of the case. |
-| `Priority` | Change the current priority of the case. |
-| `Tasks` | See all pending tasks on the case and allow the user to change the state of each task. |
+| `Title` | Users can directly click on the title to edit it, customizing the case name as needed. |
+| `Description` | Users can edit the case description and click the `Save` button to store the changes. |
+| `Comment` | The comment section allows users to quickly add a comment to the case. By clicking the `Notify` button, users can select which individuals to notify about the new comment. Once selected, click `Comment` to save the comment to the case and send notifications to the chosen recipients. |
+| `Case handler` | Users can assign or modify the current case handler responsible for managing the case. |
+| `Case approver` | Users can assign or modify the current case approver responsible for approving case decisions. |
+| `Case status` | Users can change the case's status to reflect its current state within the workflow. |
+| `Department` | Users can update the case's associated department to ensure accurate categorization. |
+| `Priority` | Users can change the case's priority level to indicate its relative importance or urgency. |
+| `Tasks` | The `Tasks` option displays all pending tasks related to the case, allowing users to view and modify the status of each task as necessary. |
 
-## Caseboard filters
+## Enhanced Caseboard Filters
 
-{{< figure src="/images/case_board/case_board_2.png" caption="case_board_2.png" width="1024">}}
+The caseboard provides a user-friendly interface to manage and organize cases effectively. The slideout options menu located on the left side of the screen allows users to filter the caseboard based on specific requirements. This menu contains several pre-defined filters, each serving a different purpose.
 
-The slideout options menu on the left lets us filter the board down depending on our needs. It contains multiple pre-defined filters.
+The following table lists the pre-defined filters and their descriptions:
 
-| Pre-defined filter | Description |
-| --- | --- |
-| `Handled by me` | All cases where the current logged in user is the case handler. |
-| `Approved by me` | All cases where the current logged in user is the approver. |
-| `Participated in by me` | All cases where the current logged in user is a case participant. |
-| `No case handler` | All cases that have no current case handler. |
-| `No case approvers` | All cases that have no current case approver. |
-| `No tasks` | All cases that have no associated tasks with them. |
-| `Overdue` | All overdue cases. |
-| `Updated today` | All cases updated today. |
-| `Updated in last week` | All cases updated during the last week. |
-| `Created today` | All cases created today. |
-| `Created in last week` | All cases created during the last week. |
+| Pre-defined Filter      | Description                                                                                   |
+|-------------------------|-----------------------------------------------------------------------------------------------|
+| `Handled by me`         | Displays cases assigned to the currently logged-in user as the case handler.                  |
+| `Approved by me`        | Displays cases where the currently logged-in user serves as the case approver.                |
+| `Participated in by me` | Displays cases involving the currently logged-in user as a case participant.                  |
+| `No case handler`       | Displays cases without an assigned case handler.                                              |
+| `No case approvers`     | Displays cases without an assigned case approver.                                             |
+| `No tasks`              | Displays cases that have no associated tasks.                                                 |
+| `Overdue`               | Displays cases that are overdue.                                                              |
+| `Updated today`         | Displays cases updated on the current day.                                                    |
+| `Updated in last week`  | Displays cases updated within the last week.                                                  |
+| `Created today`         | Displays cases created on the current day.                                                    |
+| `Created in last week`  | Displays cases created within the last week.                                                  |
 
-There are several additional filters that can be used that vary depending on the type of workflow (if it's a message, action, document, hearing or audit workflow).
+In addition to the pre-defined filters, there are several other filters available for use. These filters may vary depending on the type of workflow (such as message, action, document, hearing, or audit workflows).
 
-| Filter | Entity Types | Description |
-| --- | --- | --- |
-| `Case approvers` | `All` | Add case approver users to filter by. Will show cases that have at least one of the users added as an approver. |
-| `Case handler` | `All` | Add case chandler users to filter by. Will show cases that have at least one of the users added as a case handler. |
-| `Case category` | `Message` | Locate cases that contain one or more of the categories selected, can be used to filter cases looking for specific message cases for a given category. |
+The following table presents these additional filters, their applicable entity types, and descriptions:
+
+| Filter          | Entity Types | Description                                                                                                                  |
+|-----------------|--------------|------------------------------------------------------------------------------------------------------------------------------|
+| `Case approvers`| `All`        | Allows users to add case approver(s) to filter by. Cases with at least one of the specified approver(s) will be displayed.  |
+| `Case handler`  | `All`        | Allows users to add case handler(s) to filter by. Cases with at least one of the specified handler(s) will be displayed.     |
+| `Case category` | `Message`    | Helps users locate cases containing one or more selected categories. Useful for filtering message cases in specific categories.  |
