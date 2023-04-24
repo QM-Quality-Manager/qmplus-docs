@@ -12,30 +12,32 @@ menu:
 weight: 5
 toc: true
 ---
-This section deals with managing departments in the system.
+This section delves into the management of departments within the system, including the creation and configuration of departments and their respective permissions.
 
-Clicking on the `Administrator/Department` gives access to the list of departments.
+To access the list of departments, click on the `Administrator/Department` tab.
 
 ## Departments List
 
 {{< figure src="/images/departments/department_1.png" caption="Department list overview" width="1024">}}
 
-The list of child departments for the currently selected department. In this view we can filter departments by if they are `Active`, `Inactive` or `All`.
+The department list displays child departments for the currently selected parent department. You can filter the view by department status, such as `Active`, `Inactive`, or `All`.
 
-You can create a new department that will become a child department of the currently selected department.
+To create a new department that serves as a child department of the currently selected department, simply click on the `Create Department` button.
 
-> Furthermore one can add `permissions/roles` to the department limiting the access to the department to users with either user types containing the permissions/roles or roles added directly on the user.
+Note that you can also add permissions/roles to a department, restricting access to only those users with the appropriate user types or roles directly assigned to them.
 
 {{< figure src="/images/departments/department_3.png" caption="User list overview" width="1024">}}
 
-When clicking on the `configure permissions` link you bring up the permissions sidepanel and can select what permissions to add to the currently selected department.
+By clicking on the configure permissions link, you can open the permissions side panel to select and assign permissions to the currently selected department.
 
 ## Create Department
 
-{{< figure src="/images/departments/department_2.png" caption="User list overview" width="1024">}}
+{{< figure src="/images/departments/department_2.png" caption="Create Department window" width="1024">}}
 
-To create a new department you need to add a `Department Name` and optionally you can set permissions to limit the access to the department.
+To create a new department, you must provide a `Department Name`. You can also assign permissions to limit access to the department for users with specific roles.
 
 {{< figure src="/images/departments/department_3.png" caption="User list overview" width="1024">}}
 
-When clicking on the `configure permissions` link you bring up the permissions sidepanel and can select what permissions to add to the new department.
+Once again, clicking on the `configure permissions` link will open the permissions side panel. From here, you can select and assign the necessary permissions to the new department, effectively defining user access and management capabilities.
+
+In summary, managing departments in the system involves creating, configuring, and assigning permissions to departments to ensure the right users have access to the appropriate areas of the system. By navigating through the department list, filtering departments by status, and customizing permissions, you can create a well-structured and secure environment for all users.

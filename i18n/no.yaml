@@ -1,17 +1,17 @@
 - id: get-started
-  translation: "Aan de slag"
+  translation: "Start her"
 
 - id: on-this-page
-  translation: "Op deze pagina"
+  translation: "På denne siden"
 
 - id: search-text
-  translation: "Zoeken..."
+  translation: "Søk..."
 
 - id: 404-title
-  translation: "Pagina niet gevonden :("
+  translation: "Side ikke funnet :("
 
 - id: 404-text
-  translation: "De gezochte pagina bestaat niet of deze is verplaatst."
+  translation: "Siden du leter etter eksisterer ikke eller har blitt flyttet."
 
 - id: browse
   translation: "Browse"
