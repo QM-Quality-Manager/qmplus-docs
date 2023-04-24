@@ -12,288 +12,274 @@ menu:
 weight: 1
 toc: true
 ---
-This section focuses on managing user dashboards.
+Denne delen fokuserer på å administrere brukerdashbord.
 
-Clicking on `Dashboards` grants access to the list of a user's dashboards.
+Ved å klikke på `Dashboards` får du tilgang til listen over en brukers dashbord.
 
-## Overview
+## Oversikt
 
-Dashboards are collections of components designed to monitor the status of the platform. You can create dashboards for specific objectives or to display particular information. There are two types of dashboards.
+Dashbord er samlinger av komponenter som er designet for å overvåke statusen til plattformen. Du kan opprette dashbord for spesifikke mål eller for å vise bestemt informasjon. Det finnes to typer dashbord.
 
-| Type | Description |
+| Type | Beskrivelse |
 | --- | --- |
-| `User` | Dashboards that users can create themselves, using the available components. |
-| `User Type` | Read-only dashboards created for specific user types. These dashboards are used to share fixed information among all users of a certain user type and can help ensure everyone is reporting the same data. |
+| `User` | Dashbord som brukere kan opprette selv, ved hjelp av tilgjengelige komponenter. |
+| `User Type` | Skrivebeskyttede dashbord opprettet for bestemte brukertyper. Disse dashbordene brukes til å dele fast informasjon blant alle brukere av en viss brukertype og kan bidra til å sikre at alle rapporterer samme data. |
 
-### Configure User Type Dashboards
+### Konfigurer brukertype-dashbord
 
-{{< figure src="/images/dashboards/dashboards_22.png" caption="List of user types" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_22_no.png" caption="Liste over brukertyper" width="1024">}}
 
-To create or modify `User Type` dashboards, first navigate to the `User Types` list. Click on one of the `User Types` to open the `User Type`, and then click on the `Dashboards` tab.
+For å opprette eller endre `User Type` dashbord, naviger først til listen over `User Types`. Klikk på en av `User Types` for å åpne `User Type`, og klikk deretter på fanen `Dashboards`.
 
-{{< figure src="/images/dashboards/dashboards_23.png" caption="User type dashboards" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_23_no.png" caption="Brukertype-dashbord" width="1024">}}
 
-Dashboards configured here will be displayed for users of that `User Type` when they click on the `Dashboards` menu option.
+Dashbord som konfigureres her, vil vises for brukere av den `User Type` når de klikker på menyvalget `Dashboards`.
 
-## Dashboard
+## Dashbord
 
-{{< figure src="/images/dashboards/dashboards_1.png" caption="Sample dashbord with components" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_1_no.png" caption="Eksempel på et dashbord med konfigurerte komponenter" width="1024">}}
 
-Above is an example of a dashboard with some configured components.
+Over er et eksempel på et dashbord med noen konfigurerte komponenter.
 
-{{< figure src="/images/dashboards/dashboards_2.png" caption="Types of dashboards" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_2_no.png" caption="Typer av dashbord" width="1024">}}
 
-There are two types of dashboards.
+Det finnes to typer dashbord.
 
-| Type | Description |
+| Type | Beskrivelse |
 | --- | --- |
-| `Usertype` | A read-only dashboard specified for the logged-in user's user type. Can be used to ensure uniform reporting of numbers and status. |
-| `User created` | A dashboard created by the logged-in user. |
+| `Brukertype` | Et skrivebeskyttet dashbord spesifisert for den påloggede brukerens brukertype. Kan brukes for å sikre ensartet rapportering av tall og status. |
+| `Bruker opprettet` | Et dashbord opprettet av den påloggede brukeren. |
 
-{{< figure src="/images/dashboards/dashboards_5.png" caption="Selecting the numbers of columns in a dashboard" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_5_no.png" caption="Velge antall kolonner i et dashbord" width="1024">}}
 
-By clicking on the `Columns` symbol, you can adjust the number of columns used to render the dashboard, allowing for more precise control of the component layout.
+Ved å klikke på symbolet `Kolonner`, kan du justere antall kolonner som brukes til å vise dashbordet, noe som gir mer nøyaktig kontroll over komponentoppsettet.
 
-{{< figure src="/images/dashboards/dashboards_4.png" caption="Configure dashboard sidebar" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_4_no.png" caption="Konfigurer dashbordsidefelt" width="1024">}}
 
-By clicking the `Configure` button on the dashboard, you gain access to saved existing components that can be reused. These components come in two types.
+Ved å klikke på knappen `Konfigurere` på dashbordet, får du tilgang til lagrede eksisterende komponenter som kan gjenbrukes. Disse komponentene kommer i to typer.
 
-| Type | Description |
+| Type | Beskrivelse |
 | --- | --- |
-| `General` | Components shared across the entire organization and available for all users to create. The user must have permission to create general components to be able to create new components here. |
-| `My components` | Components that the logged-in user has already created and are only visible to them. |
+| `Generell` | Komponenter som deles på tvers av hele organisasjonen og er tilgjengelige for alle brukere å opprette. Brukeren må ha tillatelse til å opprette generelle komponenter for å kunne lage nye komponenter her. |
+| `Mine komponenter` | Komponenter som den påloggede brukeren allerede har opprettet og som kun er synlige for dem. |
 
+## Komponenter
 
+{{< figure src="/images/dashboards/dashboards_3_no.png" caption="Tilgjengelige komponenttyper" width="1024">}}
 
+Det er flere komponenter tilgjengelige for å legge til i et dashbord. Disse kan brukes til å lage informasjonsdashbord for sluttbrukere eller for deg selv.
 
+### Diagram
 
+{{< figure src="/images/dashboards/dashboards_8_no.png" caption="Diagramkomponent" width="1024">}}
 
+Diagrammer lar deg opprette komponenter som visualiserer data lagret i `Q`. La oss se på de tilgjengelige alternativene.
 
-
-
-
-
-
-
-
-
-## Components
-
-{{< figure src="/images/dashboards/dashboards_3.png" caption="Available component types" width="1024">}}
-
-There are several components available to add to a dashboard. These can be used to construct information dashboards for end users or for yourself.
-
-### Chart
-
-{{< figure src="/images/dashboards/dashboards_8.png" caption="Chart component" width="1024">}}
-
-Charts allow you to create components that visualize data stored in `Q`. Let's examine the available options.
-
-| Option | Description |
+| Alternativ | Beskrivelse |
 | --- | --- |
-| `Component name` | Set the name of the component, supporting multiple languages. |
-| `Case type` | Select the case type for the graph. This can be `Message`, `Action`, `Document`, `Hearing`, or `Audit`. |
-| `Display type` | Choose the display type for the graph. This can be a `Line chart`, `Area chart`, `Bar chart`, or `Pie chart`. |
-| `Stack by` | Enable/Disable the stack by field option for the graph. |
-| `Stack field` | Select the field to stack by. See the table below. |
-| `X-axis` | Select the options for the x-axis (x-axis and y-axis can be flipped). |
-| `Y-axis` | Select the options for the y-axis (x-axis and y-axis can be flipped). |
-| `Period` | Choose the time period of the graph data. The available fields depend on the case type. |
-| `Filters` | Add, remove, and modify filters to limit the results returned for the graph. |
-| `Override expression` | Allows the end user to override the query language run against the `Q` backend. |
-| `Override visual spec` | Enables the end user to override the VegaLite graph definition used to render the graph. |
+| `Komponentnavn` | Angi navnet på komponenten, med støtte for flere språk. |
+| `Sakstype` | Velg sakstypen for grafen. Dette kan være `Melding`, `Tiltak`, `Dokument`, `Høring`, eller `Revisjon`. |
+| `Visningstype` | Velg visningstypen for grafen. Dette kan være en `Linjediagram`, `Arealdiagram`, `Stolpediagram`, eller `Kake diagram`. |
+| `Stable etter` | Aktiver/deaktiver stable etter-feltalternativet for grafen. |
+| `Stabelfelt` | Velg feltet å stable etter. Se tabellen nedenfor. |
+| `X-aksen` | Velg alternativene for x-aksen (x-akse og y-akse kan byttes om). |
+| `Y-aksen` | Velg alternativene for y-aksen (x-akse og y-akse kan byttes om). |
+| `Periode` | Velg tidsperioden for grafdataene. De tilgjengelige feltene avhenger av sakstypen. |
+| `Filtre` | Legg til, fjern og endre filtre for å begrense resultatene som returneres for grafen. |
+| `Overstyr uttrykk` | Lar sluttbrukeren overstyre spørrespråket som kjører mot `Q`-apiet. |
+| `Overstyr visuelle spesifikasjoner` | Aktiverer sluttbrukeren til å overstyre VegaLite-grafdefinisjonen som brukes til å vise grafen. |
 
-{{< figure src="/images/dashboards/dashboards_24.png" caption="Available stack by fields" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_24_no.png" caption="Tilgjengelige stack by-felt" width="1024">}}
 
-The available stack by fields are:
+De tilgjengelige stack by-feltene er:
 
-| Field | Description |
+| Felt | Beskrivelse |
 | --- | --- |
-| `Priority` | Stack by priority level of the case. |
-| `Case status` | Stack by the case status of the case. |
-| `Department` | Stack by department of the case. |
-| `Form` | Stack by the form of the case. |
+| `Prioritet` | Stable etter prioritet for saken. |
+| `Saksstatus` | Stable etter saksstatus for saken. |
+| `Avdeling` | Stable etter avdeling for saken. |
+| `Skjema` | Stable etter skjema for saken. |
 
-### Map
+### Kart
 
-{{< figure src="/images/dashboards/dashboards_11.png" caption="Map component" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_11_no.png" caption="Kartkomponent" width="1024">}}
 
-The map component allows you to create a query that will be mapped to a map instance if the message case has associated geo coordinates.
+Kartkomponenten lar deg lage en spørring som vil bli kartlagt til et karteksempel hvis meldingssaken har tilknyttede geokoordinater.
 
-### Table
+### Tabell
 
-{{< figure src="/images/dashboards/dashboards_12.png" caption="Table view component" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_1_no.png" caption="Tabellvisningskomponent" width="1024">}}
 
-The table component is a list component that displays the results of a specific query. Here's an overview of the options:
+Tabellkomponenten er en liste-komponent som viser resultatene av en bestemt spørring. Her er en oversikt over alternativene:
 
-| Option | Description |
+| Alternativ | Beskrivelse |
 | --- | --- |
-| `Component name` | Set the name of the component, supporting multiple languages. |
-| `Case type` | Select the case type for the graph. This can be `Message`, `Action`, `Document`, `Hearing`, or `Audit`. |
-| `Columns` | Choose the columns visible in the list results. |
-| `Count` | Select the number of entries per page in the list. |
-| `Period` | Choose the date period for the entries in the list. |
-| `Filters` | Add, remove, and update filters for the query. |
-| `Override expression` | Override the current generated expression. |
+| `Komponentnavn` | Angi navnet på komponenten, med støtte for flere språk. |
+| `Sakstype` | Velg sakstypen for grafen. Dette kan være `Melding`, `Tiltak`, `Dokument`, `Høring`, eller `Revisjon`. |
+| `Kolonner` | Velg kolonnene som skal vises i listen med resultater. |
+| `Antall` | Velg antall oppføringer per side i listen. |
+| `Periode` | Velg datoperioden for oppføringene i listen. |
+| `Filtre` | Legg til, fjern og oppdater filtre for spørringen. |
+| `Overstyr uttrykk` | Overstyr den nåværende genererte uttrykket. |
 
-### Predefined graphs
+### Forhåndsdefinerte grafer
 
-{{< figure src="/images/dashboards/dashboards_13.png" caption="Predefined graphs component" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_13_no.png" caption="Forhåndsdefinerte grafer-komponent" width="1024">}}
 
-Predefined graphs are pre-made (canned) reports that you can use to target specific analytic goals. Let's examine the fields of the sidebar.
+Forhåndsdefinerte grafer er ferdiglagde (hermetiske) rapporter som du kan bruke for å målrette spesifikke analytiske mål. La oss se på feltene i sidepanelet.
 
-| Field | Description |
+| Felt | Beskrivelse |
 | --- | --- |
-| `Component name` | Set the name of the component, supporting multiple languages. |
-| `Graph type` | Select the predefined graph type, see the table below. |
-| `Filters` | A set of filters that will vary depending on the predefined graph type the user selects. |
-| `Period` | Select data for the report by time period. |
-| `Override expression` | Enable/disable the ability to override the expression being sent to `Q`. |
+| `Komponentnavn` | Angi navnet på komponenten, med støtte for flere språk. |
+| `Graftype` | Velg den forhåndsdefinerte graf-typen, se tabellen nedenfor. |
+| `Filtre` | Et sett med filtre som vil variere avhengig av den forhåndsdefinerte graf-typen brukeren velger. |
+| `Periode` | Velg data for rapporten etter tidsperiode. |
+| `Overstyr uttrykk` | Aktiver/deaktiver muligheten til å overstyre uttrykket som sendes til `Q`. |
 
-The available predefined graphs are:
+De tilgjengelige forhåndsdefinerte grafene er:
 
-| Predefined Graph | Description |
+| Forhåndsdefinert graf | Beskrivelse |
 | --- | --- |
-| `Cycle and Lead Time Running Average` | Measure the cycle and lead time over a window of running average. See the definition of `Cycle` and `Lead` time below. |
-| `Case by case status group` | The count of cases over time by case status group. |
-| `Cases by case status` | The count of cases over time by case status. |
-| `Unprocessed vs Open and Closed cases` | Number of cases unprocessed, open, and closed over time. |
-| `Time spent in case status group by percentile` | Time a case spends in each case status group (setting the percentile, for definition of percentile see below). |
-| `Time spent in case status by percentile` | Time a case spends in each case status (setting the percentile, for definition of percentile see below). |
-| `Cumulative count of cases by department` | Cumulative count of cases per department. |
-| `Cumulative cost of cases by department` | Cumulative cost of cases per department. |
+| `Gjennomsnittlig syklus og ledetid` | Mål syklus- og ledetid over et løpende gjennomsnittsvindu. Se definisjonen av `Syklus` og `Lede` tid nedenfor. |
+| `Sak for sak statusgruppe` | Antall saker over tid etter saksstatusgruppe. |
+| `Saker for saksstatus` | Antall saker over tid etter saksstatus. |
+| `Ubehandlede vs åpne og lukkede saker` | Antall saker ubehandlet, åpne og lukkede over tid. |
+| `Tid brukt i saksstatusgruppe etter persentil` | Tid en sak tilbringer i hver sakstatusgruppe (innstilling av persentil, for definisjon av persentil, se nedenfor). |
+| `Tid brukt i saksstatus etter persentil` | Tid en sak tilbringer i hver sakstatus (innstilling av persentil, for definisjon av persentil, se nedenfor). |
+| `Akkumulert antall saker etter avdeling` | Kumulativt antall saker per avdeling. |
+| `Akkumulerte kostnader for saker etter avdeling` | Kumulative kostnader for saker per avdeling. |
 
-#### Definitions
-> Cycle time refers to the average time taken to complete a single unit. The Lead Time refers to the length of time it takes from the date of receipt of an order to the date of delivery.
+#### Definisjoner
+> Syklustid refererer til den gjennomsnittlige tiden det tar å fullføre en enkelt enhet. Ledetid refererer til lengden på tid det tar fra datoen for mottak av en ordre til leveringsdatoen.
 >
-> Percentile, expressed as the percentage of values in a set of data scores that fall below a given value. That is to say that if you set the percentile to 90% and you get a value 100, it means 90% of the results in your data set fall below 100.
+> Persentil, uttrykt som prosentandelen av verdier i et sett med data som faller under en gitt verdi. Det vil si at hvis du setter persentilen til 90% og får en verdi på 100, betyr det at 90% av resultatene i datasettet ditt faller under 100.
 
-#### **Cycle and Lead Time Running Average** Filters
-{{< figure src="/images/dashboards/dashboards_25.png" caption="Cycle and Lead Time graph" width="1024">}}
+#### **Syklus- og ledetid Løpende gjennomsnitt** Filtre
+{{< figure src="/images/dashboards/dashboards_25_no.png" caption="Syklus- og ledetidgraf" width="1024">}}
 
-The filters available for the `Cycle and Lead Time Running Average` predefined graph type are:
+Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Syklus- og ledetid Løpende gjennomsnitt` er:
 
-| Field | Description |
+| Felt | Beskrivelse |
 | --- | --- |
-| `Workflow` | Select the workflow to report on. |
-| `Category group` | Select the category group you wish to use to filter the results. |
-| `Category` | Select the category in the category group to use for filtering. |
-| `Size of the rolling window in days` | The size of the rolling window (we recommend 7 days). |
+| `Arbeidsflyt` | Velg arbeidsflyten du vil rapportere om. |
+| `Kategorigruppe` | Velg kategorigruppen du ønsker å bruke for å filtrere resultatene. |
+| `Kategori` | Velg kategorien i kategorigruppen som skal brukes for filtrering. |
+| `Størrelsen på det rullende vinduet i dager` | Størrelsen på det rullende vinduet (vi anbefaler 7 dager). |
 
-#### **Case by case status group** Filters
-{{< figure src="/images/dashboards/dashboards_26.png" caption="Cases by case status group graph" width="1024">}}
+#### **Saker etter sakstatusgruppe** Filtre
+{{< figure src="/images/dashboards/dashboards_26_no.png" caption="Saker etter sakstatusgruppegraf" width="1024">}}
 
-The filters available for the `Case by case status group` predefined graph type are:
+Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Saker etter sakstatusgruppe` er:
 
-| Field | Description |
+| Felt | Beskrivelse |
 | --- | --- |
-| `Workflow` | Select the workflow to report on. |
-| `Category group` | Select the category group you wish to use to filter the results. |
-| `Category` | Select the category in the category group to use for filtering. |
+| `Arbeidsflyt` | Velg arbeidsflyten du vil rapportere om. |
+| `Kategorigruppe` | Velg kategorigruppen du ønsker å bruke for å filtrere resultatene. |
+| `Kategori` | Velg kategorien i kategorigruppen som skal brukes for filtrering. |
 
-#### **Cases by case status** Filters
-{{< figure src="/images/dashboards/dashboards_27.png" caption="Cases by case status graph" width="1024">}}
+#### **Saker etter sakstatus** Filtre
+{{< figure src="/images/dashboards/dashboards_27_no.png" caption="Saker etter sakstatusgraf" width="1024">}}
 
-The filters available for the `Cases by case status` predefined graph type are:
+Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Saker etter sakstatus` er:
 
-| Field | Description |
+| Felt | Beskrivelse |
 | --- | --- |
-| `Workflow` | Select the workflow to report on. |
-| `Category group` | Select the category group you wish to use to filter the results. |
-| `Category` | Select the category in the category group to use for filtering. |
+| `Arbeidsflyt` | Velg arbeidsflyten du vil rapportere om. |
+| `Kategorigruppe` | Velg kategorigruppen du ønsker å bruke for å filtrere resultatene. |
+| `Kategori` | Velg kategorien i kategorigruppen som skal brukes for filtrering. |
 
-#### **Unprocessed vs Open and Closed cases** Filters
-{{< figure src="/images/dashboards/dashboards_28.png" caption="Unprocessed vs Open and Closed cases graph" width="1024">}}
+#### **Ubehandlet vs Åpne og Lukkede saker** Filtre
+{{< figure src="/images/dashboards/dashboards_28_no.png" caption="Ubehandlet vs Åpne og Lukkede saker graf" width="1024">}}
 
-The filters available for the `Unprocessed vs Open and Closed cases` predefined graph type are:
+Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Ubehandlet vs Åpne og Lukkede saker` er:
 
-| Field | Description |
+| Felt | Beskrivelse |
 | --- | --- |
-| `Workflow` | Select the workflow to report on. |
-| `Category group` | Select the category group you wish to use to filter the results. |
-| `Category` | Select the category in the category group to use for filtering. |
+| `Arbeidsflyt` | Velg arbeidsflyten du vil rapportere om. |
+| `Kategorigruppe` | Velg kategorigruppen du ønsker å bruke for å filtrere resultatene. |
+| `Kategori` | Velg kategorien i kategorigruppen som skal brukes for filtrering. |
 
-#### **Time spent in case status group by percentile** Filters
-{{< figure src="/images/dashboards/dashboards_29.png" caption="Time spend in each case status group by percentile graph" width="1024">}}
+#### **Tid brukt i sakstatusgruppe etter persentil** Filtre
+{{< figure src="/images/dashboards/dashboards_29_no.png" caption="Tid brukt i hver sakstatusgruppe etter persentilgraf" width="1024">}}
 
-The filters available for the `Time spent in case status group by percentile` predefined graph type are:
+Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Tid brukt i sakstatusgruppe etter persentil` er:
 
-| Field | Description |
+| Felt | Beskrivelse |
 | --- | --- |
-| `Workflow` | Select the workflow to report on. |
-| `Category group` | Select the category group you wish to use to filter the results. |
-| `Category` | Select the category in the category group to use for filtering. |
-| `Percentile` | The percentile used to calculate the time spent. |
+| `Arbeidsflyt` | Velg arbeidsflyten du vil rapportere om. |
+| `Kategorigruppe` | Velg kategorigruppen du ønsker å bruke for å filtrere resultatene. |
+| `Kategori` | Velg kategorien i kategorigruppen som skal brukes for filtrering. |
+| `Persentil` | Persentilen som brukes til å beregne tiden brukt. |
 
-#### **Time spent in case status by percentile** Filters
-{{< figure src="/images/dashboards/dashboards_30.png" caption="Time spend in each case status by percentile graph" width="1024">}}
+#### **Tid brukt i sakstatus etter persentil** Filtre
+{{< figure src="/images/dashboards/dashboards_30_no.png" caption="Tid brukt i hver sakstatus etter persentilgraf" width="1024">}}
 
-The filters available for the `Time spent in case status by percentile` predefined graph type are:
+Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Tid brukt i sakstatus etter persentil` er:
 
-| Field | Description |
+| Felt | Beskrivelse |
 | --- | --- |
-| `Workflow` | Select the workflow to report on. |
-| `Category group` | Select the category group you wish to use to filter the results. |
-| `Category` | Select the category in the category group to use for filtering. |
-| `Percentile` | The percentile used to calculate the time spent. |
+| `Arbeidsflyt` | Velg arbeidsflyten du vil rapportere om. |
+| `Kategorigruppe` | Velg kategorigruppen du ønsker å bruke for å filtrere resultatene. |
+| `Kategori` | Velg kategorien i kategorigruppen som skal brukes for filtrering. |
+| `Persentil` | Persentilen som brukes til å beregne tiden brukt. |
 
-#### **Cumulative count of cases by department** Filters
-{{< figure src="/images/dashboards/dashboards_31.png" caption="Cumulative count of cases" width="1024">}}
+#### **Kumulativt antall saker per avdeling** Filtre
+{{< figure src="/images/dashboards/dashboards_31_no.png" caption="Kumulativt antall saker" width="1024">}}
 
-There are no filters available for the `Cumulative count of cases by department` predefined graph.
+Det er ingen filtre tilgjengelige for den forhåndsdefinerte grafen `Kumulativt antall saker per avdeling`.
 
-#### **Cumulative cost of cases by department** Filters
-{{< figure src="/images/dashboards/dashboards_32.png" caption="Cumulative cost of cases" width="1024">}}
+#### **Kumulativ kostnad for saker per avdeling** Filtre
+{{< figure src="/images/dashboards/dashboards_32_no.png" caption="Kumulativ kostnad for saker" width="1024">}}
 
-There are no filters available for the `Cumulative cost of cases by department` predefined graph.
+Det er ingen filtre tilgjengelige for den forhåndsdefinerte grafen `Kumulativ kostnad for saker per avdeling`.
 
-### My cases
+### Mine saker
 
-{{< figure src="/images/dashboards/dashboards_14.png" caption="Logged in user's cases" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_14_no.png" caption="Innloggede brukeres saker" width="1024">}}
 
-The `My cases` component provides you with information related to the current logged-in user. There are three tabs.
+Komponenten `Mine saker` gir deg informasjon relatert til den nåværende innloggede brukeren. Det er tre faner.
 
-| Tab | Description |
+| Fane | Beskrivelse |
 | --- | --- |
-| `Messages I reported` | Messages I entered into the platform. |
-| `My cases as a case handler` | All the cases I'm assigned to as a case handler. |
-| `My tasks` | All my assigned tasks on cases. |
+| `Meldinger jeg rapporterte` | Meldinger jeg la inn på plattformen. |
+| `Mine saker som saksbehandler` | Alle sakene jeg er tildelt som saksbehandler. |
+| `Mine oppgaver` | Alle mine tildelte oppgaver i saker. |
 
-### My activities
+### Mine aktiviteter
 
-{{< figure src="/images/dashboards/dashboards_15.png" caption="Logged in users activities" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_15_no.png" caption="Innloggede brukeres aktiviteter" width="1024">}}
 
-The `My activities` component displays all upcoming activities associated with the current logged-in user. Users can directly access any given activity by clicking the link for each row.
+Komponenten `Mine aktiviteter` viser alle kommende aktiviteter knyttet til den nåværende innloggede brukeren. Brukere kan få direkte tilgang til en gitt aktivitet ved å klikke på lenken for hver rad.
 
-### Escalated Cases
+### Eskalerte saker
 
-{{< figure src="/images/dashboards/dashboards_16.png" caption="Escalated cases component" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_16_no.png" caption="Eskalerte saker komponent" width="1024">}}
 
-The `Escalated cases` component shows all the cases that have been escalated by the system within the period specified in the filters. This allows the logged-in user to view and operate on the escalated cases.
+Komponenten `Eskalerte saker` viser alle sakene som har blitt eskalert av systemet innenfor perioden som er spesifisert i filtrene. Dette lar den innloggede brukeren se og arbeide med eskalerte saker.
 
-### Document updates
+### Dokumentoppdateringer
 
-{{< figure src="/images/dashboards/dashboards_17.png" caption="Documents updated components" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_17_no.png" caption="Komponenter for oppdaterte dokumenter" width="1024">}}
 
-The `Document updates` component enables the logged-in user to see which documents have been updated within the period specified by the filters in the component settings. For example, this might show all updated documents in the last 7 days.
+Komponenten `Dokumentoppdateringer` gjør det mulig for den innloggede brukeren å se hvilke dokumenter som har blitt oppdatert innenfor perioden spesifisert av filtrene i komponentinnstillingene. For eksempel kan dette vise alle oppdaterte dokumenter de siste 7 dagene.
 
-### Favorite documents
+### Favorittdokumenter
 
-{{< figure src="/images/dashboards/dashboards_19.png" caption="Favorite documents component" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_19_no.png" caption="Favorittdokumenter komponent" width="1024">}}
 
-The `Favorite documents` component displays all the documents favorited by the currently logged-in user.
+Komponenten `Favorittdokumenter` viser alle dokumentene som er favorisert av den nåværende innloggede brukeren.
 
-### Inline document viewer
+### Integrert dokumentvisning
 
-{{< figure src="/images/dashboards/dashboards_20.png" caption="Add inline documents on dashboard" width="1024">}}
+{{< figure src="/images/dashboards/dashboards_20_no.png" caption="Legg til integrerte dokumenter på instrumentbordet" width="1024">}}
 
-The `Inline document viewer` component allows you to embed a document directly in the dashboard as viewable content. The following types of document types are supported:
+Komponenten `Integrert dokumentvisning` lar deg legge inn et dokument direkte på instrumentbordet som visbart innhold. Følgende typer dokumenttyper støttes:
 
-| Type | Description |
+| Type | Beskrivelse |
 | --- | --- |
-| `Text Document` | An HTML-like document viewed in the component. |
-| `Process chart` | A process chart document rendered in the component. |
-| `Richtext` | A read-only rich text document stored in `Q`. |
-| `Spreadsheet` | A read-only spreadsheet stored in `Q`. |
+| `Tekstdokument` | Et HTML-lignende dokument som vises i komponenten. |
+| `Prosessdiagram` | Et prosessdiagramdokument gjengitt i komponenten. |
+| `Rik tekst` | Et skrivebeskyttet rikt tekst-dokument lagret i `Q`. |
+| `Regneark` | Et skrivebeskyttet regneark lagret i `Q`. |
 
-> All `Inline document` documents are `READ ONLY` and cannot be edited.
+> Alle `Integrerte dokumenter` er `KUN LESE` og kan ikke redigeres.
