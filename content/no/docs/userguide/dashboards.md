@@ -1,7 +1,7 @@
 ---
-title: "Dashboards"
-description: "A user guide for working with dashboards"
-lead: "A user guide for working with dashboards. We cover how to create and modify dashboards."
+title: "Dashbord"
+description: "En brukerveiledning for arbeid med dashbord"
+lead: "En brukerveiledning for arbeid med dashbord. Vi dekker hvordan du oppretter og endrer dashboards."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
