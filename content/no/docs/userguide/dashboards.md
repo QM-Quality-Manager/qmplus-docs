@@ -63,6 +63,20 @@ By clicking the `Configure` button on the dashboard, you gain access to saved ex
 | `General` | Components shared across the entire organization and available for all users to create. The user must have permission to create general components to be able to create new components here. |
 | `My components` | Components that the logged-in user has already created and are only visible to them. |
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Components
 
 {{< figure src="/images/dashboards/dashboards_3.png" caption="Available component types" width="1024">}}
