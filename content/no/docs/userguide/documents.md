@@ -18,11 +18,11 @@ Når du klikker på `Dokumenter`-alternativet, får du tilgang til de publiserte
 
 ## Dokumentdashbord
 
-{{< figure src="/images/documents/documents_1.png" caption="documents_1.png" width="1024">}}
+{{< figure src="/images/documents/documents_1_no.png" caption="Visning av dokumentdashbord" width="1024">}}
 
 `Dokumenter`-menyen gir brukerne tilgang til alle dokumentdashbordene som er synlige for dem basert på deres tildelte avdeling og tillatelser.
 
-{{< figure src="/images/documents/documents_2.png" caption="documents_2.png" width="1024">}}
+{{< figure src="/images/documents/documents_2_no.png" caption="Navigering mellom dashbord" width="1024">}}
 
 Brukere kan navigere mellom forskjellige lister ved å klikke på pilen ved siden av gjeldende dashbordnavn. De kan også klikke på individuelle dokumenter for å åpne dem og merke dokumenter som favoritter for enklere tilgang senere.
 
