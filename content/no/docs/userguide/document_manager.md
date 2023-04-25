@@ -1,7 +1,7 @@
 ---
-title: "Administrator/Document Administrator"
-description: "A user guide for working with the document administrator"
-lead: "A user guide for working with the document administrator. We cover how to create, update and manage documents."
+title: "Administrator/Dokument Administrator"
+description: "En brukerveiledning for å jobbe med dokumentadministratoren"
+lead: "En brukerveiledning for å jobbe med dokumentadministratoren. Vi dekker hvordan du oppretter, oppdaterer og administrerer dokumenter."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -14,7 +14,7 @@ toc: true
 ---
 Denne seksjonen er dedikert til å håndtere dokumenter i systemet.
 
-Ved å klikke på `Administrator/Document Administrator`, får du tilgang til dokumentbehandleren.
+Ved å klikke på `Administrator/Dokument Administrator`, får du tilgang til dokumentbehandleren.
 
 ## Dokumentbehandler
 
@@ -26,7 +26,7 @@ Dokumentbehandleren er det sentrale knutepunktet for dokumenthåndteringssysteme
 
 Ved å bruke filteret kan du avgrense dokumentene som vises i dokumentbehandleren for å fokusere på et bestemt dokument.
 
-> Husk at alle dokumenter er knyttet til avdelinger. Dette betyr at visningen av dokumenter i behandleren vil endre seg når du endrer synligheten og avdelingen du ser på. For eksempel, for å se alle dokumenter i underavdelingene, kan du velge `All` fra `Document folders visibility`.
+> Husk at alle dokumenter er knyttet til avdelinger. Dette betyr at visningen av dokumenter i behandleren vil endre seg når du endrer synligheten og avdelingen du ser på. For eksempel, for å se alle dokumenter i underavdelingene, kan du velge `Alle` fra `Synlighet for dokumentmapper`.
 
 ## Opprett en ny mappe
 

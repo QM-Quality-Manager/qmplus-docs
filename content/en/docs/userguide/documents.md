@@ -12,19 +12,18 @@ menu:
 weight: 3
 toc: true
 ---
-This section lets you browse the published document dashboards, access the documents and favorite documents.
+This section allows you to browse through the published document dashboards, access individual documents, and mark your favorite documents for easy access later.
 
-Clicking on the `Documents` gives access to the document dashboards published.
+Clicking on the `Documents` option provides access to the published document dashboards.
 
-## Document dashboards
+## Document Dashboards
 
 {{< figure src="/images/documents/documents_1.png" caption="documents_1.png" width="1024">}}
 
-The `Documents` menu gives the user access to all the document dashboards visible for the user given their department and permissions.
+The `Documents` menu grants users access to all document dashboards that are visible to them based on their assigned department and permissions.
 
 {{< figure src="/images/documents/documents_2.png" caption="documents_2.png" width="1024">}}
 
-The user can navigate between list by clicking on the arrow next to the current dashboard name, as well as click on documents to open a document. Furthermore they can mark documents as favorites.
+Users can navigate between different lists by clicking on the arrow next to the current dashboard name. They can also click on individual documents to open them and mark documents as favorites for easier access later.
 
-> Favorite documents will be visible in the the users dashboard if they have the `Favorite documents` component added to their dashboard.
-
+> Documents marked as favorites will be visible in the user's dashboard if they have added the `Favorite Documents` component to their dashboard. This feature makes it more convenient to quickly access frequently used or important documents.
