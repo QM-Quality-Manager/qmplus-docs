@@ -12,57 +12,55 @@ menu:
 weight: 7
 toc: true
 ---
-A user type is a collection of roles. It is used to create specific grouping of permissions and give them a name. Examples of user types can be **Administrator**, **Employee**, **Inspector** where each usertypes contains a set of roles that gives the user permissions to perform different actions or have access to specific features of the platform.
+A user type is a collection of roles that represents specific groupings of permissions with an assigned name. Examples of user types can include **Administrator**, **Employee**, and **Inspector**, where each user type contains a set of roles that grant the user permissions to perform different actions or access specific features of the platform.
 
 ## Main Administrator Screen
-{{< figure src="/images/usertypes/usertype_1.png" caption="New workflow dialog" width="1024">}}
+{{< figure src="/images/usertypes/usertype_1.png" caption="Main administrator screen" width="1024">}}
 
-Clicking on the `Administrator/User Types` gives access to the list of user types.
+Clicking on the `Administrator/User Types` gives you access to the list of user types.
 
-You can take the following actions from this screen.
+From this screen, you can perform the following actions:
 
-### Select User types
-You can switch beetween viewing all the user types, the currently active user types and the inactive user types.
+### Select User Types
+Switch between viewing all user types, currently active user types, and inactive user types.
 
-### Filter User types
-The search box lets us filter down the usertypes by entering free text.
+### Filter User Types
+Use the search box to filter user types by entering relevant text.
 
 ### Activate/Deactivate
-Clicking on the symbol lets you deactivate an active user type or activate an inactive user type.
+Click on the symbol to deactivate an active user type or activate an inactive user type. Deactivating a user type ensures that it cannot be assigned to other users.
 
-Inactivating a user type lets you ensure it's not possible to assign it to other users.
-
-### Create a user type
-Clicking the `Create` button will bring up a create new user type dialog.
+### Create a User Type
+Click the `Create` button to open the "create new user type" dialog.
 
 ## Create a New User Type
-The create new user type dialog lets you create a new collection of permissions and give it a name.
+The "create new user type" dialog allows you to create a new collection of permissions with an assigned name.
 
-{{< figure src="/images/usertypes/usertype_2.png" caption="New workflow dialog" width="1024">}}
+{{< figure src="/images/usertypes/usertype_2.png" caption="Create new user type dialog" width="1024">}}
 
-A new user type requires the following fields as shown in the image.
+A new user type requires the following fields, as shown in the image:
 
 | Field | Description |
 | --- | --- |
-| `Name` | The name of the user type, if multiple languages are configured for your account you'll be able to enter the name in multiple languages. |
-| `Description` | The description of the user type, if multiple languages are configured for your account you'll be able to enter the description in multiple languages. |
-| `Department` | The department this user type is configured on. Can be used to limit the ability of user types to specific departments only.|
-| `Permissions` | The list of all the permissions assigned to this specific user type. |
+| `Name` | The name of the user type; if multiple languages are configured for your account, you can enter the name in multiple languages. |
+| `Description` | The description of the user type; if multiple languages are configured for your account, you can enter the description in multiple languages. |
+| `Department` | The department for which this user type is configured. Can be used to limit the availability of user types to specific departments only. |
+| `Permissions` | The list of all permissions assigned to this specific user type. |
 
-After having filled out the `Name` and `Description` field, select the department (or leave it on the current department) and then finally click the `Configure permissions` link to bring up the sidebar. 
+After filling out the `Name` and `Description` fields, select the department (or leave it on the current department), and then click the `Configure permissions` link to open the sidebar.
 
-> A list of all `System` level permissions and their meaning.
+> A list of all `System` level permissions and their meanings.
 >
 > [Overview of all Permissions]({{< ref "/docs/references/permissions" >}} "Overview of all Permissions")
 
-{{< figure src="/images/usertypes/usertype_3.png" caption="New workflow dialog" width="1024">}}
+{{< figure src="/images/usertypes/usertype_3.png" caption="Configure permissions sidebar" width="1024">}}
 
-Here you can select `System` and `Custom` roles that you want to add to the user type you are creating.
+Here, you can select `System` and `Custom` roles that you want to add to the user type you are creating.
 
-{{< figure src="/images/usertypes/usertype_4.png" caption="New workflow dialog" width="1024">}}
+{{< figure src="/images/usertypes/usertype_4.png" caption="Select roles" width="1024">}}
 
-After selecting two roles we can then click the button to set the permissions on the user type.
+After selecting the desired roles, click the button to set the permissions on the user type.
 
-{{< figure src="/images/usertypes/usertype_5.png" caption="New workflow dialog" width="1024">}}
+{{< figure src="/images/usertypes/usertype_5.png" caption="Set permissions" width="1024">}}
 
-Finally click the `Save` button to create the user type.
+Finally, click the `Save` button to create the user type.
