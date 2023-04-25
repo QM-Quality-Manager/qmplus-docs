@@ -23,7 +23,7 @@ Det er to typer tillatelser i systemet:
 | `System` | Systemtillatelser kontrollerer tilgang til seksjoner eller handlinger innenfor applikasjonen selv og leveres av applikasjonen. For eksempel kan disse tillatelsene tillate deg å administrere brukere eller vise rapporter. Brukere kan ikke tilpasse disse tillatelsene, og de kan utvides når nye funksjoner blir lagt til. |
 | `Egendefinert` | Egendefinerte tillatelser er tillatelser som brukere kan opprette for å merke innhold, som dokumenter, eller begrense tilgang til bestemte områder som avdelinger. For eksempel kan du ha et `konfidensielt` dokument som bare to personer skal ha tilgang til. I så fall kan du opprette en `konfidensielt dokument` egendefinert tillatelse og tilordne den til dokumentet og de to brukerne du ønsker å gi tilgang til. Fravær av tillatelsen vil forhindre brukere i å få tilgang til dokumentet. |
 
-[Se alle tilgjengelige System Permissions]({{< ref "/content/en/docs/references/permissions.md" >}} "System Permissions")
+[Se alle tilgjengelige System Permissions]({{< ref "/content/no/docs/references/permissions.md" >}} "System Permissions")
 
 ## Tillatelsesliste
 
