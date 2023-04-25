@@ -1,7 +1,7 @@
 ---
-title: "Reports"
-description: "A user guide for working with reports"
-lead: "A user guide for working with reports."
+title: "Rapporter"
+description: "En brukerveiledning for arbeid med rapporter"
+lead: "En brukerveiledning for arbeid med rapporter."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
