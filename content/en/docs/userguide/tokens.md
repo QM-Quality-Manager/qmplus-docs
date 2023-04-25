@@ -12,75 +12,75 @@ menu:
 weight: 25
 toc: true
 ---
-This section deals with managing tokens in the system.
+This section is concerned with managing tokens within the system.
 
-Clicking on the `Administrator/Tokens` gives access to the list of tokens.
+Clicking on the `Administrator/Tokens` grants access to the list of tokens.
 
-## Tokens Listing
+## Token Listing
 
 {{< figure src="/images/tokens/tokens_3.png" caption="API Tokens Listing" width="1024">}}
 
-{{< figure src="/images/tokens/tokens_5.png" caption="Mobile users logged in Listing" width="1024">}}
+{{< figure src="/images/tokens/tokens_5.png" caption="Mobile Users Logged In Listing" width="1024">}}
 
-There are two main types of tokens in the system.
+There are two primary types of tokens in the system.
 
 | Token Type | Description | 
 | --- | --- |
-| `API Tokens` | Tokens used to integrate with Q using external applications or code. |
-| `Mobile users logged in` | An overview of Mobile Application tokens, allowing us to view who uses the Mobile App and also revoke access. |
+| `API Tokens` | Tokens utilized for integrating with the system using external applications or code. |
+| `Mobile Users Logged In` | Provides an overview of Mobile Application tokens, which allows you to view the users of the Mobile App and revoke access if necessary. |
 
-> Tokens are tied to a `User` and `User Type`. This allows you to control access more fine-grained by using permissions to restrict acces. You might for example make a token that only allows access to Department A and has no access to operate on users.
+> Tokens are associated with a `User` and `User Type`. This enables you to exercise finer control over access by using permissions to restrict access. For instance, you could create a token that only permits access to Department A and does not have access to operate on users.
 
 ## Deleting Tokens
 
-{{< figure src="/images/tokens/tokens_7.png" caption="Deleting multiple mobile user tokens, revoking access" width="1024">}}
+{{< figure src="/images/tokens/tokens_7.png" caption="Deleting Multiple Mobile User Tokens, Revoking Access" width="1024">}}
 
-Tokens can also be deleted to revoke access both for the `API Token` and `Mobile Users logged in`. Either one by one or by using the checkbox on the left side to select multiple entries to delete at the same time.
+Tokens can also be deleted to revoke access for both `API Tokens` and `Mobile Users Logged In`. You can delete them individually or use the checkbox on the left side to select multiple entries to delete simultaneously.
 
-## Inspect a Token
+## Inspecting a Token
 
-Clickin on a Token will bring up information about the token. This screen is different depending on if it's an `API Token` or `Mobile users logged in Token`.
+Clicking on a Token displays information about the token. This screen differs depending on whether it's an `API Token` or `Mobile Users Logged In Token`.
 
-{{< figure src="/images/tokens/tokens_6.png" caption="Mobile Users logged in token view" width="1024">}}
+{{< figure src="/images/tokens/tokens_6.png" caption="Mobile Users Logged In Token View" width="1024">}}
 
-When selecting a `Mobile User Token` you get the following information.
+When selecting a `Mobile User Token`, the following information is displayed.
 
 | Field | Description |
 | --- | --- |
-| `User name` | The user name associated with the token. |
+| `User Name` | The username associated with the token. |
 | `Email` | The email associated with the token. |
 | `Department` | The department the token is associated with. |
 | `User Type` | The user type the token is associated with. |
-| `Last active` | Last time the user was active. |
-| `Expiry date` | The current expiry date for the token. |
+| `Last Active` | The last time the user was active. |
+| `Expiry Date` | The current expiry date for the token. |
 
-{{< figure src="/images/tokens/tokens_2.png" caption="API Token view" width="1024">}}
+{{< figure src="/images/tokens/tokens_2.png" caption="API Token View" width="1024">}}
 
-The `API Token` view is a litte bit different because our expectation is that you will need access to the actual token.
+The `API Token` view differs slightly, as it is expected that you will require access to the actual token.
 
 | Field | Description |
 | --- | --- |
-| `Token name` | The name entered when creating the token. |
+| `Token Name` | The name entered when creating the token. |
 | `API Token` | The token string used to call the REST API. |
-| `Tenant Id` | Application customer Id. |
-| `Description of use` | Basic text that explains how to use the token to call the REST API endpoints. |
-| `Expiry date` | The entered expiry date for this API token. |
-| `Associated user` | The user used to establish permissions when using the API. |
+| `Tenant Id` | Application customer ID. |
+| `Description of Use` | Basic text explaining how to use the token to call the REST API endpoints. |
+| `Expiry Date` | The entered expiry date for this API token. |
+| `Associated User` | The user used to establish permissions when using the API. |
 | `Department and User Type` | The combination controls access to data in the system by Department and User Type. |
 
-## Create a new API Token
+## Creating a New API Token
 
-{{< figure src="/images/tokens/tokens_1.png" caption="" width="1024">}}
+{{< figure src="/images/tokens/tokens_1.png" caption="Create a new token" width="1024">}}
 
-We can create new `API Token` to use for integration. We need to provide the following fields.
+You can create new `API Tokens` for integration. The following fields must be provided.
 
 | Field | Description |
 | --- | --- |
-| `Token name` | The name entered when creating the token. |
-| `Expiry date` | Set the expiry date of the token, we suggest no longer than 12 months for any single token. |
-| `Select user` | Select the user who will be used for permissions checking. |
-| `Select department & user type` | Select the `Department` and `User Type` associated with this token. |
+| `Token Name` | The name entered when creating the token. |
+| `Expiry Date` | Set the expiry date of the token, with a suggested duration of no longer than 12 months for any single token. |
+| `Select User` | Choose the user who will be utilized for permissions verification. |
+| `Select Department & User Type` | Choose the `Department` and `User Type` associated with this token. |
 
-When we click save a new API token with a random new `token string` will be created. You can click on that token to view the details of the token.
+Once you click "Save," a new API token with a randomly generated `token string` will be created. You can then click on that token to view the specifics of the token.
 
-> Ensure you only give the token the minimum amount of permissions needed to integrate to ensure data safety.
+> To guarantee data security, make sure to grant the token only the minimal amount of permissions necessary for integration.
