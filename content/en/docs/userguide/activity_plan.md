@@ -18,7 +18,7 @@ Clicking on the `Activity plan` gives access to the activity plan allowing the a
 
 ## Overview
 {{< figure src="/images/activity_plan/activity_plan_1.png" caption="Activity plan overview" width="1024">}}
-
+ 
 The `Activity plan` overview mode shows us a `Scheduler view` of all the calendars and their activites as well as a more traditional `Calendar` view. The user can adjust the period of the `Scheduler view` by clicking the arrow buttons and the `Period view` of the `Scheduler` by clicking the `Month`, `Week` or `Day` buttons.
 
 ## Calendar view
