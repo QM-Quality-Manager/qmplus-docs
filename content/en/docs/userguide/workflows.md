@@ -12,77 +12,81 @@ menu:
 weight: 27
 toc: true
 ---
-This section deals with managing workflows in the system.
+This section is about managing workflows within the system.
 
-Clicking on the `Administrator/Workflows` gives access to the list of workflows.
+By clicking on `Administrator/Workflows`, you gain access to the list of workflows.
 
 ## Workflows List
 
-{{< figure src="/images/workflows/workflows_1.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_1.png" caption="Workflow list" width="1024">}}
 
-The Workflows list overview lets you see all workflows defined in the system. Workflows are global and shared by all departments in the organization.
+The Workflows list overview allows you to see all workflows defined in the system. Workflows are global and shared by all departments within the organization.
 
-Workflows can be activated and deactivated as needed. This does not affect existing `form types` that use the workflow but makes it impossible to create new `form types` of that particular workflow.
+Workflows can be activated and deactivated as needed. This does not affect existing `form types` that use the workflow but makes it impossible to create new `form types` for that specific workflow.
 
 ## Create Workflow
 
-{{< figure src="/images/workflows/workflows_2.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_2.png" caption="Create a workflow" width="1024">}}
 
 There are four tabs to consider when creating a new workflow.
 
 | Tab | Description |
 | --- | --- |
-| `General` | Entering general details for workflow. |
-| `Table` | Edit the statuses, transitions and dialogs that make up the workflow. |
+| `General` | Enter general details for the workflow. |
+| `Table` | Edit the statuses, transitions, and dialogs that make up the workflow. |
 | `Graph` | A graphical representation of the workflow. |
-| `Processing` | Default processing settings for the workflow such as automatic deadlines etc. |
+| `Processing` | Default processing settings for the workflow, such as automatic deadlines, etc. |
 
 ### General Tab
 
 The general page allows us to fill out the following fields.
 
-{{< figure src="/images/workflows/workflows_12.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_12.png" caption="General tab" width="1024">}}
 
 | Field | Description |
 | --- | --- |
-| `Title` | Specify the title of the workflow, support multiple languages if your account is configured for it. |
-| `Entity Type` | Select the entity type of the workflow, once set it cannot be changed. This can be `Message`, `Action`, `Document`, `Hearing` or `Audit` |
-| `Disable transitions checking` | This lets you override any transitions, making it possible to freely drag tickts between any transitions on the case board. Great when you want to implement Kanban processes or other non-gated processes |
+| `Title` | Specify the title of the workflow; support multiple languages if your account is configured for it. |
+| `Entity Type` | Select the entity type of the workflow; once set, it cannot be changed. This can be `Message`, `Action`, `Document`, `Hearing`, or `Audit`. |
+| `Disable transitions checking` | This allows you to override any transitions, making it possible to freely move tickets between any transitions on the case board. Great for implementing Kanban processes or other non-gated processes. |
 | `Start case status` | Set the default case start status. This is the case status that will be assigned to a new case for this workflow if no other rules override it. |
 | `Close case status` | Set the default close case status used for default close operations. |
-| `Early caseprocess` | Specify that this workflow supports the use of `Early caseprocess` rules set up to assign new cases to case handlers based on specified rules. |
-| `Associated hearing workflow ` | `Document` only. Allows you to specify an associated hearings workflow to this document workflow that will handle any hearings initiated for a document attached to this workflow. | 
-| `Associated audit workflow ` | `Document only`. Allows you to specify an associated audit workflow to this document workflow to handle all hearings. | 
+| `Early case process` | Specify that this workflow supports the use of `Early case process` rules set up to assign new cases to case handlers based on specified rules. |
+| `Associated hearing workflow` | `Document` only. Allows you to specify an associated hearings workflow for this document workflow that will handle any hearings initiated for a document attached to this workflow. | 
+| `Associated audit workflow` | `Document only`. Allows you to specify an associated audit workflow for this document workflow to handle all hearings. | 
 
 ### Table Tab
 
-{{< figure src="/images/workflows/workflows_3.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_3.png" caption="Table tab" width="1024">}}
 
-The Table Tab allows us to build and modifty the workflow entities. There are three types of available entities.
+The Table Tab allows us to build and modify the workflow entities. There are three types of available entities.
 
 | Entity | Description |
 | --- | --- |
-| `Case Status` | Case statuses are defined states a case can be in. For example you might have a case status called `New` for a newly registered form entry and `Closed` for the final possible state for a case. |
-| `Transitions` | Transitions control the flow of case between case statuses. It makes it possible to enforce a workflow by specifying the legal transitions between statuses. For example you might make it possible to only move a case from `New` to `Under work` by adding a single transition between those statuses. |
-| `Dialogs` | Dialogs are collections of fields that can bet attached to a transition. For example you might decide that you want the user to add a comment when moving a case from the case status `New` to `Under work` and a dialog attached to this transition between those fields will lead the dialog to pop up for the user to fill out when moving between the statuses. |
+| `Case Status` | Case statuses are defined states a case can be in. For example, you might have a case status called `New` for a newly registered form entry and `Closed` for the final possible state for a case. |
+| `Transitions` | Transitions control the flow of cases between case statuses. It makes it possible to enforce a workflow by specifying the legal transitions between statuses. For example, you might make it possible to only move a case from `New` to `Under work` by adding a single transition between those statuses. |
+
+DONE
+-------------------------------------------------------------------------------------------------
+
+| `Dialogs` | Dialogs are collections of fields that can be attached to a transition. For example, you might decide that you want the user to add a comment when moving a case from the case status `New` to `Under work`, and a dialog attached to this transition between those fields will prompt the dialog to pop up for the user to fill out when moving between the statuses. |
 
 ### Create Status
 
 {{< figure src="/images/workflows/workflows_4.png" caption="" width="1024">}}
 
-To create a new `Case status` you need to enter the following fields.
+To create a new `Case status`, you need to enter the following fields.
 
 | Field | Description |
 | --- | --- |
-| `Name` | The name of the case status, support multiple languages. |
-| `Status Group` | The Status Group for this Case Status, see the table below for explenations. |
-| `Description` | Optional description for the case status. |
+| `Name` | The name of the case status, supporting multiple languages. |
+| `Status Group` | The Status Group for this Case Status (see the table below for explanations). |
+| `Description` | An optional description for the case status. |
 
 The possible `Status Groups` are detailed below.
 
 | Status Group | Description |
 | --- | --- |
-| `Open`<img width=200 height=1/> | A case is in a newly opened (first time it was opened state). This is basically used to signal a new case starting. |
+| `Open`<img width=200 height=1/> | A case is in a newly opened state (the first time it was opened). This is primarily used to signal a new case starting. |
 | `Unprocessed` | A case has been created but not yet opened by any case handler. |
 | `In progress` | A case is being worked on. |
 | `In action process` | A case triggered an action process and is waiting for it to be resolved. |
@@ -93,38 +97,41 @@ The possible `Status Groups` are detailed below.
 
 {{< figure src="/images/workflows/workflows_5.png" caption="" width="1024">}}
 
-A transition represents a change between two statuses (As an example you might move a case from `New` status to `Being worked on` status).
+A transition represents a change between two statuses (for example, you might move a case from `New` status to `Being worked on` status).
 
 A transition can have an optional dialog attached to it to collect information as part of the transition.
 
-> When we talk about transitions we will use `source` as the start status of the transition and `target` as the end status.
+> When we talk about transitions, we will use `source` as the start status of the transition and `target` as the end status.
 
 We have the following fields when creating a transition.
 
 | Field | Description |
 | --- | --- |
 | `Transition Name` | The name of the Transition we are defining. |
-| `From status` | The start `Case Status` for the transition. |
-| `To status` | The end `Case Status` for the transition. |
+| `From status` | The starting `Case Status` for the transition. |
+| `To status` | The ending `Case Status` for the transition. |
 | `Dialog` | An optional dialog attached to the transition. |
-| `Related Workflow` | When transitioning to a `Case Status` of the Status Group `In action process` we can set a related workflow that will be used to trigger the creation of a new `Action` when this transition is performed. This option is currently only available for `Message Workflows`. |
+| `Related Workflow` | When transitioning to a `Case Status` of the Status Group `In action process`, we can set a related workflow that will be used to trigger the creation of a new `Action` when this transition is performed. This option is currently only available for `Message Workflows`. |
 | `Start Status` | Specify what status a newly created `Action` should have in the `Related Workflow`. |
 
-> The Related Workflow option is only used when the `To status` is a `Case Status` of Status Group `In action process`.
+> The Related Workflow option is only used when the `To status` is a `Case Status` of the Status Group `In action process`.
 
 ### Create Dialog
 
 {{< figure src="/images/workflows/workflows_6.png" caption="" width="1024">}}
 
-A dialog represents a set of fields configurable by the end user to collect information or trigger actions on a change of status for a case (a transition). Dialog are attached to transitions.
+A dialog represents a set of fields configurable by the end user to collect information or trigger actions on a change of status for a case (a transition). Dialogs are attached to transitions.
 
-The fields you can specify are.
+The fields you can specify are as follows:
 
 | Field | Description |
 | --- | --- |
-| `Dialog name` | The name of the workflow dialog, support multiple languages. |
-| `Description` | Optional description for the dialog. |
+| `Dialog name` | The name of the workflow dialog, supporting multiple languages. |
+| `Description` | An optional description for the dialog. |
 | `Fields` | The list of fields used in the dialog. |
+
+DONE
+-------------------------------------------------------------------------------------------------
 
 As you can see there is a sizable selection of field types. Lets have a look at each and what they mean before constructing our custom dialog.
 
