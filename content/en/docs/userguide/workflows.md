@@ -72,7 +72,7 @@ DONE
 
 ### Create Status
 
-{{< figure src="/images/workflows/workflows_4.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_4.png" caption="Create new workflow status" width="1024">}}
 
 To create a new `Case status`, you need to enter the following fields.
 
@@ -95,7 +95,7 @@ The possible `Status Groups` are detailed below.
 
 ### Create Transitions
 
-{{< figure src="/images/workflows/workflows_5.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_5.png" caption="Create workflow transition" width="1024">}}
 
 A transition represents a change between two statuses (for example, you might move a case from `New` status to `Being worked on` status).
 
@@ -118,7 +118,7 @@ We have the following fields when creating a transition.
 
 ### Create Dialog
 
-{{< figure src="/images/workflows/workflows_6.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_6.png" caption="Create workflow dialog" width="1024">}}
 
 A dialog represents a set of fields configurable by the end user to collect information or trigger actions on a change of status for a case (a transition). Dialogs are attached to transitions.
 
@@ -133,53 +133,76 @@ The fields you can specify are as follows:
 DONE
 -------------------------------------------------------------------------------------------------
 
-As you can see there is a sizable selection of field types. Lets have a look at each and what they mean before constructing our custom dialog.
+As you can see, there is a sizable selection of field types. Let's examine each and understand their significance before constructing our custom dialog.
 
 | Field Type | Triggers | Description |
 | --- | --- | --- |
-| `Textfield`<img width=200 height=1/> | No | A single row free text entry field. |
+| `Textfield`<img width=200 height=1/> | No | A single-row free text entry field. |
 | `Textarea` | No | A text area with more columns for free text entry. |
 | `Text Editor` | | A text area with basic formatting for free text entry. |
-| `Number` | No | Entering any numeric value. |
-| `Date` | No | Specifiying a date. |
+| `Number` | No | Allows entering any numeric value. |
+| `Date` | No | Used for specifying a date. |
 | `Perform Task` | Yes | A field allowing you to specify who performed the task. |
-| `Action Name` | Yes | The title field that will be used when creating a new `Action` entry for a transition going into an `In action process` group state |
+| `Action Name` | Yes | The title field that will be used when creating a new `Action` entry for a transition going into an `In action process` group state. |
 | `Comment` | Yes | Allows the user to comment on the transition between states and set who is getting notified about the comment. |
 | `Acknowledgement` | Yes | Lets the user acknowledge that specific users performed their tasks. |
-| `Task Assignment Setup` | Yes | Allows the user to create tasks of a specific type when transitioning between statues. One can also control if one wants to collect a `Due date`, `Planned hours` and `Planned start date`. |
+| `Task Assignment Setup` | Yes | Allows the user to create tasks of a specific type when transitioning between statuses. One can also control if one wants to collect a `Due date`, `Planned hours`, and `Planned start date`. |
 
-{{< figure src="/images/workflows/workflows_11.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_11.png" caption="Adding fields to dialog" width="1024">}}
 
-You can add fields to the dialog, seeing the preview of the dialog on the left hand side. Once you have specified all the fields you can click the `Save Changes` button at the bottom right to persist the changes to the workflow.
+You can add fields to the dialog, seeing the preview of the dialog on the left-hand side. Once you have specified all the fields, you can click the `Save Changes` button at the bottom right to save the changes to the workflow.
 
 ### Graph Tab
 
-{{< figure src="/images/workflows/workflows_7.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_7.png" caption="Graph tab" width="1024">}}
 
-The `Graph Tab` shows a graphical representation of the workflow. Each box represents a `Case Status` in the workflow and each line between the `Case Statuses` represents a transition between two states. The above workflow is very simple, below is a more complex workflor example. 
+The `Graph Tab` shows a graphical representation of the workflow. Each box represents a `Case Status` in the workflow, and each line between the `Case Statuses` represents a transition between two states. The above workflow is very simple; below is a more complex workflow example.
 
-{{< figure src="/images/workflows/workflows_10.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_10.png" caption="Example graph" width="1024">}}
 
 > Use the `Graph Tab` to validate your workflow and ensure you did not miss any transitions. A `Case Status` without any transitions is a typical signal that one might have missed a transition or that the `Case Status` is not needed.
 
 ### Processing Tab
 
-The processing tab contains setting to set defaults for case deadlines and escalations for all form types and forms associated with this particular workflow.
+The processing tab contains settings to set defaults for case deadlines and escalations for all form types and forms associated with this particular workflow.
 
-{{< figure src="/images/workflows/workflows_8.png" caption="" width="1024">}}
+{{< figure src="/images/workflows/workflows_8.png" caption="Processing tab" width="1024">}}
 
 #### Due dates
 
 Allows the control of how due date notifications are handled. This allows one to set general due date handling settings for this workflow and thus `forms` using this workflow.
 
-> `Forms` let you override these so you can for example have a form `Accident` that have much shorter automatic due dates compared to the general workflow. `Form` settings will override the workflow.
+> `Forms` let you override these so you can, for example, have a form `Accident` with much shorter automatic due dates compared to the general workflow. `Form` settings will override the workflow.
 
 The available fields.
 
 | Field | Description |
 | --- | --- |
 | `Number of days before overdue` | The number of days since the last update happened to a case before it's considered overdue. |
-| `Reminder email frequencey` | The frequence of sending overdue email notifications. These are options like `Off`, `Every day`, `Everyone Monday` etc. |
+| `Reminder email frequency` | The frequency of sending overdue email notifications. These are options like `Off`, `Every day`, `Everyone Monday`, etc. |
+| `Time of day to send overdue emails` | Specify the time of day to send the email. For example, you might want overdue notices to be delivered after 9 in the morning. This is not an exact time. The email will be sent sometime after the specified time, depending on your email system and sending time. |
+
+#### Escalation
+
+Allows the control of how escalations are handled. This allows one to set general escalation handling settings for this workflow and thus `forms` using this workflow.
+
+> `Forms` let you override these so you can, for example, have a form `Accident` with much shorter automatic escalation dates compared to the general workflow. `Form` settings will override the workflow.
+
+The available fields.
+
+| Field | Description |
+| --- | --- |
+| `Escalation of overdue cases enabled` | Enable or disable the escalation. |
+| `Escalate after N hours overdue` | The number of hours since the last case update happened before it's considered for escalation. |
+| `Escalation strategy` | The strategy to pick to whom to escalate the case. See available strategies below. |
+| `Time of day to escalate messages` | What time of the day to escalate messages. |
+| `Number of hours for next due date after escalation` | The next due date after escalating the case to a new case handler. |
+
+The available strategies.
+
+| Strategy | Description|
+| --- | --- |
+| `Direct supervisor` | The case will be sent to the person's closest direct supervisor with permission to process cases. If there is more than one potential supervisor, one of them will be picked at random. |
 | `Time of day to send overdue emails` | Specify the time of day to send the email. For example you might overdue notices to be delivered after 9 in the morning. This is not an exact time. The email some time after the specified time depending on your email system and sending time. |
 
 #### Escalation
