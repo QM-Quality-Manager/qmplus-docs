@@ -1,5 +1,5 @@
 ---
-title: "Aktivitetsplan."
+title: "Aktivitetsplan"
 description: "En brukerveiledning for å jobbe med aktivitetsplanen."
 lead: "En brukerveiledning for å jobbe med aktivitetsplanen. Denne veiledningen vil gi deg trinnvise instruksjoner for å opprette og administrere aktivitetsplanen."
 
