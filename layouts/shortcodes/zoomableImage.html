@@ -26,21 +26,27 @@
   }
 </style>
 
-<div class="{{ $class }} zoom-container" id="{{ $id }}">
-  <img src="{{ $src }}" alt="{{ $alt }}" class="zoom-image" id="{{ $id }}-img">
-</div>
-<label class="zoom-caption">{{ $caption }}</label>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var container = document.getElementById('{{ $id }}');
-    var image = document.getElementById('{{ $id }}-img');
-    var zoomLevel = 1;
-
-    container.addEventListener('click', function() {
-      zoomLevel = (zoomLevel === 1) ? 2 : 1;
-      container.style.transform = 'scale(' + zoomLevel + ')';
-      container.style.cursor = (zoomLevel === 1) ? 'zoom-in' : 'zoom-out';
+{{ with resources.Get $src }}
+  {{ $img := .Resize "800x" }}
+  <div class="{{ $class }} zoom-container" id="{{ $id }}">
+    <img src="{{ $img.Permalink }}" alt="{{ $alt }}" class="zoom-image" id="{{ $id }}-img">
+  </div>
+  <label class="zoom-caption">{{ $caption }}</label>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var container = document.getElementById('{{ $id }}');
+      var image = document.getElementById('{{ $id }}-img');
+      var zoomLevel = 1;
+  
+      container.addEventListener('click', function() {
+        zoomLevel = (zoomLevel === 1) ? 2 : 1;
+        container.style.transform = 'scale(' + zoomLevel + ')';
+        container.style.cursor = (zoomLevel === 1) ? 'zoom-in' : 'zoom-out';
+      });
     });
-  });
-</script>
+  </script>
+  
+{{ else }}
+  <p>Error: Image not found in assets directory</p>
+{{ end }}
