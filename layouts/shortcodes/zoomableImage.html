@@ -1,0 +1,46 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+{{ $class := .Get "class" }}
+{{ $id := .Get "id" | default (printf "zoom-%s" (substr (md5 $src) 0 6)) }}
+{{ $height := .Get "height" }}
+
+<style>
+  .zoom-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: {{ $height }};
+  }
+  .zoom-image {
+    position: absolute;
+    cursor: zoom-in;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 100%;
+  }
+  .zoom-caption {
+    margin: 0.25rem 0 0.75rem;
+    font-size: 0.875em;
+    color: #6c757d;
+  }
+</style>
+
+<div class="{{ $class }} zoom-container" id="{{ $id }}">
+  <img src="{{ $src }}" alt="{{ $alt }}" class="zoom-image" id="{{ $id }}-img">
+</div>
+<label class="zoom-caption">{{ $caption }}</label>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var container = document.getElementById('{{ $id }}');
+    var image = document.getElementById('{{ $id }}-img');
+    var zoomLevel = 1;
+
+    container.addEventListener('click', function() {
+      zoomLevel = (zoomLevel === 1) ? 2 : 1;
+      container.style.transform = 'scale(' + zoomLevel + ')';
+      container.style.cursor = (zoomLevel === 1) ? 'zoom-in' : 'zoom-out';
+    });
+  });
+</script>
