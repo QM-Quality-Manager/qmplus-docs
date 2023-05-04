@@ -15,7 +15,7 @@ toc: true
 En brukertype er en samling av roller som representerer spesifikke grupperinger av tillatelser med et tilordnet navn. Eksempler på brukertyper kan være **Administrator**, **Ansatt** og **Inspektør**, der hver brukertype inneholder et sett med roller som gir brukeren tillatelser til å utføre forskjellige handlinger eller få tilgang til bestemte funksjoner på plattformen.
 
 ## Hovedadministrator-skjerm
-{{< figure src="/images/usertypes/usertype_1.png" caption="Hovedadministrator-skjerm" width="1024">}}
+{{< zoomableImage src="/images/usertypes/usertype_1.png" caption="Hovedadministrator-skjerm" width="1600" height="600px">}}
 
 Ved å klikke på `Administrator/Brukertyper` får du tilgang til listen over brukertyper.
 
@@ -36,7 +36,7 @@ Klikk på `Opprett`-knappen for å åpne dialogboksen "opprett ny brukertype".
 ## Opprett en ny brukertype
 Dialogboksen "opprett ny brukertype" lar deg opprette en ny samling av tillatelser med et tilordnet navn.
 
-{{< figure src="/images/usertypes/usertype_2.png" caption="Opprett ny brukertype-dialog" width="1024">}}
+{{< zoomableImage src="/images/usertypes/usertype_2.png" caption="Opprett ny brukertype-dialog" width="1600" height="600px">}}
 
 En ny brukertype krever følgende felt, som vist på bildet:
 
@@ -53,14 +53,14 @@ Etter å ha fylt ut feltene `Navn` og `Beskrivelse`, velg avdeling (eller la den
 >
 > [Oversikt over alle tillatelser]({{< ref "/docs/references/permissions" >}} "Oversikt over alle tillatelser")
 
-{{< figure src="/images/usertypes/usertype_3.png" caption="Konfigurer tillatelser-sidefelt" width="1024">}}
+{{< zoomableImage src="/images/usertypes/usertype_3.png" caption="Konfigurer tillatelser-sidefelt" width="1600" height="600px">}}
 
 Her kan du velge `System`- og `Egendefinerte` roller som du ønsker å legge til i brukertypen du oppretter.
 
-{{< figure src="/images/usertypes/usertype_4.png" caption="Velg roller" width="1024">}}
+{{< zoomableImage src="/images/usertypes/usertype_4.png" caption="Velg roller" width="1600" height="600px">}}
 
 Etter at du har valgt ønskede roller, klikk på knappen for å angi tillatelsene på brukertypen.
 
-{{< figure src="/images/usertypes/usertype_5.png" caption="Angi tillatelser" width="1024">}}
+{{< zoomableImage src="/images/usertypes/usertype_5.png" caption="Angi tillatelser" width="1600" height="600px">}}
 
 Til slutt, klikk på `Lagre`-knappen for å opprette brukertypen.

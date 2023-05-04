@@ -18,11 +18,11 @@ Clicking on the `questionnaires` provides access to the list of registered quest
 
 ## Questionnaire Entries List
 
-{{< figure src="/images/questionnaires_entries/questionnaires_entries_1.png" caption="List of questionnaire entries" width="1024">}}
+{{< zoomableImage src="/images/questionnaires_entries/questionnaires_entries_1.png" caption="List of questionnaire entries" width="1600" height="600px">}}
 
 The `Questionnaires` menu entry displays a list of all questionnaire entries saved in `Q`. You can filter the entries by clicking the `Filters` button.
 
-{{< figure src="/images/questionnaires_entries/questionnaires_entries_2.png" caption="Available filters" width="1024">}}
+{{< zoomableImage src="/images/questionnaires_entries/questionnaires_entries_2.png" caption="Available filters" width="1600" height="600px">}}
 
 The available filters include:
 
@@ -31,7 +31,7 @@ The available filters include:
 | `Departments` | Select the departments by which to filter the questionnaires. |
 | `Registered by` | Select the users by which to filter the questionnaires. |
 
-{{< figure src="/images/questionnaires_entries/questionnaires_entries_3.png" caption="Select visible columns" width="1024">}}
+{{< zoomableImage src="/images/questionnaires_entries/questionnaires_entries_3.png" caption="Select visible columns" width="1600" height="600px">}}
 
 Users can choose which columns should be visible in the listing.
 
@@ -44,6 +44,6 @@ Users can choose which columns should be visible in the listing.
 | `Activity Entry Range` | The date range for the activity entry range. |
 | `Created on` | The date the questionnaire entry was created. |
 
-{{< figure src="/images/questionnaires_entries/questionnaires_entries_4.png" caption="Preview of questionnaire entry" width="1024">}}
+{{< zoomableImage src="/images/questionnaires_entries/questionnaires_entries_4.png" caption="Preview of questionnaire entry" width="1600" height="600px">}}
 
 The example above shows a preview of a questionnaire entry (click on the questionnaire entry in the list to view the submitted questionnaire information).

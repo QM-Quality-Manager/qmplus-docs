@@ -29,7 +29,7 @@ Det er to typer tillatelser i systemet:
 
 ### Systemtillatelser
 
-{{< figure src="/images/user_permissions/user_permissions_1_no.png" caption="Systemtillatelser liste" width="1024">}}
+{{< zoomableImage src="/images/user_permissions/user_permissions_1_no.png" caption="Systemtillatelser liste" width="1600" height="600px">}}
 
 Bildet ovenfor viser listen over `Systemtillatelser`. Du kan filtrere disse tillatelsene for å søke etter spesifikke. `Systemtillatelser` kan ikke endres eller slettes, og de representerer alle `Applikasjonsnivå tillatelser` tilgjengelige for kontoen din. Antallet tilgjengelige tillatelser kan variere avhengig av kontraktsalternativene dine.
 
@@ -37,13 +37,13 @@ En komplett liste over `Systemtillatelser` finnes her.
 
 ### Egendefinerte tillatelser
 
-{{< figure src="/images/user_permissions/user_permissions_2_no.png" caption="Egendefinerte tillatelser liste" width="1024">}}
+{{< zoomableImage src="/images/user_permissions/user_permissions_2_no.png" caption="Egendefinerte tillatelser liste" width="1600" height="600px">}}
 
 Egendefinerte tillatelser er tillatelser som brukere kan opprette for å merke innhold, som dokumenter, eller begrense tilgang til områder som avdelinger. For eksempel kan du ha et `konfidensielt` dokument som bare to personer skal ha tilgang til. I så fall kan du opprette en `konfidensielt dokument` egendefinert tillatelse og tilordne den til dokumentet og de to brukerne du ønsker å gi tilgang til. Fravær av tillatelsen vil forhindre brukere i å få tilgang til dokumentet.
 
 ## Opprett egendefinert tillatelse
 
-{{< figure src="/images/user_permissions/user_permissions_3_no.png" caption="Opprett ny egendefinert tillatelse-visning" width="1024">}}
+{{< zoomableImage src="/images/user_permissions/user_permissions_3_no.png" caption="Opprett ny egendefinert tillatelse-visning" width="1600" height="600px">}}
 
 Når du oppretter en egendefinert tillatelse, må du oppgi:
 

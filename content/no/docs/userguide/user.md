@@ -17,7 +17,7 @@ Denne delen omhandler administrasjon av brukere i systemet.
 Ved å klikke på `Administrator/Bruker` får du tilgang til listen over brukere.
 
 ## Brukerliste
-{{< figure src="/images/users/user_1.png" caption="Oversikt over brukerliste" width="1024">}}
+{{< zoomableImage src="/images/users/user_1.png" caption="Oversikt over brukerliste" width="1600" height="600px">}}
 
 Brukerlisten viser deg alle tilgjengelige brukere i systemet. I denne visningen kan du velge mellom å se de **aktive**, **inaktive** og **alle** brukerne.
 
@@ -25,7 +25,7 @@ Søkefeltet lar deg gjøre et fritekstsøk for å filtrere brukerne du ser etter
 
 Ved å klikke på filterknappen kan du begrense søket enda mer, som vist nedenfor.
 
-{{< figure src="/images/users/user_13.png" caption="Filtrer brukere" width="1024">}}
+{{< zoomableImage src="/images/users/user_13.png" caption="Filtrer brukere" width="1600" height="600px">}}
 
 Alternativene for filtrering er som følger.
 
@@ -37,13 +37,13 @@ Alternativene for filtrering er som følger.
 
 Alle disse filtrene kan kombineres for å begrense søket enda mer.
 
-{{< figure src="/images/users/user_12.png" caption="Ny arbeidsflytdialog" width="1024">}}
+{{< zoomableImage src="/images/users/user_12.png" caption="Ny arbeidsflytdialog" width="1600" height="600px">}}
 
 ## Opprett bruker
 
 ### Generelle innstillinger
 
-{{< figure src="/images/users/user_4.png" caption="Ny arbeidsflytdialog" width="1024">}}
+{{< zoomableImage src="/images/users/user_4.png" caption="Ny arbeidsflytdialog" width="1600" height="600px">}}
 
 Dialogen for å opprette brukere lar oss lage nye brukere i systemet og angi brukertypene deres samt egendefinerte tillatelser. Til slutt kan vi justere varslingsinnstillingene.
 
@@ -68,19 +68,19 @@ Når disse feltene er fylt ut, må vi tilordne minst én `avdeling` og `brukerty
 
 Vi kan endre avataren for brukeren ved å klikke på `avatar`-sirkelen. Alternativene her er å endre bakgrunnsfargen, laste opp et bilde eller ta et bilde med webkameraet.
 
-{{< figure src="/images/users/user_10.png" caption="Velg farge på avatar eller last opp/webkamera" width="1024">}}
+{{< zoomableImage src="/images/users/user_10.png" caption="Velg farge på avatar eller last opp/webkamera" width="1600" height="600px">}}
 
 Nedenfor kan vi se dialogen der vi kan laste opp et bilde eller bruke webkameraet (krever at brukeren gir tillatelser for å få tilgang til kameraet).
 
-{{< figure src="/images/users/user_11.png" caption="Last opp bilde eller ta webkamera-bilde" width="1024">}}
+{{< zoomableImage src="/images/users/user_11.png" caption="Last opp bilde eller ta webkamera-bilde" width="1600" height="600px">}}
 
 Når du har lastet opp et bilde eller tatt et bilde med webkameraet, kan du justere opptaksområdet og angi resultatet.
 
-{{< figure src="/images/users/user_15.png" caption="Juster avatarbilde" width="1024">}}
+{{< zoomableImage src="/images/users/user_15.png" caption="Juster avatarbilde" width="1600" height="600px">}}
 
 ### Avdeling og brukertyper
 
-{{< figure src="/images/users/user_5.png" caption="Avdelings- og brukertypevisning" width="1024">}}
+{{< zoomableImage src="/images/users/user_5.png" caption="Avdelings- og brukertypevisning" width="1600" height="600px">}}
 
 Hver bruker må ha minst én `avdeling` og `brukertype`-kombinasjon lagt til. En bruker kan ha flere kombinasjoner av `avdeling` og `brukertype`, men ingen dupliserte roller.
 
@@ -89,27 +89,27 @@ Hver bruker må ha minst én `avdeling` og `brukertype`-kombinasjon lagt til. En
 > For toppavdelingen kan de være en `administrator`.
 > Samtidig er de en `ansatt` i en annen avdeling.
 
-{{< figure src="/images/users/user_7.png" caption="Velg avdeling" width="1024">}}
+{{< zoomableImage src="/images/users/user_7.png" caption="Velg avdeling" width="1600" height="600px">}}
 
-{{< figure src="/images/users/user_8.png" caption="Velg brukertype" width="1024">}}
+{{< zoomableImage src="/images/users/user_8.png" caption="Velg brukertype" width="1600" height="600px">}}
 
 Effekten av å ha flere kombinasjoner av `avdeling` og `brukertype` vil føre til en dialog når du logger inn, slik at du kan velge hvilken kombinasjon
 du skal logge inn som.
 
-{{< figure src="/images/users/user_14.png" caption="Endre avdeling og brukertype" width="1024">}}
+{{< zoomableImage src="/images/users/user_14.png" caption="Endre avdeling og brukertype" width="1600" height="600px">}}
 
 Du får også tilgang til å endre avdeling/brukertype-kombinasjonen i en rullegardinmeny øverst til høyre. Ved å klikke på en av kombinasjonene, vil visningen din
 av applikasjonen endres, og lar deg bytte fra for eksempel en `ansatt`-visning av organisasjonen til en `administrator`-visning.
 
 ### Egendefinerte tillatelser/roller
 
-{{< figure src="/images/users/user_9.png" caption="Egendefinerte tillatelser/roller" width="1024">}}
+{{< zoomableImage src="/images/users/user_9.png" caption="Egendefinerte tillatelser/roller" width="1600" height="600px">}}
 
 I tillegg til å sette kombinasjoner av `avdeling` og `brukertype`, kan du også legge til brukerspesifikke tillatelser/roller. Dette lar deg kontrollere tillatelsene til en bestemt bruker på en finmasket måte, ved å bruke brukertypen som utgangspunkt.
 
 ### Varsler
 
-{{< figure src="/images/users/user_6.png" caption="Varslingsfanen" width="1024">}}
+{{< zoomableImage src="/images/users/user_6.png" caption="Varslingsfanen" width="1600" height="600px">}}
 
 I varslingsfanen kan du angi varslingsinnstillingene for brukeren.
 
@@ -117,7 +117,7 @@ I varslingsfanen kan du angi varslingsinnstillingene for brukeren.
 
 ### Listevisning
 
-{{< figure src="/images/users/user_2.png" caption="Erstatningsliste" width="1024">}}
+{{< zoomableImage src="/images/users/user_2.png" caption="Erstatningsliste" width="1600" height="600px">}}
 
 Fanen `Brukererstatninger` lar oss opprette `erstatninger` for ansatte, slik at vi kan delegere ansvar til andre brukere for en bestemt tidsperiode.
 
@@ -134,7 +134,7 @@ Dette lar oss vite hvem som blir erstattet, hvem som erstatter personen, hvilken
 
 ### Opprett erstatning
 
-{{< figure src="/images/users/user_3.png" caption="Ny arbeidsflytdialog" width="1024">}}
+{{< zoomableImage src="/images/users/user_3.png" caption="Ny arbeidsflytdialog" width="1600" height="600px">}}
 
 Vi kan enkelt opprette erstatninger av en bruker med en annen. Først velger du brukeren som skal erstattes. Dette vil deretter vise deg listen over deres `avdeling` og `brukertype`. Velg hvilken kombinasjon du ønsker å erstatte. Velg deretter den `erstattende` brukeren og angi perioden `erstatningen` gjelder. Til slutt klikker du `Lagre` for å opprette erstatningsregelen.
 

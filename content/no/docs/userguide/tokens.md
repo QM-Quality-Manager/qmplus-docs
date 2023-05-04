@@ -18,9 +18,9 @@ Klikk på `Administrator/Tokens` gir tilgang til listen over tokens.
 
 ## Tokenoversikt
 
-{{< figure src="/images/tokens/tokens_3_no.png" caption="Oppføring av API-tokens" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_3_no.png" caption="Oppføring av API-tokens" width="1600" height="600px">}}
 
-{{< figure src="/images/tokens/tokens_5_no.png" caption="Mobilbrukere pålogget oppføring" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_5_no.png" caption="Mobilbrukere pålogget oppføring" width="1600" height="600px">}}
 
 Det er to hovedtyper tokens i systemet.
 
@@ -33,7 +33,7 @@ Det er to hovedtyper tokens i systemet.
 
 ## Slette Tokens
 
-{{< figure src="/images/tokens/tokens_7_no.png" caption="Slette flere mobile brukertokens, tilbakekalle tilgang" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_7_no.png" caption="Slette flere mobile brukertokens, tilbakekalle tilgang" width="1600" height="600px">}}
 
 Tokens kan også slettes for å tilbakekalle tilgang for både `API Tokens` og `Mobile Users Logged In`. Du kan slette dem enkeltvis eller bruke avkrysningsboksen på venstre side for å velge flere oppføringer å slette samtidig.
 
@@ -41,7 +41,7 @@ Tokens kan også slettes for å tilbakekalle tilgang for både `API Tokens` og `
 
 Å klikke på en Token viser informasjon om token. Denne skjermen er forskjellig avhengig av om det er en `API Token` eller `Mobile Users Logged In Token`.
 
-{{< figure src="/images/tokens/tokens_6_no.png" caption="Mobile Users Logged In Token View" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_6_no.png" caption="Mobile Users Logged In Token View" width="1600" height="600px">}}
 
 Når du velger en `Mobile User Token`, vises følgende informasjon.
 
@@ -54,7 +54,7 @@ Når du velger en `Mobile User Token`, vises følgende informasjon.
 | `Sist aktiv` | Siste gang brukeren var aktiv. |
 | `Utløpsdato` | Gjeldende utløpsdato for token. |
 
-{{< figure src="/images/tokens/tokens_2_no.png" caption="API-tokenvisning" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_2_no.png" caption="API-tokenvisning" width="1600" height="600px">}}
 
 `API Token`-visningen er litt forskjellig, fordi det forventes at du vil trenge tilgang til selve token.
 
@@ -70,7 +70,7 @@ Når du velger en `Mobile User Token`, vises følgende informasjon.
 
 ## Opprette en ny API-token
 
-{{< figure src="/images/tokens/tokens_1_no.png" caption="Oprette ny token" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_1_no.png" caption="Oprette ny token" width="1600" height="600px">}}
 
 Du kan opprette nye `API Tokens` for integrasjon. Følgende felt må fylles ut.
 

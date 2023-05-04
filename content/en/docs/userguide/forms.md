@@ -16,11 +16,11 @@ This section deals with managing forms in the system. Access the list of forms b
 
 ## Forms Listing
 
-{{< figure src="/images/forms/forms_1.png" caption="List of all current forms" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_1.png" caption="List of all current forms" width="1600" height="600px">}}
 
 The Forms Listing displays all forms registered in the system. You can filter by `Active`, `Inactive`, and `All` forms, as well as search by text. For more filtering options, click the apply filter button to access the sidebar.
 
-{{< figure src="/images/forms/forms_9.png" caption="Filter form list" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_9.png" caption="Filter form list" width="1600" height="600px">}}
 
 The following filters are available for the forms listing:
 
@@ -31,7 +31,7 @@ The following filters are available for the forms listing:
 
 ## Creating a New Form
 
-{{< figure src="/images/forms/forms_2.png" caption="Creating a new form" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_2.png" caption="Creating a new form" width="1600" height="600px">}}
 
 To create a new form, provide the following information:
 
@@ -53,11 +53,11 @@ After specifying the required fields and any additional information, you can cre
 
 ## Building a Form
 
-{{< figure src="/images/forms/forms_4.png" caption="Building a form" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_4.png" caption="Building a form" width="1600" height="600px">}}
 
 The `Layout Tab` allows you to start building the `Form` using various components. Click `Create New Item` to access a pop-up menu listing the available components.
 
-{{< figure src="/images/forms/forms_7.png" caption="Available components" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_7.png" caption="Available components" width="1600" height="600px">}}
 
 The components you can add to the form are:
 
@@ -89,7 +89,7 @@ A form can have a single, double, or triple column layout.
 
 ### Configuring a Category Component
 
-{{< figure src="/images/forms/forms_8.png" caption="Configuring a category component" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_8.png" caption="Configuring a category component" width="1600" height="600px">}}
 
 A category group offers several configuration options:
 
@@ -119,7 +119,7 @@ The available render types for category components are:
 
 ### Configuring a Text Element
 
-{{< figure src="/images/forms/forms_12.png" caption="Configuring a text element" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_12.png" caption="Configuring a text element" width="1600" height="600px">}}
 
 A text element has several configuration options:
 
@@ -137,7 +137,7 @@ A text element has several configuration options:
 
 ## Form Preview
 
-{{< figure src="/images/forms/forms_5.png" caption="Form preview" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_5.png" caption="Form preview" width="1600" height="600px">}}
 
 The Form Preview feature allows you to test how the form behaves.
 
@@ -148,13 +148,13 @@ The Form Preview feature allows you to test how the form behaves.
 
 > To see how the form will render in different departments, click on the department at the top right corner and change the department.
 
-{{< figure src="/images/forms/forms_6.png" caption="Changing department view" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_6.png" caption="Changing department view" width="1600" height="600px">}}
 
 ## Processing Settings
 
 The Processing tab contains settings to set default case deadlines and escalations for this particular form. If set, these settings will override any specifications at the workflow level.
 
-{{< figure src="/images/forms/forms_3.png" caption="Processing settings" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_3.png" caption="Processing settings" width="1600" height="600px">}}
 
 ### Due Dates
 

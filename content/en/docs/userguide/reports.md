@@ -29,26 +29,26 @@ There are two categories of reports in the system.
 
 ## Case Report List
 
-{{< figure src="/images/reports/reports_1.png" caption="Case report list" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_1.png" caption="Case report list" width="1600" height="600px">}}
 
 Clicking the `Case Report` link brings you to the list of `Case Reports` in the system.
 
 ### Preview
-{{< figure src="/images/reports/reports_2.png" caption="Case report preview" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_2.png" caption="Case report preview" width="1600" height="600px">}}
 
 Clicking on the `Preview` (eye symbol) in the list will bring up a preview of the report in read-only mode.
 
-{{< figure src="/images/reports/reports_15.png" caption="Zoom into results" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_15.png" caption="Zoom into results" width="1600" height="600px">}}
 
 Clicking on the `Zoom into results` icon will display the complete list of all the data associated with the graph component, allowing you to explore the cases that make up the data.
 
-{{< figure src="/images/reports/reports_16.png" caption="Graph segment details" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_16.png" caption="Graph segment details" width="1600" height="600px">}}
 
 Clicking on one of the segments of the bar graph will zoom in and show only the cases that make up that bar.
 
 ### Editing Report
 
-{{< figure src="/images/reports/reports_3.png" caption="Editing report" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_3.png" caption="Editing report" width="1600" height="600px">}}
 
 When editing or creating a new report, you need to provide a `Report name` before saving. You can also set a description for the report and add tags to group reports by keywords.
 
@@ -64,7 +64,7 @@ There are two main report types.
 DONE
 ---------------------------------------------------------------------------------------------------------
 
-{{< figure src="/images/reports/reports_4.png" caption="General chart options" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_4.png" caption="General chart options" width="1600" height="600px">}}
 
 When editing or adding a new Element to a report, you have the following options for a `General Chart`.
 
@@ -76,11 +76,11 @@ When editing or adding a new Element to a report, you have the following options
 | `Group by` | Select the field to group by. |
 | `Stack by` | Select a field to stack by. `Status`, `Priority`, `Category`, `Category group`, or `Form`. The available fields will depend on the `Case type` selected. |
 
-{{< figure src="/images/reports/reports_6.png" caption="Editing filters" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_6.png" caption="Editing filters" width="1600" height="600px">}}
 
 Editing the filters will bring up a sidebar where the user can modify the filters used to slice and dice the data for the graph.
 
-{{< figure src="/images/reports/reports_7.png" caption="Predefined charts" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_7.png" caption="Predefined charts" width="1600" height="600px">}}
 
 If you select the `Predefined charts` option from the `Report Type` dropdown, you will see a form like above. Depending on the type of `Predefined chart`, the user will have options available to tweak the results of the report element. The available `Predefined charts` are:
 
@@ -105,7 +105,7 @@ DONE
 
 ## Risk Report List
 
-{{< figure src="/images/reports/reports_9.png" caption="Risk Report List" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_9.png" caption="Risk Report List" width="1600" height="600px">}}
 
 Clicking the `Risk Report` link brings you to the list of `Risk Reports` in the system. Risk reports are reports that report against a specified `Risk model`, allowing us to drill into `Messages` that have risk category groups associated with them.
 
@@ -113,19 +113,19 @@ Clicking on the `Preview` button of a `Risk Report` will bring up the preview of
 
 ### Preview
 
-{{< figure src="/images/reports/reports_8.png" caption="Risk Report Preview" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_8.png" caption="Risk Report Preview" width="1600" height="600px">}}
 
 Clicking on the boxes in the rendered risk model takes you directly to the cases associated with the factors of the risk model, allowing you to investigate the associated cases within the specific report.
 
 ### Editing Report
 
-{{< figure src="/images/reports/reports_11.png" caption="Editing Risk Report" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_11.png" caption="Editing Risk Report" width="1600" height="600px">}}
 
 When editing or creating a new report, you need to provide a `Report name` before saving. You can also set a description for the report as well as add tags to group reports by keywords.
 
 Adding elements to the graph lets you build a graph representing multiple risk analysis components.
 
-{{< figure src="/images/reports/reports_13.png" caption="Add Risk Element: Risk Model" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_13.png" caption="Add Risk Element: Risk Model" width="1600" height="600px">}}
 
 Looking at the `Add Risk element` interface, we can see the following options when the `Graph / Risk model toggle` is set to `Risk model`.
 
@@ -135,7 +135,7 @@ Looking at the `Add Risk element` interface, we can see the following options wh
 | `Edit filters` | Adjust the filters to filter down the results. |
 | `Risk model` | Select the risk model to use for the graph. |
 
-{{< figure src="/images/reports/reports_14.png" caption="Add Risk Element: Graph" width="1024">}}
+{{< zoomableImage src="/images/reports/reports_14.png" caption="Add Risk Element: Graph" width="1600" height="600px">}}
 
 Looking at the `Add Risk element` interface, we can see the following options when the `Graph / Risk model toggle` is set to `Graph`.
 

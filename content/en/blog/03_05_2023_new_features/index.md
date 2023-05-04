@@ -27,7 +27,7 @@ Lets look at the new features in turn.
 
 Task templates is a powerful new feature that lets you associate commonly repeating tasks with a form or new direct case.
 
-{{< zoomableImage src="/images/blog/03_05_2023_image_3.png" caption="An example tasks template" width="1024" height="600px">}}
+{{< zoomableImage src="/images/blog/03_05_2023_image_3.png" caption="An example tasks template" width="1600" height="600px">}}
 
 In short you can create a list of tasks that will be added to a `Case` when a new form entry is registered. Individual tasks can be configured to only be added when certain categories are selected by the user. This lets you add additional tasks depending on the entry of the form
 
@@ -39,13 +39,13 @@ In short you can create a list of tasks that will be added to a `Case` when a ne
 
 ## Direct caseboard cases
 
-{{< zoomableImage src="/images/blog/03_05_2023_image_1.png" caption="Overview of caseboard with new case button" width="1024" height="600px">}}
+{{< zoomableImage src="/images/blog/03_05_2023_image_1.png" caption="Overview of caseboard with new case button" width="1600" height="600px">}}
 
 The direct caseboard case feature adds a new button at the top right corner off the `Caseboard` that says `New Case` that lets you add a new case directly to the caseboard. This case is not associated with any entity and is completely freestanding.
 
 > We added these cases to make it possible to mix in units of work not directly associated with entry of data into the system or managing existing entities such as Messages, Actions, Documents, Hearings and Audit. This gives the end user more flexibility.
 
-{{< zoomableImage src="/images/blog/03_05_2023_image_2.png" caption="Create a new case" width="1024" height="600px">}}
+{{< zoomableImage src="/images/blog/03_05_2023_image_2.png" caption="Create a new case" width="1600" height="600px">}}
 
 After clicking on the `New Case` button it will bring up a dialog with a couple of fields.
 
@@ -57,7 +57,7 @@ After clicking on the `New Case` button it will bring up a dialog with a couple 
 
 ## Dynamic notifications
 
-{{< zoomableImage src="/images/blog/03_05_2023_image_4.png" caption="Notifications" width="1024" height="600px">}}
+{{< zoomableImage src="/images/blog/03_05_2023_image_4.png" caption="Notifications" width="1600" height="600px">}}
 
 Dynamic notifications brings direct notifications relevant to the current logged in user. This can include.
 
@@ -68,6 +68,6 @@ Dynamic notifications brings direct notifications relevant to the current logged
 
 The little bell icon will have a counter of the number of unread notifications. Clicking on it brings up the notification sidebar allowing you to view the current notifications.
 
-{{< zoomableImage src="/images/blog/03_05_2023_image_5.png" caption="Notification sidebar" width="1024" height="600px">}}
+{{< zoomableImage src="/images/blog/03_05_2023_image_5.png" caption="Notification sidebar" width="1600" height="600px">}}
 
 You can click on the `Open case` link to bring you to the associated case for the notification.

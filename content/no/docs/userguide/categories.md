@@ -24,17 +24,17 @@ Det er viktig å merke seg at alle `Kategorigrupper` er versjonert. Dette gjør 
 
 ## Liste over kategorigrupper
 
-{{< figure src="/images/category_groups/category_group_10_no.png" caption="Listevisning av kategorigrupper" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_10_no.png" caption="Listevisning av kategorigrupper" width="1600" height="600px">}}
 
 Listevisningen av kategorigrupper lar deg se alle kategorigruppene i systemet og filtrere dem etter flere parametere, inkludert kategorigruppens navn og synlighet.
 
-{{< figure src="/images/category_groups/category_group_1_no.png" caption="Tilgang til filtre for kategorigruppelisten" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_1_no.png" caption="Tilgang til filtre for kategorigruppelisten" width="1600" height="600px">}}
 
 For å få tilgang til ytterligere filtre, klikk på filterknappen og velg alternativer fra sidepanelet.
 
 ## Opprett kategorigruppe
 
-{{< figure src="/images/category_groups/category_group_9_no.png" caption="Oppretting av en ny kategorigruppe" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_9_no.png" caption="Oppretting av en ny kategorigruppe" width="1600" height="600px">}}
 
 Når du oppretter en kategorigruppe, har du følgende felter tilgjengelig:
 
@@ -62,23 +62,23 @@ Når du oppretter en kategorigruppe, har du følgende felter tilgjengelig:
 
 Klikk på `Set risk model`-knappen for å vise sidepanelet der du kan velge den tilknyttede risikomodellen.
 
-{{< figure src="/images/category_groups/category_group_11_no.png" caption="Klikk på knappen for å velge en risikomodell" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_11_no.png" caption="Klikk på knappen for å velge en risikomodell" width="1600" height="600px">}}
 
 Herfra kan du velge risikomodellen du vil bruke sammen med kategorigruppen.
 
-{{< figure src="/images/category_groups/category_group_5_no.png" caption="Velg risikomodellen" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_5_no.png" caption="Velg risikomodellen" width="1600" height="600px">}}
 
 Til slutt kan du velge et `referansedokument` som du ønsker å inkludere som en referanse i kategorigruppen.
 
 ### Legg til og rediger kategorigruppe
 
-{{< figure src="/images/category_groups/category_group_8_no.png" caption="Oppretting av underkategorigruppe" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_8_no.png" caption="Oppretting av underkategorigruppe" width="1600" height="600px">}}
 
 For å opprette en `Underkategorigruppe` må du angi et navn for kategorigruppen. En valgfri beskrivelse kan også legges til. Til slutt kan du legge ved et referansedokument for `Underkategorigruppen`, som vil vises i skjemaer når undergruppen gjengis.
 
 ### Legg til og rediger kategori
 
-{{< figure src="/images/category_groups/category_group_7_no.png" caption="Oppretting av ny kategori" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_7_no.png" caption="Oppretting av ny kategori" width="1600" height="600px">}}
 
 Når du legger til en kategori i kategorigruppen, må følgende felter fylles ut:
 
@@ -94,13 +94,13 @@ Når du legger til en kategori i kategorigruppen, må følgende felter fylles ut
 
 Til slutt, klikk på `Lagre endringer`-knappen for å lagre den nye kategorien i kategorigruppen.
 
-{{< figure src="/images/category_groups/category_group_3_no.png" caption="Redigere en eksisterende kategori" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_3_no.png" caption="Redigere en eksisterende kategori" width="1600" height="600px">}}
 
 Du kan også redigere en eksisterende kategori, akkurat som når du oppretter en ny.
 
 ### Organisere struktur
 
-{{< figure src="/images/category_groups/category_group_6_no.png" caption="Organisering av kategorigruppen" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_6_no.png" caption="Organisering av kategorigruppen" width="1600" height="600px">}}
 
 For å organisere strukturen i kategorigruppen kan du dra elementer til ønsket rekkefølge.
 
@@ -108,12 +108,12 @@ For å organisere strukturen i kategorigruppen kan du dra elementer til ønsket 
 
 Du kan også redigere, se kategoridetaljer eller slette kategorier/underkategorigrupper.
 
-{{< figure src="/images/category_groups/category_group_4_no.png" caption="Se detaljer om en kategori" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_4_no.png" caption="Se detaljer om en kategori" width="1600" height="600px">}}
 
 Dette er visningen når du klikker på `se kategoridetaljer`.
 
 ### Referanser
 
-{{< figure src="/images/category_groups/category_group_2_no.png" caption="Legge til referanser i kategorigruppe" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_2_no.png" caption="Legge til referanser i kategorigruppe" width="1600" height="600px">}}
 
 Referanser lar deg legge ved lenker til interne dokumenter som inneholder relevant informasjon om en bestemt kategorigruppe, kategori eller underkategorigruppe. Eksempler på dette inkluderer lenker til lover eller instruksjoner knyttet til en gitt oppføring.

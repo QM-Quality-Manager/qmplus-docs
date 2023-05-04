@@ -20,13 +20,13 @@ Ved å klikke på `Administrator/Skjematyper` får du tilgang til listen over sk
 
 ## Liste over skjematyper
 
-{{< figure src="/images/form_types/form_types_1_no.png" caption="Liste over skjematyper" width="1024">}}
+{{< zoomableImage src="/images/form_types/form_types_1_no.png" caption="Liste over skjematyper" width="1600" height="600px">}}
 
 Du kan filtrere skjematyper etter status som `Aktiv` eller `Inaktiv` eller vise `Alle` sammen. Klikk på knappen til høyre for hver skjematype for å `Aktivere` eller `Deaktivere` en bestemt skjematype. I tillegg kan du opprette en ny `Skjematype` ved å klikke på `Opprett`-knappen.
 
 ### Opprette en ny skjematype
 
-{{< figure src="/images/form_types/form_types_2_no.png" caption="Opprette en ny skjematype" width="1024">}}
+{{< zoomableImage src="/images/form_types/form_types_2_no.png" caption="Opprette en ny skjematype" width="1600" height="600px">}}
 
 En skjematype lar deg håndtere et sett med forventninger for skjemaer basert på denne spesifikke `Skjematype`. For å opprette en, må du oppgi følgende alternativer:
 

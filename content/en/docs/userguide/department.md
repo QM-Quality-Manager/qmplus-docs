@@ -18,7 +18,7 @@ To access the list of departments, click on the `Administrator/Department` tab.
 
 ## Departments List
 
-{{< figure src="/images/departments/department_1.png" caption="Department list overview" width="1024">}}
+{{< zoomableImage src="/images/departments/department_1.png" caption="Department list overview" width="1600" height="600px">}}
 
 The department list displays child departments for the currently selected parent department. You can filter the view by department status, such as `Active`, `Inactive`, or `All`.
 
@@ -26,17 +26,17 @@ To create a new department that serves as a child department of the currently se
 
 Note that you can also add permissions/roles to a department, restricting access to only those users with the appropriate user types or roles directly assigned to them.
 
-{{< figure src="/images/departments/department_3.png" caption="User list overview" width="1024">}}
+{{< zoomableImage src="/images/departments/department_3.png" caption="User list overview" width="1600" height="600px">}}
 
 By clicking on the configure permissions link, you can open the permissions side panel to select and assign permissions to the currently selected department.
 
 ## Create Department
 
-{{< figure src="/images/departments/department_2.png" caption="Create Department window" width="1024">}}
+{{< zoomableImage src="/images/departments/department_2.png" caption="Create Department window" width="1600" height="600px">}}
 
 To create a new department, you must provide a `Department Name`. You can also assign permissions to limit access to the department for users with specific roles.
 
-{{< figure src="/images/departments/department_3.png" caption="User list overview" width="1024">}}
+{{< zoomableImage src="/images/departments/department_3.png" caption="User list overview" width="1600" height="600px">}}
 
 Once again, clicking on the `configure permissions` link will open the permissions side panel. From here, you can select and assign the necessary permissions to the new department, effectively defining user access and management capabilities.
 

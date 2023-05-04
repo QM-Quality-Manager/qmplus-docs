@@ -16,11 +16,11 @@ Denne seksjonen handler om å håndtere skjemaer i systemet. Få tilgang til lis
 
 ## Skjemaliste
 
-{{< figure src="/images/forms/forms_1_no.png" caption="Liste over alle gjeldende skjemaer" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_1_no.png" caption="Liste over alle gjeldende skjemaer" width="1600" height="600px">}}
 
 Skjemalisten viser alle skjemaer registrert i systemet. Du kan filtrere etter `Aktive`, `Inaktive` og `Alle` skjemaer, samt søke etter tekst. For flere filtreringsalternativer, klikk på bruk filter-knappen for å få tilgang til sidepanelet.
 
-{{< figure src="/images/forms/forms_9_no.png" caption="Filtrere skjemaliste" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_9_no.png" caption="Filtrere skjemaliste" width="1600" height="600px">}}
 
 Følgende filtre er tilgjengelige for skjemalistingen:
 
@@ -31,7 +31,7 @@ Følgende filtre er tilgjengelige for skjemalistingen:
 
 ## Opprette et nytt skjema
 
-{{< figure src="/images/forms/forms_2_no.png" caption="Opprette et nytt skjema" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_2_no.png" caption="Opprette et nytt skjema" width="1600" height="600px">}}
 
 For å opprette et nytt skjema, oppgi følgende informasjon:
 
@@ -55,11 +55,11 @@ DONE
 ----------------------------------------------------------------------------------------------------------
 ## Bygge et skjema
 
-{{< figure src="/images/forms/forms_4_no.png" caption="Bygge et skjema" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_4_no.png" caption="Bygge et skjema" width="1600" height="600px">}}
 
 `Layout-fanen` lar deg begynne å bygge `Skjemaet` ved hjelp av ulike komponenter. Klikk på `Opprett nytt element` for å få tilgang til en popup-meny med tilgjengelige komponenter.
 
-{{< figure src="/images/forms/forms_7_no.png" caption="Tilgjengelige komponenter" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_7_no.png" caption="Tilgjengelige komponenter" width="1600" height="600px">}}
 
 Komponentene du kan legge til i skjemaet er:
 
@@ -91,7 +91,7 @@ Et skjema kan ha en enkelt, dobbel eller tredobbelt kolonneoppsett.
 
 ### Konfigurere en kategorikomponent
 
-{{< figure src="/images/forms/forms_8_no.png" caption="Konfigurere en kategorikomponent" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_8_no.png" caption="Konfigurere en kategorikomponent" width="1600" height="600px">}}
 
 En kategorigruppe tilbyr flere konfigurasjonsalternativer:
 
@@ -121,7 +121,7 @@ De tilgjengelige render-typene for kategorikomponenter er:
 
 ### Konfigurering av et tekstelement
 
-{{< figure src="/images/forms/forms_12_no.png" caption="Konfigurering av et tekstelement" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_12_no.png" caption="Konfigurering av et tekstelement" width="1600" height="600px">}}
 
 Et tekstelement har flere konfigurasjonsalternativer:
 
@@ -139,7 +139,7 @@ Et tekstelement har flere konfigurasjonsalternativer:
 
 ## Forhåndsvisning av skjema
 
-{{< figure src="/images/forms/forms_5_no.png" caption="Forhåndsvisning av skjema" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_5_no.png" caption="Forhåndsvisning av skjema" width="1600" height="600px">}}
 
 Funksjonen for forhåndsvisning av skjema lar deg teste hvordan skjemaet oppfører seg.
 
@@ -150,13 +150,13 @@ Funksjonen for forhåndsvisning av skjema lar deg teste hvordan skjemaet oppfør
 
 > For å se hvordan skjemaet vil bli gjengitt i forskjellige avdelinger, klikk på avdelingen øverst til høyre og endre avdelingen.
 
-{{< figure src="/images/forms/forms_6_no.png" caption="Endre avdelingsvisning" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_6_no.png" caption="Endre avdelingsvisning" width="1600" height="600px">}}
 
 ## Behandlingsinnstillinger
 
 Behandlingsfanen inneholder innstillinger for å angi standard saksfrister og eskaleringer for dette bestemte skjemaet. Hvis de er angitt, vil disse innstillingene overstyre eventuelle spesifikasjoner på arbeidsflytnivå.
 
-{{< figure src="/images/forms/forms_3_no.png" caption="Behandlingsinnstillinger" width="1024">}}
+{{< zoomableImage src="/images/forms/forms_3_no.png" caption="Behandlingsinnstillinger" width="1600" height="600px">}}
 
 ### Forfallsdatoer
 

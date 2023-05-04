@@ -18,7 +18,7 @@ By clicking on `Administrator/Workflows`, you gain access to the list of workflo
 
 ## Workflows List
 
-{{< figure src="/images/workflows/workflows_1.png" caption="Workflow list" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_1.png" caption="Workflow list" width="1600" height="600px">}}
 
 The Workflows list overview allows you to see all workflows defined in the system. Workflows are global and shared by all departments within the organization.
 
@@ -26,7 +26,7 @@ Workflows can be activated and deactivated as needed. This does not affect exist
 
 ## Create Workflow
 
-{{< figure src="/images/workflows/workflows_2.png" caption="Create a workflow" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_2.png" caption="Create a workflow" width="1600" height="600px">}}
 
 There are four tabs to consider when creating a new workflow.
 
@@ -41,7 +41,7 @@ There are four tabs to consider when creating a new workflow.
 
 The general page allows us to fill out the following fields.
 
-{{< figure src="/images/workflows/workflows_12.png" caption="General tab" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_12.png" caption="General tab" width="1600" height="600px">}}
 
 | Field | Description |
 | --- | --- |
@@ -56,7 +56,7 @@ The general page allows us to fill out the following fields.
 
 ### Table Tab
 
-{{< figure src="/images/workflows/workflows_3.png" caption="Table tab" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_3.png" caption="Table tab" width="1600" height="600px">}}
 
 The Table Tab allows us to build and modify the workflow entities. There are three types of available entities.
 
@@ -72,7 +72,7 @@ DONE
 
 ### Create Status
 
-{{< figure src="/images/workflows/workflows_4.png" caption="Create new workflow status" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_4.png" caption="Create new workflow status" width="1600" height="600px">}}
 
 To create a new `Case status`, you need to enter the following fields.
 
@@ -95,7 +95,7 @@ The possible `Status Groups` are detailed below.
 
 ### Create Transitions
 
-{{< figure src="/images/workflows/workflows_5.png" caption="Create workflow transition" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_5.png" caption="Create workflow transition" width="1600" height="600px">}}
 
 A transition represents a change between two statuses (for example, you might move a case from `New` status to `Being worked on` status).
 
@@ -118,7 +118,7 @@ We have the following fields when creating a transition.
 
 ### Create Dialog
 
-{{< figure src="/images/workflows/workflows_6.png" caption="Create workflow dialog" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_6.png" caption="Create workflow dialog" width="1600" height="600px">}}
 
 A dialog represents a set of fields configurable by the end user to collect information or trigger actions on a change of status for a case (a transition). Dialogs are attached to transitions.
 
@@ -148,17 +148,17 @@ As you can see, there is a sizable selection of field types. Let's examine each 
 | `Acknowledgement` | Yes | Lets the user acknowledge that specific users performed their tasks. |
 | `Task Assignment Setup` | Yes | Allows the user to create tasks of a specific type when transitioning between statuses. One can also control if one wants to collect a `Due date`, `Planned hours`, and `Planned start date`. |
 
-{{< figure src="/images/workflows/workflows_11.png" caption="Adding fields to dialog" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_11.png" caption="Adding fields to dialog" width="1600" height="600px">}}
 
 You can add fields to the dialog, seeing the preview of the dialog on the left-hand side. Once you have specified all the fields, you can click the `Save Changes` button at the bottom right to save the changes to the workflow.
 
 ### Graph Tab
 
-{{< figure src="/images/workflows/workflows_7.png" caption="Graph tab" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_7.png" caption="Graph tab" width="1600" height="600px">}}
 
 The `Graph Tab` shows a graphical representation of the workflow. Each box represents a `Case Status` in the workflow, and each line between the `Case Statuses` represents a transition between two states. The above workflow is very simple; below is a more complex workflow example.
 
-{{< figure src="/images/workflows/workflows_10.png" caption="Example graph" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_10.png" caption="Example graph" width="1600" height="600px">}}
 
 > Use the `Graph Tab` to validate your workflow and ensure you did not miss any transitions. A `Case Status` without any transitions is a typical signal that one might have missed a transition or that the `Case Status` is not needed.
 
@@ -166,7 +166,7 @@ The `Graph Tab` shows a graphical representation of the workflow. Each box repre
 
 The processing tab contains settings to set defaults for case deadlines and escalations for all form types and forms associated with this particular workflow.
 
-{{< figure src="/images/workflows/workflows_8.png" caption="Processing tab" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_8.png" caption="Processing tab" width="1600" height="600px">}}
 
 #### Due dates
 

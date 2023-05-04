@@ -18,11 +18,11 @@ By clicking on `Administrator/Document Administrator`, you gain access to the do
 
 ## Document Manager
 
-{{< figure src="/images/document_manager/document_manager_1.png" caption="Document manager" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_1.png" caption="Document manager" width="1600" height="600px">}}
 
 The document manager is the central hub of the document management system. It enables you to organize documents, create new ones, upload existing ones, edit them, or deactivate them.
 
-{{< figure src="/images/document_manager/document_manager_3.png" caption="Filtering documents" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_3.png" caption="Filtering documents" width="1600" height="600px">}}
 
 Using the filter, you can refine the documents displayed in the document manager to focus on a specific document.
 
@@ -30,13 +30,13 @@ Using the filter, you can refine the documents displayed in the document manager
 
 ## Create a New Folder
 
-{{< figure src="/images/document_manager/document_manager_4.png" caption="Create a new folder" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_4.png" caption="Create a new folder" width="1600" height="600px">}}
 
 To create a new folder, provide the folder name in multiple languages, if supported.
 
 ## Document Folder View
 
-{{< figure src="/images/document_manager/document_manager_5.png" caption="Document folder view" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_5.png" caption="Document folder view" width="1600" height="600px">}}
 
 When you select a document folder view, you have the following options available:
 
@@ -50,7 +50,7 @@ When you select a document folder view, you have the following options available
 
 > You can also upload documents by dragging and dropping them directly into the document folder.
 
-{{< figure src="/images/document_manager/document_manager_18.png" caption="Upload form after dropping file on the document folder" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_18.png" caption="Upload form after dropping file on the document folder" width="1600" height="600px">}}
 
 When one or more files are dropped on the document folder, an upload dialog pops up with the following options:
 
@@ -64,7 +64,7 @@ When one or more files are dropped on the document folder, an upload dialog pops
 
 ## Create a New Document
 
-{{< figure src="/images/document_manager/document_manager_19.png" caption="Create new document" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_19.png" caption="Create new document" width="1600" height="600px">}}
 
 When clicking the `New Document` button, the new document dialog appears with the following options:
 
@@ -92,7 +92,7 @@ The supported document types are as follows:
 
 ### Create a new `File document`
 
-{{< figure src="/images/document_manager/document_manager_20.png" caption="Create a new file document" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_20.png" caption="Create a new file document" width="1600" height="600px">}}
 
 The main aspects unique to the document case include:
 
@@ -103,7 +103,7 @@ The main aspects unique to the document case include:
 | `Stored Files` | Files stored for this document case. |
 | `Versions` | All the versions of this document case. |
 
-{{< figure src="/images/document_manager/document_manager_21.png" caption="Title and description tab" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_21.png" caption="Title and description tab" width="1600" height="600px">}}
 
 On the `Title and description` tab, you can change the `title`, `description` for all languages. You can also upload new versions of the file or new files for different languages.
 
@@ -111,17 +111,17 @@ On the `Title and description` tab, you can change the `title`, `description` fo
 
 ### Create a new **Text document**
 
-{{< figure src="/images/document_manager/document_manager_24.png" caption="Creating a new text document" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_24.png" caption="Creating a new text document" width="1600" height="600px">}}
 
 The `Text document` has a `Content` tab that allows you to edit the document.
 
-{{< figure src="/images/document_manager/document_manager_23.png" caption="Text content editor" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_23.png" caption="Text content editor" width="1600" height="600px">}}
 
 The content editor enables you to edit HTML-like content with a basic set of formatting options.
 
 ### Create a new **Link document**
 
-{{< figure src="/images/document_manager/document_manager_25.png" caption="Creating a new link document" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_25.png" caption="Creating a new link document" width="1600" height="600px">}}
 
 The unique area for a `Link` document is under the `Title and description` tab, where you can set the external link associated with this document.
 
@@ -129,13 +129,13 @@ The unique area for a `Link` document is under the `Title and description` tab, 
 
 ### Create a new **Process chart document**
 
-{{< figure src="/images/document_manager/document_manager_32.png" caption="Creating a new process document" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_32.png" caption="Creating a new process document" width="1600" height="600px">}}
 
 The process chart tool allows you to create simple process charts that you can store as documents, embed in dashboards, or link to other documents, creating clickable maps.
 
 ### Create a new **Richtext document**
 
-{{< figure src="/images/document_manager/document_manager_33.png" caption="Create a new Richtext document" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_33.png" caption="Create a new Richtext document" width="1600" height="600px">}}
 
 A more Microsoft Word-like interface for richer documents.
 
@@ -143,11 +143,11 @@ A more Microsoft Word-like interface for richer documents.
 
 A basic Excel-like interface for more sophisticated spreadsheets.
 
-{{< figure src="/images/document_manager/document_manager_34.png" caption="Create a new spreadsheet" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_34.png" caption="Create a new spreadsheet" width="1600" height="600px">}}
 
 ## Editing an existing Document
 
-{{< figure src="/images/document_manager/document_manager_42.png" caption="Editing an existing document" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_42.png" caption="Editing an existing document" width="1600" height="600px">}}
 
 When working with documents, it's important to understand that there are two main states documents exist in:
 
@@ -162,27 +162,27 @@ A document can also be marked as a `Template`, enabling you to use it as a basis
 
 ## Copy Document to Another Directory
 
-{{< figure src="/images/document_manager/document_manager_6.png" caption="Copy document to another directory" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_6.png" caption="Copy document to another directory" width="1600" height="600px">}}
 
 Select a document. Once a document is selected, the toolbar changes, allowing you to click the `Copy to` button.
 
-{{< figure src="/images/document_manager/document_manager_7.png" caption="Select target directory" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_7.png" caption="Select target directory" width="1600" height="600px">}}
 
 Select a target directory and click the `Select` button to make a copy of the document in another folder.
 
 ## Move Document to Another Directory
 
-{{< figure src="/images/document_manager/document_manager_8.png" caption="Move document to another directory" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_8.png" caption="Move document to another directory" width="1600" height="600px">}}
 
 To move a document to a new folder, click on the `Send to` button and then select a destination folder for the file.
 
 ## Import Documents from SharePoint
 
-{{< figure src="/images/document_manager/document_manager_10.png" caption="Sharepoint import" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_10.png" caption="Sharepoint import" width="1600" height="600px">}}
 
 If `SharePoint` is enabled as an integration point for your organization, you'll have access to an `Import` button that allows you to import documents from configured `SharePoint` shares.
 
-{{< figure src="/images/document_manager/document_manager_36.png" caption="Sharepoint import dialog" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_36.png" caption="Sharepoint import dialog" width="1600" height="600px">}}
 
 When importing documents from `SharePoint`, you need to enter several fields as outlined below:
 
@@ -196,25 +196,25 @@ When importing documents from `SharePoint`, you need to enter several fields as 
 
 Clicking the `Document` button will bring up a file manager, allowing you to select documents from the specified `SharePoint Site`.
 
-{{< figure src="/images/document_manager/document_manager_37.png" caption="Selected files to import" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_37.png" caption="Selected files to import" width="1600" height="600px">}}
 
 Once you've selected the files you wish to import, click the `Confirm` button to return to the `Import from SharePoint` dialog.
 
-{{< figure src="/images/document_manager/document_manager_38.png" caption="Import selected files" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_38.png" caption="Import selected files" width="1600" height="600px">}}
 
 To complete the import process, click the `Import` button.
 
-{{< figure src="/images/document_manager/document_manager_31.png" caption="View of imported files" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_31.png" caption="View of imported files" width="1600" height="600px">}}
 
 As you can see, the imported files from `SharePoint` have a `SharePoint logo` and a symbol indicating that they were imported from `SharePoint`.
 
 ## Export Documents to SharePoint
 
-{{< figure src="/images/document_manager/document_manager_39.png" caption="Exporting files to Sharepoint" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_39.png" caption="Exporting files to Sharepoint" width="1600" height="600px">}}
 
 Select one or more files, and if your organization has `SharePoint` enabled, users will see an `Export` button allowing them to export the selected documents to `SharePoint`.
 
-{{< figure src="/images/document_manager/document_manager_40.png" caption="Export files dialog" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_40.png" caption="Export files dialog" width="1600" height="600px">}}
 
 When exporting documents to `SharePoint`, you need to enter several fields outlined below:
 
@@ -227,6 +227,6 @@ When exporting documents to `SharePoint`, you need to enter several fields outli
 
 Finally, click on the `Export` button to finalize the export of documents to `SharePoint`.
 
-{{< figure src="/images/document_manager/document_manager_41.png" caption="View of exported files" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_41.png" caption="View of exported files" width="1600" height="600px">}}
 
 Once you've exported the documents, they will be visible in the document manager with a `SharePoint` symbol and an `Export` symbol.

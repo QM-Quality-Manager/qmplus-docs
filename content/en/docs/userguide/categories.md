@@ -24,17 +24,17 @@ It's important to note that all `Category Groups` are versioned. This enables yo
 
 ## Category Group List
 
-{{< figure src="/images/category_groups/category_group_10.png" caption="List view og category groups" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_10.png" caption="List view og category groups" width="1600" height="600px">}}
 
 The category group list view allows you to see all the category groups in the system and filter them by several parameters, including the category group's name and visibility.
 
-{{< figure src="/images/category_groups/category_group_1.png" caption="Accessing filters for category groups list" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_1.png" caption="Accessing filters for category groups list" width="1600" height="600px">}}
 
 To access additional filters, click the filter button and select options from the sidebar.
 
 ## Create Category Group
 
-{{< figure src="/images/category_groups/category_group_9.png" caption="Createing a new category group" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_9.png" caption="Createing a new category group" width="1600" height="600px">}}
 
 When creating a category group, you have the following fields available:
 
@@ -62,23 +62,23 @@ The `Group Type` lets you specify the type of category group you are creating. T
 
 Click the `Set risk model` button to display the sidebar where you can select the associated risk model.
 
-{{< figure src="/images/category_groups/category_group_11.png" caption="Click button to select a risk model" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_11.png" caption="Click button to select a risk model" width="1600" height="600px">}}
 
 From here, you can choose the risk model you want to use with the category group.
 
-{{< figure src="/images/category_groups/category_group_5.png" caption="Pick the risk model" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_5.png" caption="Pick the risk model" width="1600" height="600px">}}
 
 Lastly, you can select a `reference document` that you want to include as a reference in the category group.
 
 ### Add and Edit Category Group
 
-{{< figure src="/images/category_groups/category_group_8.png" caption="Creating a sub category groups" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_8.png" caption="Creating a sub category groups" width="1600" height="600px">}}
 
 To create a `Sub Category Group`, you must provide a name for the category group. An optional description can also be added. Finally, you can attach a reference document for the `Sub Category Group`, which will be displayed in forms when the sub-group is rendered.
 
 ### Add and Edit Category
 
-{{< figure src="/images/category_groups/category_group_7.png" caption="Creating a new category" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_7.png" caption="Creating a new category" width="1600" height="600px">}}
 
 When adding a category to the category group, the following fields need to be set:
 
@@ -94,13 +94,13 @@ When adding a category to the category group, the following fields need to be se
 
 Finally, click the `Save Changes` button to save the new category to the category group.
 
-{{< figure src="/images/category_groups/category_group_3.png" caption="Editing an existing category" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_3.png" caption="Editing an existing category" width="1600" height="600px">}}
 
 You can also edit an existing category, just as when creating a new one.
 
 ### Organizing Structure
 
-{{< figure src="/images/category_groups/category_group_6.png" caption="Organizing the category group" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_6.png" caption="Organizing the category group" width="1600" height="600px">}}
 
 To organize the category group structure, you can drag items into your preferred order.
 
@@ -108,12 +108,12 @@ To organize the category group structure, you can drag items into your preferred
 
 You can also edit, view category details, or delete categories/sub-category groups.
 
-{{< figure src="/images/category_groups/category_group_4.png" caption="View details of a category" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_4.png" caption="View details of a category" width="1600" height="600px">}}
 
 This is the view when clicking on the `view category details`.
 
 ### References
 
-{{< figure src="/images/category_groups/category_group_2.png" caption="Adding references to category group" width="1024">}}
+{{< zoomableImage src="/images/category_groups/category_group_2.png" caption="Adding references to category group" width="1600" height="600px">}}
 
 References allow you to attach links to internal documents containing pertinent information about a specific category group, category, or sub-category group. Examples of this include links to laws or instructions associated with a given entry.

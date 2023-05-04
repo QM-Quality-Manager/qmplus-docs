@@ -16,13 +16,13 @@ This section focuses on searching and accessing cases for messages, actions, doc
 
 ## Messages
 
-{{< figure src="/images/cases/cases_1.png" caption="Message cases list" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_1.png" caption="Message cases list" width="1600" height="600px">}}
 
 The messages view provides a comprehensive and convenient way to manage message cases by enabling you to quickly locate specific message cases or a group of related message cases. You can search by title and description, apply specific filters, and customize the visible columns. An Excel export function allows you to extract the cases into an Excel sheet effortlessly.
 
 ### Filters
 
-{{< figure src="/images/cases/cases_2.png" caption="Message cases filters" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_2.png" caption="Message cases filters" width="1600" height="600px">}}
 
 To narrow down the list of message cases, users can add various filters:
 
@@ -37,17 +37,17 @@ To narrow down the list of message cases, users can add various filters:
 | `Form types` | Filter cases by form type. |
 | `Forms` | Filter cases by specific forms. |
 
-{{< figure src="/images/cases/cases_16.png" caption="Message cases filter options" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_16.png" caption="Message cases filter options" width="1600" height="600px">}}
 
 The image above illustrates the application of two filters: cases for the department `QmPlus AS` and cases with a status of `New`. To add more filters, click the `Add Filter` button. Once you've selected your filters, click the `Apply Filters` button to return to the case list with all filters applied.
 
-{{< figure src="/images/cases/cases_17.png" caption="Message cases list with filters applied" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_17.png" caption="Message cases list with filters applied" width="1600" height="600px">}}
 
 After applying the filters, you can see the updated list view.
 
 ### Columns
 
-{{< figure src="/images/cases/cases_3.png" caption="Availble columns for message cases" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_3.png" caption="Availble columns for message cases" width="1600" height="600px">}}
 
 Customize the list view to display your preferred columns.
 
@@ -73,13 +73,13 @@ By leveraging filters and customizing columns, you can optimize the case list vi
 
 ## Actions
 
-{{< figure src="/images/cases/cases_14.png" caption="The list of Action cases" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_14.png" caption="The list of Action cases" width="1600" height="600px">}}
 
 The actions list offers a comprehensive overview of all actions within the system. Users can apply filters to quickly locate specific actions or a group of related actions.
 
 ### Filters
 
-{{< figure src="/images/cases/cases_15.png" caption="Filters available for Actions" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_15.png" caption="Filters available for Actions" width="1600" height="600px">}}
 
 To refine the list of action cases, users can apply the following filters:
 
@@ -94,7 +94,7 @@ To refine the list of action cases, users can apply the following filters:
 
 ### Columns
 
-{{< figure src="/images/cases/cases_12.png" caption="Colums available for Action cases" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_12.png" caption="Colums available for Action cases" width="1600" height="600px">}}
 
 Customize the list view by selecting your preferred columns.
 
@@ -110,13 +110,13 @@ Customize the list view by selecting your preferred columns.
 
 ## Documents
 
-{{< figure src="/images/cases/cases_4.png" caption="Document cases list" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_4.png" caption="Document cases list" width="1600" height="600px">}}
 
 The documents list displays an overview of all documents within the system. Users can apply filters to easily find specific documents or a group of related document cases.
 
 ### Filters
 
-{{< figure src="/images/cases/cases_5.png" caption="Document case filters available" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_5.png" caption="Document case filters available" width="1600" height="600px">}}
 
 Use the following filters to narrow down the document cases:
 
@@ -129,7 +129,7 @@ Use the following filters to narrow down the document cases:
 
 ### Columns
 
-{{< figure src="/images/cases/cases_6.png" caption="Document columns available for Actions" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_6.png" caption="Document columns available for Actions" width="1600" height="600px">}}
 
 Adjust the list view to display your preferred columns.
 
@@ -146,13 +146,13 @@ Adjust the list view to display your preferred columns.
 
 ## Hearings
 
-{{< figure src="/images/cases/cases_7.png" caption="Hearing cases list" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_7.png" caption="Hearing cases list" width="1600" height="600px">}}
 
 The hearings list provides an overview of all hearings within the system. Users can apply filters to quickly locate specific hearings or a group of related hearing cases.
 
 ### Filters
 
-{{< figure src="/images/cases/cases_8.png" caption="Hearing cases filters" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_8.png" caption="Hearing cases filters" width="1600" height="600px">}}
 
 Users can apply filters to refine the list of hearing cases, making it easier to find specific cases or groups of related cases:
 
@@ -164,7 +164,7 @@ Users can apply filters to refine the list of hearing cases, making it easier to
 
 ### Columns
 
-{{< figure src="/images/cases/cases_9.png" caption="Hearing list columns available" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_9.png" caption="Hearing list columns available" width="1600" height="600px">}}
 
 Customize the list view by selecting your preferred columns:
 
@@ -180,13 +180,13 @@ Customize the list view by selecting your preferred columns:
 
 ## Audits
 
-{{< figure src="/images/cases/cases_10.png" caption="Audit cases list" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_10.png" caption="Audit cases list" width="1600" height="600px">}}
 
 The audits list displays an overview of all audit cases in the system. Users can apply filters to quickly locate specific audit cases or groups of related cases.
 
 ### Filters
 
-{{< figure src="/images/cases/cases_11.png" caption="Audit cases list filters available" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_11.png" caption="Audit cases list filters available" width="1600" height="600px">}}
 
 Use the following filters to narrow down the list of audit cases:
 
@@ -197,7 +197,7 @@ Use the following filters to narrow down the list of audit cases:
 
 ### Columns
 
-{{< figure src="/images/cases/cases_13.png" caption="Audit cases list columns" width="1024">}}
+{{< zoomableImage src="/images/cases/cases_13.png" caption="Audit cases list columns" width="1600" height="600px">}}
 
 Adjust the list view to display your preferred columns:
 

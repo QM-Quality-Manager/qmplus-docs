@@ -20,7 +20,7 @@ Ved å klikke på `Preferences` får du tilgang til brukerens spesifikke prefera
 
 ### Generelle innstillinger
 
-{{< figure src="/images/user_preferences/user_preferences_1_no.png" caption="Generelle innstillinger" width="1024">}}
+{{< zoomableImage src="/images/user_preferences/user_preferences_1_no.png" caption="Generelle innstillinger" width="1600" height="600px">}}
 
 Brukerens generelle innstillinger lar brukeren justere følgende alternativer.
 
@@ -40,13 +40,13 @@ Etter å ha endret noe på brukeren, må du klikke på `Lagre`-knappen for å la
 
 ### Brukertyper
 
-{{< figure src="/images/user_preferences/user_preferences_2_no.png" caption="Brukertyper innstillinger" width="1024">}}
+{{< zoomableImage src="/images/user_preferences/user_preferences_2_no.png" caption="Brukertyper innstillinger" width="1600" height="600px">}}
 
 `Brukertyper`-alternativet viser den nåværende innloggede brukeren listen over avdelings- og brukertypekombinasjoner som er registrert på brukeren.
 
 ### Varsler
 
-{{< figure src="/images/user_preferences/user_preferences_3_no.png" caption="Varsler innstillinger" width="1024">}}
+{{< zoomableImage src="/images/user_preferences/user_preferences_3_no.png" caption="Varsler innstillinger" width="1600" height="600px">}}
 
 Varslingsalternativet lar den nåværende brukeren endre innstillingene for varsler.
 
@@ -58,7 +58,7 @@ Klikk på `Lagre endringer`-knappen for å bruke endringer.
 
 ### Utseende
 
-{{< figure src="/images/user_preferences/user_preferences_4_no.png" caption="Utseende innstillinger" width="1024">}}
+{{< zoomableImage src="/images/user_preferences/user_preferences_4_no.png" caption="Utseende innstillinger" width="1600" height="600px">}}
 
 Utseendealternativet lar deg angi ønsket brukergrensesnittmal. For øyeblikket tilbyr `Q` tre alternativer.
 

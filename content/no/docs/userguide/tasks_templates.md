@@ -24,7 +24,7 @@ Du kan også legge til ytterligere oppgaver hvis spesifikke kategorier blir valg
 
 ## Liste over oppgavemaler
 
-{{< figure src="/images/tasks_templates/tasks_templates_2_no.png" caption="Liste over oppgavemaler" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_2_no.png" caption="Liste over oppgavemaler" width="1600" height="600px">}}
 
 `Oppgavemaler`-listen viser alle de nåværende `Oppgavemalene` som er tilgjengelige for visning.
 
@@ -32,7 +32,7 @@ Du kan også legge til ytterligere oppgaver hvis spesifikke kategorier blir valg
 
 ## Opprett en ny oppgavemal
 
-{{< figure src="/images/tasks_templates/tasks_templates_3_no.png" caption="Opprett en ny oppgavemal" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_3_no.png" caption="Opprett en ny oppgavemal" width="1600" height="600px">}}
 
 Når du oppretter en ny oppgavemal, har du følgende alternativer:
 
@@ -48,7 +48,7 @@ Klikk på `Lagre`-knappen for å lagre gjeldende status for `Oppgavemalen`.
 
 ### Legge til en ny oppgave
 
-{{< figure src="/images/tasks_templates/tasks_templates_4_no.png" caption="Legge til en ny oppgavemal" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_4_no.png" caption="Legge til en ny oppgavemal" width="1600" height="600px">}}
 
 Når du klikker på `Legg til oppgave`-knappen, åpnes sidefeltet med alternativer for en ny oppgave. Følgende alternativer er tilgjengelige:
 
@@ -61,13 +61,13 @@ Klikk på `Konfigurer`-knappen for å hente listen over tilgjengelige kategorier
 
 ### Velg kategorier
 
-{{< figure src="/images/tasks_templates/tasks_templates_5_no.png" caption="Velg kategorier" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_5_no.png" caption="Velg kategorier" width="1600" height="600px">}}
 
 Etter at du har klikket på `Konfigurer`-knappen, kan du søke og velge kategoriene som vil utløse tillegg av `Oppgaven` som opprettes.
 
 ## Redigere en oppgavemal
 
-{{< figure src="/images/tasks_templates/tasks_templates_6_no.png" caption="Redigere en oppgavemal" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_6_no.png" caption="Redigere en oppgavemal" width="1600" height="600px">}}
 
 Når du redigerer en `Oppgavemal`, kan du dra individuelle oppgaver opp og ned for å omorganisere dem i henhold til ønsket rekkefølge når de legges til i en `Sak`.
 
@@ -77,10 +77,10 @@ Du kan også `Redigere`, `Vise` og `Slette` individuelle oppgaver i `Oppgavemale
 
 ## Koble oppgavemal til skjema
 
-{{< figure src="/images/tasks_templates/tasks_templates_8_no.png" caption="Koble oppgavemal til skjema" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_8_no.png" caption="Koble oppgavemal til skjema" width="1600" height="600px">}}
 
 Når du oppretter eller redigerer et `Skjema`, har du muligheten til å knytte en `Oppgavemal` fra listen over maler som er synlige for brukerens nåværende avdeling.
 
-{{< figure src="/images/tasks_templates/tasks_templates_9_no.png" caption="" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_9_no.png" caption="" width="1600" height="600px">}}
 
 Når en bruker registrerer en ny melding ved hjelp av dette skjemaet, vil den resulterende `Saken` inkludere en liste over `Oppgaver` basert på den tilknyttede `Oppgavemalen`. Dette sikrer at passende oppgaver genereres for hver sak i henhold til de forhåndsdefinerte malene, og bidrar til å opprettholde konsistens og overholdelse av organisatoriske prosesser.

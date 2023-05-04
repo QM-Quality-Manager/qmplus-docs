@@ -17,7 +17,7 @@ This section deals with managing users in the system.
 Clicking on the `Administrator/User` gives access to the list of users.
 
 ## User List
-{{< figure src="/images/users/user_1.png" caption="User list overview" width="1024">}}
+{{< zoomableImage src="/images/users/user_1.png" caption="User list overview" width="1600" height="600px">}}
 
 The user list shows you all the available users in the system. In this view, you can choose between seeing the **Active**, **Inactive**, and **All** users.
 
@@ -25,7 +25,7 @@ The search field allows you to perform a free-text search to filter the users yo
 
 Clicking the filter button lets you narrow the search even more, as shown below.
 
-{{< figure src="/images/users/user_13.png" caption="Filter users" width="1024">}}
+{{< zoomableImage src="/images/users/user_13.png" caption="Filter users" width="1600" height="600px">}}
 
 The options for filtering are as follows.
 
@@ -37,13 +37,13 @@ The options for filtering are as follows.
 
 All these filters can be combined to limit the search even more.
 
-{{< figure src="/images/users/user_12.png" caption="New workflow dialog" width="1024">}}
+{{< zoomableImage src="/images/users/user_12.png" caption="New workflow dialog" width="1600" height="600px">}}
 
 ## Create User
 
 ### General Settings
 
-{{< figure src="/images/users/user_4.png" caption="New workflow dialog" width="1024">}}
+{{< zoomableImage src="/images/users/user_4.png" caption="New workflow dialog" width="1600" height="600px">}}
 
 The create user dialog lets us create new users for the system, and specify their user types as well as custom permissions. Finally, we can adjust the notification settings.
 
@@ -68,18 +68,18 @@ Once these fields are filled in, we have to assign at least one `department` and
 
 We can modify the avatar for the user by clicking on the `avatar` circle. Options here are changing the background color, uploading an image, or capturing an image with the webcam.
 
-{{< figure src="/images/users/user_10.png" caption="Choose color of avatar or upload/webcam" width="1024">}}
+{{< zoomableImage src="/images/users/user_10.png" caption="Choose color of avatar or upload/webcam" width="1600" height="600px">}}
 
 Below, we can see the dialog where we can upload an image or use the webcam (requires the user to give permissions to access the camera).
 
-{{< figure src="/images/users/user_11.png" caption="Upload image or take webcam snap" width="1024">}}
+{{< zoomableImage src="/images/users/user_11.png" caption="Upload image or take webcam snap" width="1600" height="600px">}}
 
 Once you have uploaded an image or taken a photo with the webcam, you can adjust the capture area and set the result.
 
-{{< figure src="/images/users/user_15.png" caption="Adjust avatar image" width="1024">}}
+{{< zoomableImage src="/images/users/user_15.png" caption="Adjust avatar image" width="1600" height="600px">}}
 
 ### Department and User Types
-{{< figure src="/images/users/user_5.png" caption="Department and user type view" width="1024">}}
+{{< zoomableImage src="/images/users/user_5.png" caption="Department and user type view" width="1600" height="600px">}}
 
 Every user needs at least one `department` and `user type` combination added to it. A user can have multiple combinations of
 `department` and `user type`, but no duplicated roles.
@@ -89,27 +89,27 @@ Every user needs at least one `department` and `user type` combination added to 
 > For the top department, they might be an `administrator`.
 > At the same time, they are an `employee` in another department.
 
-{{< figure src="/images/users/user_7.png" caption="Select department" width="1024">}}
+{{< zoomableImage src="/images/users/user_7.png" caption="Select department" width="1600" height="600px">}}
 
-{{< figure src="/images/users/user_8.png" caption="Select user type" width="1024">}}
+{{< zoomableImage src="/images/users/user_8.png" caption="Select user type" width="1600" height="600px">}}
 
 The effect of having multiple combinations of `department` and `user type` will lead to a dialog when logging in, allowing you to pick which combination
 you are going to log in as.
 
-{{< figure src="/images/users/user_14.png" caption="Change department and user type" width="1024">}}
+{{< zoomableImage src="/images/users/user_14.png" caption="Change department and user type" width="1600" height="600px">}}
 
 You also get access to changing your department/user type combination in a pull-down menu on the top right. Clicking on one of the combinations will change your view
 of the application, allowing you to switch from, for example, an `employee` view of the organization to an `administrator` view.
 
 ### Custom Permissions/Roles
 
-{{< figure src="/images/users/user_9.png" caption="Custom permissions/Roles" width="1024">}}
+{{< zoomableImage src="/images/users/user_9.png" caption="Custom permissions/Roles" width="1600" height="600px">}}
 
 Besides setting combinations of `department` and `user type`, you can also add user-specific permissions/roles. This allows you to control the permissions of a specific user in a fine-grained manner, using the user type as a starting point.
 
 ### Notifications
 
-{{< figure src="/images/users/user_6.png" caption="Notification Tab" width="1024">}}
+{{< zoomableImage src="/images/users/user_6.png" caption="Notification Tab" width="1600" height="600px">}}
 
 In the Notifications tab, you can set the notification settings for the user.
 
@@ -117,7 +117,7 @@ In the Notifications tab, you can set the notification settings for the user.
 
 ### List View
 
-{{< figure src="/images/users/user_2.png" caption="Substitutes list" width="1024">}}
+{{< zoomableImage src="/images/users/user_2.png" caption="Substitutes list" width="1600" height="600px">}}
 
 The `User Substitutions` tab allows us to create `substitutions` for employees, enabling us to delegate responsibility to other users for a specific amount of time.
 
@@ -134,7 +134,7 @@ This lets us know the `person` being substituted, who is substituting the person
 
 ### Create Substitute
 
-{{< figure src="/images/users/user_3.png" caption="New workflow dialog" width="1024">}}
+{{< zoomableImage src="/images/users/user_3.png" caption="New workflow dialog" width="1600" height="600px">}}
 
 We can create substitutions of a user by another easily. First, select the user to be substituted. This will then show you their list of `department` and `user type`. Pick which combination you wish to substitute. Then select the `substituting` user and set the period the `substitution` is in effect. Finally, click `Save` to create the substitution rule.
 

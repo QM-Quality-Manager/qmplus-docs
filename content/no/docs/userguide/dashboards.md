@@ -27,21 +27,21 @@ Dashbord er samlinger av komponenter som er designet for å overvåke statusen t
 
 ### Konfigurer brukertype-dashbord
 
-{{< figure src="/images/dashboards/dashboards_22_no.png" caption="Liste over brukertyper" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_22_no.png" caption="Liste over brukertyper" width="1600" height="600px">}}
 
 For å opprette eller endre `User Type` dashbord, naviger først til listen over `User Types`. Klikk på en av `User Types` for å åpne `User Type`, og klikk deretter på fanen `Dashboards`.
 
-{{< figure src="/images/dashboards/dashboards_23_no.png" caption="Brukertype-dashbord" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_23_no.png" caption="Brukertype-dashbord" width="1600" height="600px">}}
 
 Dashbord som konfigureres her, vil vises for brukere av den `User Type` når de klikker på menyvalget `Dashboards`.
 
 ## Dashbord
 
-{{< figure src="/images/dashboards/dashboards_1_no.png" caption="Eksempel på et dashbord med konfigurerte komponenter" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_1_no.png" caption="Eksempel på et dashbord med konfigurerte komponenter" width="1600" height="600px">}}
 
 Over er et eksempel på et dashbord med noen konfigurerte komponenter.
 
-{{< figure src="/images/dashboards/dashboards_2_no.png" caption="Typer av dashbord" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_2_no.png" caption="Typer av dashbord" width="1600" height="600px">}}
 
 Det finnes to typer dashbord.
 
@@ -50,11 +50,11 @@ Det finnes to typer dashbord.
 | `Brukertype` | Et skrivebeskyttet dashbord spesifisert for den påloggede brukerens brukertype. Kan brukes for å sikre ensartet rapportering av tall og status. |
 | `Bruker opprettet` | Et dashbord opprettet av den påloggede brukeren. |
 
-{{< figure src="/images/dashboards/dashboards_5_no.png" caption="Velge antall kolonner i et dashbord" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_5_no.png" caption="Velge antall kolonner i et dashbord" width="1600" height="600px">}}
 
 Ved å klikke på symbolet `Kolonner`, kan du justere antall kolonner som brukes til å vise dashbordet, noe som gir mer nøyaktig kontroll over komponentoppsettet.
 
-{{< figure src="/images/dashboards/dashboards_4_no.png" caption="Konfigurer dashbordsidefelt" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_4_no.png" caption="Konfigurer dashbordsidefelt" width="1600" height="600px">}}
 
 Ved å klikke på knappen `Konfigurere` på dashbordet, får du tilgang til lagrede eksisterende komponenter som kan gjenbrukes. Disse komponentene kommer i to typer.
 
@@ -65,13 +65,13 @@ Ved å klikke på knappen `Konfigurere` på dashbordet, får du tilgang til lagr
 
 ## Komponenter
 
-{{< figure src="/images/dashboards/dashboards_3_no.png" caption="Tilgjengelige komponenttyper" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_3_no.png" caption="Tilgjengelige komponenttyper" width="1600" height="600px">}}
 
 Det er flere komponenter tilgjengelige for å legge til i et dashbord. Disse kan brukes til å lage informasjonsdashbord for sluttbrukere eller for deg selv.
 
 ### Diagram
 
-{{< figure src="/images/dashboards/dashboards_8_no.png" caption="Diagramkomponent" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_8_no.png" caption="Diagramkomponent" width="1600" height="600px">}}
 
 Diagrammer lar deg opprette komponenter som visualiserer data lagret i `Q`. La oss se på de tilgjengelige alternativene.
 
@@ -89,7 +89,7 @@ Diagrammer lar deg opprette komponenter som visualiserer data lagret i `Q`. La o
 | `Overstyr uttrykk` | Lar sluttbrukeren overstyre spørrespråket som kjører mot `Q`-apiet. |
 | `Overstyr visuelle spesifikasjoner` | Aktiverer sluttbrukeren til å overstyre VegaLite-grafdefinisjonen som brukes til å vise grafen. |
 
-{{< figure src="/images/dashboards/dashboards_24_no.png" caption="Tilgjengelige stack by-felt" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_24_no.png" caption="Tilgjengelige stack by-felt" width="1600" height="600px">}}
 
 De tilgjengelige stack by-feltene er:
 
@@ -102,13 +102,13 @@ De tilgjengelige stack by-feltene er:
 
 ### Kart
 
-{{< figure src="/images/dashboards/dashboards_11_no.png" caption="Kartkomponent" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_11_no.png" caption="Kartkomponent" width="1600" height="600px">}}
 
 Kartkomponenten lar deg lage en spørring som vil bli kartlagt til et karteksempel hvis meldingssaken har tilknyttede geokoordinater.
 
 ### Tabell
 
-{{< figure src="/images/dashboards/dashboards_1_no.png" caption="Tabellvisningskomponent" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_1_no.png" caption="Tabellvisningskomponent" width="1600" height="600px">}}
 
 Tabellkomponenten er en liste-komponent som viser resultatene av en bestemt spørring. Her er en oversikt over alternativene:
 
@@ -124,7 +124,7 @@ Tabellkomponenten er en liste-komponent som viser resultatene av en bestemt spø
 
 ### Forhåndsdefinerte grafer
 
-{{< figure src="/images/dashboards/dashboards_13_no.png" caption="Forhåndsdefinerte grafer-komponent" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_13_no.png" caption="Forhåndsdefinerte grafer-komponent" width="1600" height="600px">}}
 
 Forhåndsdefinerte grafer er ferdiglagde (hermetiske) rapporter som du kan bruke for å målrette spesifikke analytiske mål. La oss se på feltene i sidepanelet.
 
@@ -155,7 +155,7 @@ De tilgjengelige forhåndsdefinerte grafene er:
 > Persentil, uttrykt som prosentandelen av verdier i et sett med data som faller under en gitt verdi. Det vil si at hvis du setter persentilen til 90% og får en verdi på 100, betyr det at 90% av resultatene i datasettet ditt faller under 100.
 
 #### **Syklus- og ledetid Løpende gjennomsnitt** Filtre
-{{< figure src="/images/dashboards/dashboards_25_no.png" caption="Syklus- og ledetidgraf" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_25_no.png" caption="Syklus- og ledetidgraf" width="1600" height="600px">}}
 
 Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Syklus- og ledetid Løpende gjennomsnitt` er:
 
@@ -167,7 +167,7 @@ Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Syklus- og 
 | `Størrelsen på det rullende vinduet i dager` | Størrelsen på det rullende vinduet (vi anbefaler 7 dager). |
 
 #### **Saker etter sakstatusgruppe** Filtre
-{{< figure src="/images/dashboards/dashboards_26_no.png" caption="Saker etter sakstatusgruppegraf" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_26_no.png" caption="Saker etter sakstatusgruppegraf" width="1600" height="600px">}}
 
 Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Saker etter sakstatusgruppe` er:
 
@@ -178,7 +178,7 @@ Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Saker etter
 | `Kategori` | Velg kategorien i kategorigruppen som skal brukes for filtrering. |
 
 #### **Saker etter sakstatus** Filtre
-{{< figure src="/images/dashboards/dashboards_27_no.png" caption="Saker etter sakstatusgraf" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_27_no.png" caption="Saker etter sakstatusgraf" width="1600" height="600px">}}
 
 Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Saker etter sakstatus` er:
 
@@ -189,7 +189,7 @@ Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Saker etter
 | `Kategori` | Velg kategorien i kategorigruppen som skal brukes for filtrering. |
 
 #### **Ubehandlet vs Åpne og Lukkede saker** Filtre
-{{< figure src="/images/dashboards/dashboards_28_no.png" caption="Ubehandlet vs Åpne og Lukkede saker graf" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_28_no.png" caption="Ubehandlet vs Åpne og Lukkede saker graf" width="1600" height="600px">}}
 
 Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Ubehandlet vs Åpne og Lukkede saker` er:
 
@@ -200,7 +200,7 @@ Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Ubehandlet 
 | `Kategori` | Velg kategorien i kategorigruppen som skal brukes for filtrering. |
 
 #### **Tid brukt i sakstatusgruppe etter persentil** Filtre
-{{< figure src="/images/dashboards/dashboards_29_no.png" caption="Tid brukt i hver sakstatusgruppe etter persentilgraf" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_29_no.png" caption="Tid brukt i hver sakstatusgruppe etter persentilgraf" width="1600" height="600px">}}
 
 Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Tid brukt i sakstatusgruppe etter persentil` er:
 
@@ -212,7 +212,7 @@ Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Tid brukt i
 | `Persentil` | Persentilen som brukes til å beregne tiden brukt. |
 
 #### **Tid brukt i sakstatus etter persentil** Filtre
-{{< figure src="/images/dashboards/dashboards_30_no.png" caption="Tid brukt i hver sakstatus etter persentilgraf" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_30_no.png" caption="Tid brukt i hver sakstatus etter persentilgraf" width="1600" height="600px">}}
 
 Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Tid brukt i sakstatus etter persentil` er:
 
@@ -224,18 +224,18 @@ Filtrene som er tilgjengelige for den forhåndsdefinerte graf-typen `Tid brukt i
 | `Persentil` | Persentilen som brukes til å beregne tiden brukt. |
 
 #### **Kumulativt antall saker per avdeling** Filtre
-{{< figure src="/images/dashboards/dashboards_31_no.png" caption="Kumulativt antall saker" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_31_no.png" caption="Kumulativt antall saker" width="1600" height="600px">}}
 
 Det er ingen filtre tilgjengelige for den forhåndsdefinerte grafen `Kumulativt antall saker per avdeling`.
 
 #### **Kumulativ kostnad for saker per avdeling** Filtre
-{{< figure src="/images/dashboards/dashboards_32_no.png" caption="Kumulativ kostnad for saker" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_32_no.png" caption="Kumulativ kostnad for saker" width="1600" height="600px">}}
 
 Det er ingen filtre tilgjengelige for den forhåndsdefinerte grafen `Kumulativ kostnad for saker per avdeling`.
 
 ### Mine saker
 
-{{< figure src="/images/dashboards/dashboards_14_no.png" caption="Innloggede brukeres saker" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_14_no.png" caption="Innloggede brukeres saker" width="1600" height="600px">}}
 
 Komponenten `Mine saker` gir deg informasjon relatert til den nåværende innloggede brukeren. Det er tre faner.
 
@@ -247,31 +247,31 @@ Komponenten `Mine saker` gir deg informasjon relatert til den nåværende innlog
 
 ### Mine aktiviteter
 
-{{< figure src="/images/dashboards/dashboards_15_no.png" caption="Innloggede brukeres aktiviteter" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_15_no.png" caption="Innloggede brukeres aktiviteter" width="1600" height="600px">}}
 
 Komponenten `Mine aktiviteter` viser alle kommende aktiviteter knyttet til den nåværende innloggede brukeren. Brukere kan få direkte tilgang til en gitt aktivitet ved å klikke på lenken for hver rad.
 
 ### Eskalerte saker
 
-{{< figure src="/images/dashboards/dashboards_16_no.png" caption="Eskalerte saker komponent" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_16_no.png" caption="Eskalerte saker komponent" width="1600" height="600px">}}
 
 Komponenten `Eskalerte saker` viser alle sakene som har blitt eskalert av systemet innenfor perioden som er spesifisert i filtrene. Dette lar den innloggede brukeren se og arbeide med eskalerte saker.
 
 ### Dokumentoppdateringer
 
-{{< figure src="/images/dashboards/dashboards_17_no.png" caption="Komponenter for oppdaterte dokumenter" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_17_no.png" caption="Komponenter for oppdaterte dokumenter" width="1600" height="600px">}}
 
 Komponenten `Dokumentoppdateringer` gjør det mulig for den innloggede brukeren å se hvilke dokumenter som har blitt oppdatert innenfor perioden spesifisert av filtrene i komponentinnstillingene. For eksempel kan dette vise alle oppdaterte dokumenter de siste 7 dagene.
 
 ### Favorittdokumenter
 
-{{< figure src="/images/dashboards/dashboards_19_no.png" caption="Favorittdokumenter komponent" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_19_no.png" caption="Favorittdokumenter komponent" width="1600" height="600px">}}
 
 Komponenten `Favorittdokumenter` viser alle dokumentene som er favorisert av den nåværende innloggede brukeren.
 
 ### Integrert dokumentvisning
 
-{{< figure src="/images/dashboards/dashboards_20_no.png" caption="Legg til integrerte dokumenter på instrumentbordet" width="1024">}}
+{{< zoomableImage src="/images/dashboards/dashboards_20_no.png" caption="Legg til integrerte dokumenter på instrumentbordet" width="1600" height="600px">}}
 
 Komponenten `Integrert dokumentvisning` lar deg legge inn et dokument direkte på instrumentbordet som visbart innhold. Følgende typer dokumenttyper støttes:
 

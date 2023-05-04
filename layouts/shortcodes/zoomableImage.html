@@ -4,11 +4,13 @@
 {{ $class := .Get "class" }}
 {{ $id := .Get "id" | default (printf "zoom-%s" (substr (md5 $src) 0 6)) }}
 {{ $height := .Get "height" }}
+{{ $width := .Get "width" | default "1280" }}
 
 <style>
   .zoom-container {
     position: relative;
     overflow: hidden;
+    z-index: 1000;
     width: 100%;
     height: {{ $height }};
   }
@@ -27,7 +29,8 @@
 </style>
 
 {{ with resources.Get $src }}
-  {{ $img := .Resize "800x" }}
+  {{ $resize := printf "%sx" $width }}
+  {{ $img := .Resize $resize }}
   <div class="{{ $class }} zoom-container" id="{{ $id }}">
     <img src="{{ $img.Permalink }}" alt="{{ $alt }}" class="zoom-image" id="{{ $id }}-img">
   </div>

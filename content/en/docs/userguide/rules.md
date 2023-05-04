@@ -18,8 +18,8 @@ Clicking on the `Administrator/Rule` gives access to the list of rules.
 
 ## Rules Listing
 
-{{< figure src="/images/rules/rules_1.png" caption="" width="1024">}}
-{{< figure src="/images/rules/rules_2.png" caption="" width="1024">}}
+{{< zoomableImage src="/images/rules/rules_1.png" caption="" width="1600" height="600px">}}
+{{< zoomableImage src="/images/rules/rules_2.png" caption="" width="1600" height="600px">}}
 
 There are two main rules categories.
 
@@ -30,7 +30,7 @@ There are two main rules categories.
 
 ## Create Workflow Rules
 
-{{< figure src="/images/rules/rules_3.png" caption="" width="1024">}}
+{{< zoomableImage src="/images/rules/rules_3.png" caption="" width="1600" height="600px">}}
 
 A Workflow rule is a rule that is taking into account during processing of a case. The rule categories available are.
 
@@ -56,8 +56,8 @@ To match the rule the following filters are available.
 
 
 
-{{< figure src="/images/rules/rules_4.png" caption="" width="1024">}}
-{{< figure src="/images/rules/rules_5.png" caption="" width="1024">}}
-{{< figure src="/images/rules/rules_6.png" caption="" width="1024">}}
-{{< figure src="/images/rules/rules_7.png" caption="" width="1024">}}
+{{< zoomableImage src="/images/rules/rules_4.png" caption="" width="1600" height="600px">}}
+{{< zoomableImage src="/images/rules/rules_5.png" caption="" width="1600" height="600px">}}
+{{< zoomableImage src="/images/rules/rules_6.png" caption="" width="1600" height="600px">}}
+{{< zoomableImage src="/images/rules/rules_7.png" caption="" width="1600" height="600px">}}
 

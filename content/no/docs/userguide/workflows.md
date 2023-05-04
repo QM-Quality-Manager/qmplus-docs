@@ -19,7 +19,7 @@ Ved å klikke på `Administrator/Arbeidsflyter` får du tilgang til listen over 
 
 ## Liste over arbeidsflyter
 
-{{< figure src="/images/workflows/workflows_1_no.png" caption="Liste over arbeidsflyter" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_1_no.png" caption="Liste over arbeidsflyter" width="1600" height="600px">}}
 
 Oversikten over arbeidsflytlistene lar deg se alle arbeidsflyter definert i systemet. Arbeidsflyter er globale og deles av alle avdelinger i organisasjonen.
 
@@ -27,7 +27,7 @@ Arbeidsflyter kan aktiveres og deaktiveres etter behov. Dette påvirker ikke eks
 
 ## Opprette arbeidsflyt
 
-{{< figure src="/images/workflows/workflows_2_no.png" caption="Opprette en arbeidsflyt" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_2_no.png" caption="Opprette en arbeidsflyt" width="1600" height="600px">}}
 
 Det er fire faner å vurdere når du oppretter en ny arbeidsflyt.
 
@@ -42,7 +42,7 @@ Det er fire faner å vurdere når du oppretter en ny arbeidsflyt.
 
 Den generelle siden lar oss fylle ut følgende felt.
 
-{{< figure src="/images/workflows/workflows_12_no.png" caption="Generell fane" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_12_no.png" caption="Generell fane" width="1600" height="600px">}}
 
 | Felt | Beskrivelse |
 | --- | --- |
@@ -56,7 +56,7 @@ Den generelle siden lar oss fylle ut følgende felt.
 
 ### Tabellfane
 
-{{< figure src="/images/workflows/workflows_3_no.png" caption="Tabellfane" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_3_no.png" caption="Tabellfane" width="1600" height="600px">}}
 
 Tabellfanen lar oss bygge og endre arbeidsflytentitetene. Det er tre typer tilgjengelige enheter.
 
@@ -68,7 +68,7 @@ Tabellfanen lar oss bygge og endre arbeidsflytentitetene. Det er tre typer tilgj
 
 ### Opprett status
 
-{{< figure src="/images/workflows/workflows_4_no.png" caption="Opprett ny arbeidsflytstatus" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_4_no.png" caption="Opprett ny arbeidsflytstatus" width="1600" height="600px">}}
 
 For å opprette en ny `Sakstatus` må du angi følgende felt.
 
@@ -91,7 +91,7 @@ De mulige `Statusgruppene` er beskrevet nedenfor.
 
 ### Opprett overganger
 
-{{< figure src="/images/workflows/workflows_5_no.png" caption="Opprett arbeidsflytovergang" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_5_no.png" caption="Opprett arbeidsflytovergang" width="1600" height="600px">}}
 
 En overgang representerer en endring mellom to statuser (for eksempel kan du flytte en sak fra `Ny`-status til `Under arbeid`-status).
 
@@ -114,7 +114,7 @@ Vi har følgende felter når vi oppretter en overgang.
 
 ### Opprett dialog
 
-{{< figure src="/images/workflows/workflows_6_no.png" caption="Opprett arbeidsflytdialog" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_6_no.png" caption="Opprett arbeidsflytdialog" width="1600" height="600px">}}
 
 En dialog representerer et sett med felt som kan konfigureres av sluttbrukeren for å samle inn informasjon eller utløse handlinger ved en endring av status for en sak (en overgang). Dialoger er knyttet til overganger.
 
@@ -141,17 +141,17 @@ Som du kan se, er det et betydelig utvalg av felttyper. La oss undersøke hver o
 | `Bekreftelse` | Ja | Lar brukeren bekrefte at spesifikke brukere har utført sine oppgaver. |
 | `Oppgavetildelingsoppsett` | Ja | Lar brukeren opprette oppgaver av en bestemt type når man går mellom statuser. Man kan også kontrollere om man ønsker å samle inn en `Forfallsdato`, `Planlagte timer`, og `Planlagt startdato`. |
 
-{{< figure src="/images/workflows/workflows_11_no.png" caption="Legge til felter i dialog" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_11_no.png" caption="Legge til felter i dialog" width="1600" height="600px">}}
 
 Du kan legge til felter i dialogen og se forhåndsvisningen av dialogen på venstre side. Når du har spesifisert alle feltene, kan du klikke på `Lagre endringer`-knappen nederst til høyre for å lagre endringene i arbeidsflyten.
 
 ### Graf-fane
 
-{{< figure src="/images/workflows/workflows_7_no.png" caption="Graf-fane" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_7_no.png" caption="Graf-fane" width="1600" height="600px">}}
 
 `Graf-fanen` viser en grafisk fremstilling av arbeidsflyten. Hver boks representerer en `Sakstatus` i arbeidsflyten, og hver linje mellom `Sakstatusene` representerer en overgang mellom to tilstander. Arbeidsflyten over er veldig enkel; nedenfor er et mer komplekst eksempel på en arbeidsflyt.
 
-{{< figure src="/images/workflows/workflows_10_no.png" caption="Eksempelgraf" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_10_no.png" caption="Eksempelgraf" width="1600" height="600px">}}
 
 > Bruk `Graf-fanen` for å validere arbeidsflyten din og forsikre deg om at du ikke har gått glipp av noen overganger. En `Sakstatus` uten overganger er et typisk signal om at man kanskje har gått glipp av en overgang, eller at `Sakstatusen` ikke er nødvendig.
 
@@ -159,7 +159,7 @@ Du kan legge til felter i dialogen og se forhåndsvisningen av dialogen på vens
 
 Behandlingsfanen inneholder innstillinger for å sette standarder for saksfrister og eskaleringer for alle skjematyper og skjemaer knyttet til denne spesifikke arbeidsflyten.
 
-{{< figure src="/images/workflows/workflows_8_no.png" caption="Behandlingsfane" width="1024">}}
+{{< zoomableImage src="/images/workflows/workflows_8_no.png" caption="Behandlingsfane" width="1600" height="600px">}}
 
 #### Forfallsdatoer
 

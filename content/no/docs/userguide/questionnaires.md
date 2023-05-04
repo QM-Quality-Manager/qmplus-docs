@@ -18,7 +18,7 @@ Klikke på `Administrator/Spørreskjemaer` gir tilgang til listen over spørresk
 
 ## Liste over spørreskjemaer
 
-{{< figure src="/images/questionnaires/questionnaires_1_no.png" caption="Liste over spørreskjemaer" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_1_no.png" caption="Liste over spørreskjemaer" width="1600" height="600px">}}
 
 Spørreskjemaer brukes til å lage omfattende spørreskjemaer og sjekklister som kan spenne over enten én side eller flere sider.
 
@@ -28,7 +28,7 @@ Du kan filtrere mellom `Aktive`, `Deaktive`, eller `Alle` status, søke etter ti
 
 ### Generell fane
 
-{{< figure src="/images/questionnaires/questionnaires_2_no.png" caption="Generell fane" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_2_no.png" caption="Generell fane" width="1600" height="600px">}}
 
 Å opprette et spørreskjema krever følgende felt.
 
@@ -46,19 +46,19 @@ Som du kan se fra bildet, kan vi forhåndsvise det nåværende spørreskjemaet.
 
 > Inntil du klikker på `Utgiver`-knappen, er alle endringer i spørreskjemaet private. Når `Utgiver`-knappen klikkes, vil det være synlig for å legge til aktiviteter.
 
-{{< figure src="/images/questionnaires/questionnaires_7_no.png" caption="Dokumentreferanser" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_7_no.png" caption="Dokumentreferanser" width="1600" height="600px">}}
 
 Referanser kan legges til dokumenter lagret i `Q` for å gi kontekst til et spørreskjema eller relevante dokumenter.
 
 ## Spørreskjemaets utforming
 
-{{< figure src="/images/questionnaires/questionnaires_8_no.png" caption="Spørreskjema-bygger" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_8_no.png" caption="Spørreskjema-bygger" width="1600" height="600px">}}
 
 Spørreskjema-byggeren har noen kjernbegreper å forstå. Et spørreskjema er en samling av en eller flere sider, der hver side har en eller flere kolonner med komponenter. Forhåndsvisningsknappen lar deg teste spørreskjemaet under utvikling. Ved å klikke på lagre-knappen vil du lagre en ny versjon av spørreskjemaet, og når det er klart, kan du klikke `Utgiver` for å frigi det nye spørreskjemaet for bruk.
 
 > Alle spørreskjemainnganger er knyttet til en bestemt spørreskjemaversjon, noe som betyr at gamle data blir bevart korrekt mot en tidligere versjon av et spørreskjema.
 
-{{< figure src="/images/questionnaires/questionnaires_4_no.png" caption="Tilgjengelige spørreskjemakomponenter" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_4_no.png" caption="Tilgjengelige spørreskjemakomponenter" width="1600" height="600px">}}
 
 De tilgjengelige komponentene er som følger.
 
@@ -81,82 +81,82 @@ De tilgjengelige komponentene er som følger.
 
 ### Sideinnstillinger
 
-{{< figure src="/images/questionnaires/questionnaires_9_no.png" caption="Spørreskjema sideinnstillinger" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_9_no.png" caption="Spørreskjema sideinnstillinger" width="1600" height="600px">}}
 
 Sideinnstillingene lar deg endre sidetittelen og beskrivelsen. Du kan også legge til referanser til dokumenter fra Q og tagger.
 
 ### Tekst
-{{< figure src="/images/questionnaires/questionnaires_12_no.png" caption="Tekstkomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_12_no.png" caption="Tekstkomponent" width="1600" height="600px">}}
 
 Et tekstfelt som lar deg angi noe skrivebeskyttet tekst for spørreskjemaet. Kan brukes til instruksjoner relatert til et felt eller tilleggsinformasjon.
 
 ### Bilde
-{{< figure src="/images/questionnaires/questionnaires_13_no.png" caption="Bildekomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_13_no.png" caption="Bildekomponent" width="1600" height="600px">}}
 
 Legg til et skrivebeskyttet bilde i spørreskjemaet for å vise instruksjoner eller tilleggsinformasjon relatert til et spørsmål.
 
 ### Enkeltvalg
-{{< figure src="/images/questionnaires/questionnaires_14_no.png" caption="Enkeltvalgkomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_14_no.png" caption="Enkeltvalgkomponent" width="1600" height="600px">}}
 
 Opprett en spørsmål/svar-kombinasjon som lar personen som fyller ut et spørreskjema velge en enkelt valgmulighet.
 
 ### Flervalg
-{{< figure src="/images/questionnaires/questionnaires_15_no.png" caption="Flervalgskomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_15_no.png" caption="Flervalgskomponent" width="1600" height="600px">}}
 
 Opprett en spørsmål/svar-kombinasjon som lar personen som fyller ut et spørreskjema velge flere alternativer.
 
 ### Rangering
-{{< figure src="/images/questionnaires/questionnaires_16_no.png" caption="Rangeringskomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_16_no.png" caption="Rangeringskomponent" width="1600" height="600px">}}
 
 Opprett en spørsmål/svar-kombinasjon som lar personen som fyller ut et spørreskjema rangere alternativene fra øverst til nederst.
 
 ### Heltall
-{{< figure src="/images/questionnaires/questionnaires_17_no.png" caption="Heltallskomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_17_no.png" caption="Heltallskomponent" width="1600" height="600px">}}
 
 Opprett et heltalls inndatafelt for spørreskjemaet ditt (f.eks. alder på en bruker, gateadresse).
 
 ### Desimal
-{{< figure src="/images/questionnaires/questionnaires_18_no.png" caption="Desimalkomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_18_no.png" caption="Desimalkomponent" width="1600" height="600px">}}
 
 Opprett et desimaltall inndatafelt for spørreskjemaet ditt (for eksempel prosent 5,5).
 
 ### Valuta
-{{< figure src="/images/questionnaires/questionnaires_19_no.png" caption="Valutakomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_19_no.png" caption="Valutakomponent" width="1600" height="600px">}}
 
 Opprett et valutatall inndatafelt for spørreskjemaet ditt (for eksempel kostnad 2 000,20).
 
 ### Tall i område
-{{< figure src="/images/questionnaires/questionnaires_20_no.png" caption="Tall i område-komponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_20_no.png" caption="Tall i område-komponent" width="1600" height="600px">}}
 
 Opprett en numerisk rekkevidde med et minimum og maksimum og en trinnstørrelse. For eksempel vil en aldersskyveknapp med et minimum på 1 og et maksimum på 120 år der trinnstørrelsen er 5 la deg dra skyveknappen i intervaller på 5 år.
 
 ### Enlinjetekstfelt
-{{< figure src="/images/questionnaires/questionnaires_21_no.png" caption="Enlinjetekstfeltkomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_21_no.png" caption="Enlinjetekstfeltkomponent" width="1600" height="600px">}}
 
 En enkelt tekst inndatafelt. For eksempel, for å fange opp en brukers etternavn.
 
 ### Flere linjers tekstfelt
-{{< figure src="/images/questionnaires/questionnaires_22_no.png" caption="Flere linjers tekstfeltkomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_22_no.png" caption="Flere linjers tekstfeltkomponent" width="1600" height="600px">}}
 
 Et flerlinjet tekst inndatafelt for å fange opp mer informasjon i tekst.
 
 ### Risiko
-{{< figure src="/images/questionnaires/questionnaires_23_no.png" caption="Risikokomponent" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_23_no.png" caption="Risikokomponent" width="1600" height="600px">}}
 
 Velg en risikomodell kategorigruppe å legge til i spørreskjemaet.
 
-{{< figure src="/images/questionnaires/questionnaires_24_no.png" caption="Risikomodellvisning" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_24_no.png" caption="Risikomodellvisning" width="1600" height="600px">}}
 
 Lar deg utføre en risikoanalysevurdering i spørreskjemaet.
 
 ## Spørreskjema-versjoner
 
-{{< figure src="/images/questionnaires/questionnaires_5_no.png" caption="Spørreskjema-versjoner" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_5_no.png" caption="Spørreskjema-versjoner" width="1600" height="600px">}}
 
 Hver gang du lagrer spørreskjemaet, lager vi en ny versjon. Når du er klar, kan du klikke på `Utgiver`-knappen for å gjøre den gjeldende versjonen tilgjengelig for å legge til i aktiviteter.
 
 ## Forhåndsvisning av spørreskjema
 
-{{< figure src="/images/questionnaires/questionnaires_6_no.png" caption="Forhåndsvisning av spørreskjema" width="1024">}}
+{{< zoomableImage src="/images/questionnaires/questionnaires_6_no.png" caption="Forhåndsvisning av spørreskjema" width="1600" height="600px">}}
 
 Vi kan forhåndsvise spørreskjemaet ved å se hvordan det blir gjengitt ved å klikke på `Forhåndsvisning (øye)`-knappen. Du kan samhandle med elementene, men ikke lagre dem.

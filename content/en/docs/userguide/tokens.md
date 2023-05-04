@@ -18,9 +18,9 @@ Clicking on the `Administrator/Tokens` grants access to the list of tokens.
 
 ## Token Listing
 
-{{< figure src="/images/tokens/tokens_3.png" caption="API Tokens Listing" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_3.png" caption="API Tokens Listing" width="1600" height="600px">}}
 
-{{< figure src="/images/tokens/tokens_5.png" caption="Mobile Users Logged In Listing" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_5.png" caption="Mobile Users Logged In Listing" width="1600" height="600px">}}
 
 There are two primary types of tokens in the system.
 
@@ -33,7 +33,7 @@ There are two primary types of tokens in the system.
 
 ## Deleting Tokens
 
-{{< figure src="/images/tokens/tokens_7.png" caption="Deleting Multiple Mobile User Tokens, Revoking Access" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_7.png" caption="Deleting Multiple Mobile User Tokens, Revoking Access" width="1600" height="600px">}}
 
 Tokens can also be deleted to revoke access for both `API Tokens` and `Mobile Users Logged In`. You can delete them individually or use the checkbox on the left side to select multiple entries to delete simultaneously.
 
@@ -41,7 +41,7 @@ Tokens can also be deleted to revoke access for both `API Tokens` and `Mobile Us
 
 Clicking on a Token displays information about the token. This screen differs depending on whether it's an `API Token` or `Mobile Users Logged In Token`.
 
-{{< figure src="/images/tokens/tokens_6.png" caption="Mobile Users Logged In Token View" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_6.png" caption="Mobile Users Logged In Token View" width="1600" height="600px">}}
 
 When selecting a `Mobile User Token`, the following information is displayed.
 
@@ -54,7 +54,7 @@ When selecting a `Mobile User Token`, the following information is displayed.
 | `Last Active` | The last time the user was active. |
 | `Expiry Date` | The current expiry date for the token. |
 
-{{< figure src="/images/tokens/tokens_2.png" caption="API Token View" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_2.png" caption="API Token View" width="1600" height="600px">}}
 
 The `API Token` view differs slightly, as it is expected that you will require access to the actual token.
 
@@ -70,7 +70,7 @@ The `API Token` view differs slightly, as it is expected that you will require a
 
 ## Creating a New API Token
 
-{{< figure src="/images/tokens/tokens_1.png" caption="Create a new token" width="1024">}}
+{{< zoomableImage src="/images/tokens/tokens_1.png" caption="Create a new token" width="1600" height="600px">}}
 
 You can create new `API Tokens` for integration. The following fields must be provided.
 

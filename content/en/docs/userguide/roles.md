@@ -29,7 +29,7 @@ There are two types of permissions in the system:
 
 ### System Permissions
 
-{{< figure src="/images/user_permissions/user_permissions_1.png" caption="System permissions list" width="1024">}}
+{{< zoomableImage src="/images/user_permissions/user_permissions_1.png" caption="System permissions list" width="1600" height="600px">}}
 
 The image above displays the list of `System Permissions`. You can filter these permissions to search for specific ones. `System Permissions` cannot be modified or deleted, and they represent all the `Application Level Permissions` available for your account. The number of available permissions may vary depending on your contract options.
 
@@ -37,13 +37,13 @@ A complete list of `System Permissions` can be found here.
 
 ### Custom Permissions
 
-{{< figure src="/images/user_permissions/user_permissions_2.png" caption="Custom permissions list" width="1024">}}
+{{< zoomableImage src="/images/user_permissions/user_permissions_2.png" caption="Custom permissions list" width="1600" height="600px">}}
 
 Custom permissions are permissions that users can create to tag content, such as documents, or limit access to areas like departments. For instance, you might have a `confidential` document that only two people should have access to. In this case, you could create a `confidential document` custom permission and assign it to the document and the two users you want to grant access to. The absence of the permission will prevent users from accessing the document.
 
 ## Create Custom Permission
 
-{{< figure src="/images/user_permissions/user_permissions_3.png" caption="Create new custom permission view" width="1024">}}
+{{< zoomableImage src="/images/user_permissions/user_permissions_3.png" caption="Create new custom permission view" width="1600" height="600px">}}
 
 When creating a custom permission, you need to provide:
 

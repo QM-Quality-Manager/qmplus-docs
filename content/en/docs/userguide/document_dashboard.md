@@ -18,13 +18,13 @@ By clicking on the `Administrator/Document Dashboards`, you gain access to the d
 
 ## List of Document Dashboards
 
-{{< figure src="/images/document_dashboards/document_dashboards_1.png" caption="List of dashboards" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_1.png" caption="List of dashboards" width="1600" height="600px">}}
 
 The list of dashboards provides basic information about each dashboard, including title, creation date, the department to which the dashboard is registered, visibility, and position in the list of dashboards that the user will see. From this interface, you can also delete dashboards.
 
 ## Create a New Document Dashboard
 
-{{< figure src="/images/document_dashboards/document_dashboards_16.png" caption="Create a new document dashboard" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_16.png" caption="Create a new document dashboard" width="1600" height="600px">}}
 
 To create a new `Document Dashboard`, you need to fill in the following fields:
 
@@ -47,7 +47,7 @@ When building new dashboards or editing existing ones, there are three tabs that
 
 ## Preview
 
-{{< figure src="/images/document_dashboards/document_dashboards_4.png" caption="Preview the dashboard" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_4.png" caption="Preview the dashboard" width="1600" height="600px">}}
 
 The `Preview` tab is used to configure the appearance and content of the document dashboard in question. The options available are:
 
@@ -59,7 +59,7 @@ The `Preview` tab is used to configure the appearance and content of the documen
 
 ### Preview > Configure
 
-{{< figure src="/images/document_dashboards/document_dashboards_5.png" caption="Configure a dashboard" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_5.png" caption="Configure a dashboard" width="1600" height="600px">}}
 
 The configure button opens the `Configure` sidebar, which provides access to adding configurations from either the `General` components list or the user's `My components` list.
 
@@ -73,7 +73,7 @@ Clicking on `Add Component` lets you add a new `Structure` or `List Search` comp
 
 ### Preview > Add Component
 
-{{< figure src="/images/document_dashboards/document_dashboards_6.png" caption="Add a component to a dashboard" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_6.png" caption="Add a component to a dashboard" width="1600" height="600px">}}
 
 When clicking the `Add Component` button, you can choose between the `Static Structure` and `List` options.
 
@@ -84,7 +84,7 @@ When clicking the `Add Component` button, you can choose between the `Static Str
 
 ### Preview > Add Structure Component
 
-{{< figure src="/images/document_dashboards/document_dashboards_10.png" caption="Add a structure component to a dashboard" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_10.png" caption="Add a structure component to a dashboard" width="1600" height="600px">}}
 
 The structure components let you build completely custom directory and file components, organizing the structure as needed. The field options are:
 
@@ -100,23 +100,23 @@ The structure components let you build completely custom directory and file comp
 
 Clicking on the `Add document` icon opens a sidebar, enabling you to browse the document manager files and add documents.
 
-{{< figure src="/images/document_dashboards/document_dashboards_11.png" caption="Browse for documents" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_11.png" caption="Browse for documents" width="1600" height="600px">}}
 
 You can browse the document folders, filter, and search for files, then select multiple files to add at once. When you are ready, click the `Select N documents` button to add them to your `Structure` component.
 
 Clicking on the `Add folder` icon opens a sidebar that allows you to create a new document folder and add it to your `Structure` component.
 
-{{< figure src="/images/document_dashboards/document_dashboards_12.png" caption="Add a folder to the structure component" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_12.png" caption="Add a folder to the structure component" width="1600" height="600px">}}
 
 Enter the name of the folder (supports multiple languages) and click the `Save changes` button to add the folder to your structure.
 
-{{< figure src="/images/document_dashboards/document_dashboards_13.png" caption="Example structure component" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_13.png" caption="Example structure component" width="1600" height="600px">}}
 
 Above is an image of a `Structured` component containing a `Folder` and a couple of `Documents`. You can rearrange the order of the items by dragging them. To move a document under a `Folder`, drag it from left to right under a folder, and it will be attached underneath that `Folder`. Documents and Folders can also be removed from the structured component.
 
 ### Preview > Add List Component
 
-{{< figure src="/images/document_dashboards/document_dashboards_8.png" caption="Add a List component" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_8.png" caption="Add a List component" width="1600" height="600px">}}
 
 A list component is a component that runs a `Search` for documents and displays any matching documents. The options for the component are:
 
@@ -148,6 +148,6 @@ For filtering the list, there are the following options:
 
 ### Preview result
 
-{{< figure src="/images/document_dashboards/document_dashboards_14.png" caption="Preview of dashboard with structure and list component" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_14.png" caption="Preview of dashboard with structure and list component" width="1600" height="600px">}}
 
 Above is an example of a `Dashboard` with a `List` and `Structure` component. As we can see, we can `Minimize/Maximize` the component, as well as resize and move the component on the dashboard. Existing components can also be re-configured and removed from the `Dashboard`.

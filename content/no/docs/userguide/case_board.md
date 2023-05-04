@@ -18,7 +18,7 @@ Når du klikker på `Sakstavle`, får du tilgang til Sakstavle-grensesnittet.
 
 ## Sakstavlen
 
-{{< figure src="/images/case_board/case_board_1_no.png" caption="Oversikt over sakstavle" width="1024">}}
+{{< zoomableImage src="/images/case_board/case_board_1_no.png" caption="Oversikt over sakstavle" width="1600" height="600px">}}
 
 Sakstavlen gir en brukervennlig og effektiv måte å administrere saker innenfor ulike arbeidsflyter. Det lar deg enkelt flytte saker mellom status, filtrere tavlen ved hjelp av ulike kriterier og få tilgang til saksinformasjon.
 
@@ -32,21 +32,21 @@ Sakstavlen gir en brukervennlig og effektiv måte å administrere saker innenfor
 
 ### Sakstatusovergang
 
-{{< figure src="/images/case_board/case_board_6_no.png" caption="Overgang mellom tilstander" width="1024">}}
+{{< zoomableImage src="/images/case_board/case_board_6_no.png" caption="Overgang mellom tilstander" width="1600" height="600px">}}
 
 For å flytte saker, klikk og dra enkelt en sak til en ny statuskolonne.
 
-{{< figure src="/images/case_board/case_board_3_no.png" caption="Utfylling av en dialogboks ved overgang mellom tilstander" width="1024">}}
+{{< zoomableImage src="/images/case_board/case_board_3_no.png" caption="Utfylling av en dialogboks ved overgang mellom tilstander" width="1600" height="600px">}}
 
 Hvis det kreves å fylle ut en dialogboks for å flytte en sak fra gjeldende status til en ny status, vil den dukke opp og må fylles ut før saken kan flyttes til den nye statusen.
 
-{{< figure src="/images/case_board/case_board_5_no.png" caption="Overgang mellom status ved hjelp av hamburgermenyen" width="1024">}}
+{{< zoomableImage src="/images/case_board/case_board_5_no.png" caption="Overgang mellom status ved hjelp av hamburgermenyen" width="1600" height="600px">}}
 
 Alternativt kan du flytte en sak ved å klikke på hamburgermenyen i øvre høyre hjørne av hver sakboks og deretter velge en av de tillatte statusovergangene.
 
 ### Visning av saksinformasjon
 
-{{< figure src="/images/case_board/case_board_4_no.png" caption="Vis kompakt saksoversikt" width="1024">}}
+{{< zoomableImage src="/images/case_board/case_board_4_no.png" caption="Vis kompakt saksoversikt" width="1600" height="600px">}}
 
 Ved å klikke på en sak i sakstavlen, kan du få tilgang til `kompakt saksoversikt`. For en mer detaljert oversikt, klikk på pilikonet i øvre høyre hjørne av `kompakt saksoversikt` for å åpne full saksoversikt. `Kompakt saksoversikt` tilbyr flere nyttige alternativer:
 

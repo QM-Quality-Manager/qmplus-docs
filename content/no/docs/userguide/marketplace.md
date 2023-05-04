@@ -20,11 +20,11 @@ Ved å klikke på `Markedsplass` får du tilgang til markedsplassen, som lar oss
 
 ## Finne og kjøpe
 
-{{< figure src="/images/marketplace/marketplace_1_no.png" caption="Visning av markedsplassen" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_1_no.png" caption="Visning av markedsplassen" width="1600" height="600px">}}
 
 `Markedsplass` gjør det mulig for deg å søke etter nye pakker som inneholder dokumenter, skjemaer og spørreskjemaer for import, slik at du raskt kan komme i gang. Ved å klikke på pakken vises innholdet i pakken.
 
-{{< figure src="/images/marketplace/marketplace_12_no.png" caption="Oppbygging av pakke" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_12_no.png" caption="Oppbygging av pakke" width="1600" height="600px">}}
 
 Det er tre faner for en pakke.
 
@@ -38,7 +38,7 @@ For å kjøpe pakken klikker du på `Kjøp`-knappen. Foreløpig er alle pakkene 
 
 Du kan klikke på en gruppe for å se oversikten over innholdet.
 
-{{< figure src="/images/marketplace/marketplace_13_no.png" caption="Gruppeenhet" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_13_no.png" caption="Gruppeenhet" width="1600" height="600px">}}
 
 Alle enhetene i gruppen (enten det er skjemaer, spørreskjemaer eller dokumenter) vil bli oppført i gruppelisten. Du kan se ytterligere informasjon ved å klikke på det lille spørsmålstegnet (tilleggsinformasjon vil vises i en sidebar).
 
@@ -46,23 +46,23 @@ Alle enhetene i gruppen (enten det er skjemaer, spørreskjemaer eller dokumenter
 
 I denne delen vil vi vise hvordan du importerer dokumenter, skjemaer og spørreskjemaer fra en allerede kjøpt pakke. Klikk på `Kjøpte pakker`-linken for å se alle kjøpte pakkene dine.
 
-{{< figure src="/images/marketplace/marketplace_1_no.png" caption="Toppnivåvisning" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_1_no.png" caption="Toppnivåvisning" width="1600" height="600px">}}
 
 Klikk på pakken for å gå til pakkegruppevisningen.
 
-{{< figure src="/images/marketplace/marketplace_2_no.png" caption="Gruppevisning" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_2_no.png" caption="Gruppevisning" width="1600" height="600px">}}
 
 Klikk på gruppen for å navigere til den fulle gruppevisningen.
 
-{{< figure src="/images/marketplace/marketplace_3_no.png" caption="Valg av enheter" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_3_no.png" caption="Valg av enheter" width="1600" height="600px">}}
 
 Du kan velge enhetene du ønsker å importere ved å klikke på avkrysningsboksene.
 
-{{< figure src="/images/marketplace/marketplace_5_no.png" caption="Import av enheter" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_5_no.png" caption="Import av enheter" width="1600" height="600px">}}
 
 Når brukeren har valgt elementene de vil importere, klikker de på `importere ressurser`-knappen for å starte importprosessen.
 
-{{< figure src="/images/marketplace/marketplace_15_no.png" caption="Importskjema alternativer" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_15_no.png" caption="Importskjema alternativer" width="1600" height="600px">}}
 
 Importskjemaet vil dukke opp og la deg spesifisere følgende alternativer.
 
@@ -76,21 +76,21 @@ Importskjemaet vil dukke opp og la deg spesifisere følgende alternativer.
 
 Når du har angitt alle feltene, klikker du på `Neste`-knappen for å komme til importbekreftelsesskjermen.
 
-{{< figure src="/images/marketplace/marketplace_16_no.png" caption="Bekreft import" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_16_no.png" caption="Bekreft import" width="1600" height="600px">}}
 
 Bekreft elementene og klikk til slutt på `Import`-knappen for å fullføre importprosessen.
 
 ## Våre pakker
 
-{{< figure src="/images/marketplace/marketplace_6_no.png" caption="Våre pakker" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_6_no.png" caption="Våre pakker" width="1600" height="600px">}}
 
 Våre pakker viser alle pakkene vi har opprettet. Å klikke på en av pakkene fører oss til innholdssiden.
 
-{{< figure src="/images/marketplace/marketplace_17_no.png" caption="Publisering av en pakke" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_17_no.png" caption="Publisering av en pakke" width="1600" height="600px">}}
 
 Vi kan se listen over innholdsgrupper i pakken. Ved å klikke på `Publiser`-knappen vil den nyeste versjonen av pakken bli publisert på markedsplassen.
 
-{{< figure src="/images/marketplace/marketplace_18_no.png" caption="Pakke publisert" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_18_no.png" caption="Pakke publisert" width="1600" height="600px">}}
 
 ### Opprett pakke
 
@@ -103,15 +103,15 @@ Det er to hovedfaner i pakkeopprettingsgrensesnittet:
 | `Generell`  | Gjør det mulig å redigere hovedpakkens informasjon. |
 | `Innhold`  | Gjør det mulig å redigere pakkegrupper og innhold.  |
 
-{{< figure src="/images/marketplace/marketplace_19_no.png" caption="General-fanen" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_19_no.png" caption="General-fanen" width="1600" height="600px">}}
 
 `Generell`-fanen gir deg muligheter til å redigere pakketittelen, bakgrunnsbilde, beskrivelse og bruksvilkår. For å endre selve innholdet i pakken, bytt til `Innhold`-fanen.
 
-{{< figure src="/images/marketplace/marketplace_20_no.png" caption="Content-fanen" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_20_no.png" caption="Content-fanen" width="1600" height="600px">}}
 
 `Innhold`-fanen viser alle gruppene som utgjør pakken. For å se og redigere innholdet i en pakkegruppe, klikk på ønsket `Gruppe`.
 
-{{< figure src="/images/marketplace/marketplace_21_no.png" caption="Legge til en gruppe" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_21_no.png" caption="Legge til en gruppe" width="1600" height="600px">}}
 
 Ved å velge `Legg til gruppe` åpnes en ny `Gruppe`-dialog, som lar deg opprette en ny `Gruppe`. De tilgjengelige alternativene inkluderer:
 
@@ -138,15 +138,15 @@ Det er to hovedfaner for pakkeredigering:
 | `Generell`  | Inneholder hovedinformasjonen til pakken som skal redigeres. |
 | `Innhold`  | Gjør det mulig å redigere pakkegrupper og innhold.  |
 
-{{< figure src="/images/marketplace/marketplace_19_no.png" caption="General-fanen" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_19_no.png" caption="General-fanen" width="1600" height="600px">}}
 
 `Generell`-fanen gir deg muligheter til å redigere pakketittelen, bakgrunnsbilde, beskrivelse og bruksvilkår. For å endre selve innholdet i pakken, bytt til `Innhold`-fanen.
 
-{{< figure src="/images/marketplace/marketplace_20_no.png" caption="Content-fanen" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_20_no.png" caption="Content-fanen" width="1600" height="600px">}}
 
 `Innhold`-fanen viser alle gruppene som utgjør pakken. For å se og redigere innholdet i en pakkegruppe, klikk på ønsket `Gruppe`.
 
-{{< figure src="/images/marketplace/marketplace_21_no.png" caption="Legge til en gruppe" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_21_no.png" caption="Legge til en gruppe" width="1600" height="600px">}}
 
 Ved å velge `Legg til gruppe` åpnes en ny `Gruppe`-dialog, som lar deg opprette en ny `Gruppe`. De tilgjengelige alternativene inkluderer:
 
@@ -164,7 +164,7 @@ Etter å ha fylt ut nødvendige felt, klikk på "Lagre endringer" -knappen for �
 
 ## Utgiverkonto
 
-{{< figure src="/images/marketplace/marketplace_11_no.png" caption="Utgiverkonto-visning" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_11_no.png" caption="Utgiverkonto-visning" width="1600" height="600px">}}
 
 Utgiverkonto-delen viser informasjon om utgiveren når brukerne søker og blar gjennom markedsplassen. Du kan endre følgende felt:
 
@@ -178,7 +178,7 @@ Utgiverkonto-delen viser informasjon om utgiveren når brukerne søker og blar g
 | `Stikkord`         | Administrer merkelapper knyttet til utgiveren.|
 | `Adresser`    | Oppdater utgiverens adresser; klikk "Legg til adresse" for å legge inn nye adresser. |
 
-{{< figure src="/images/marketplace/marketplace_22_no.png" caption="Legge til en adresse" width="1024">}}
+{{< zoomableImage src="/images/marketplace/marketplace_22_no.png" caption="Legge til en adresse" width="1600" height="600px">}}
 
 En ny adresseoppføring inkluderer følgende felt:
 

@@ -20,7 +20,7 @@ Clicking on the `Preferences` grants access to the specific preferences of the u
 
 ### General Settings
 
-{{< figure src="/images/user_preferences/user_preferences_1.png" caption="General settings" width="1024">}}
+{{< zoomableImage src="/images/user_preferences/user_preferences_1.png" caption="General settings" width="1600" height="600px">}}
 
 The users general settings allow the user to adjust the following options.
 
@@ -40,13 +40,13 @@ After changing anything on the user, the `Save` button must be clicked to save t
 
 ### User Types
 
-{{< figure src="/images/user_preferences/user_preferences_2.png" caption="User Types settings" width="1024">}}
+{{< zoomableImage src="/images/user_preferences/user_preferences_2.png" caption="User Types settings" width="1600" height="600px">}}
 
 The `User types` option shows the current logged-in user the list of the department and user type combinations that are registered on their user.
 
 ### Notification
 
-{{< figure src="/images/user_preferences/user_preferences_3.png" caption="Notifications settings" width="1024">}}
+{{< zoomableImage src="/images/user_preferences/user_preferences_3.png" caption="Notifications settings" width="1600" height="600px">}}
 
 The notifications option allows the current user to modify their notification settings.
 
@@ -58,7 +58,7 @@ Click the `Save Changes` button to apply any changes.
 
 ### Appearance
 
-{{< figure src="/images/user_preferences/user_preferences_4.png" caption="Appearance settings" width="1024">}}
+{{< zoomableImage src="/images/user_preferences/user_preferences_4.png" caption="Appearance settings" width="1600" height="600px">}}
 
 The appearance option allows you to specify the desired UI template. Currently, `Q` offers three options.
 

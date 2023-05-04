@@ -24,7 +24,7 @@ You can also add additional tasks if specific categories are selected by the use
 
 ## Task Templates Listing
 
-{{< figure src="/images/tasks_templates/tasks_templates_2.png" caption="List of Tasks templates" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_2.png" caption="List of Tasks templates" width="1600" height="600px">}}
 
 The `Task Templates` listing displays all the current `Task Templates` that are available to view.
 
@@ -32,7 +32,7 @@ The `Task Templates` listing displays all the current `Task Templates` that are 
 
 ## Create a New Task Template
 
-{{< figure src="/images/tasks_templates/tasks_templates_3.png" caption="Create a new Tasks template" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_3.png" caption="Create a new Tasks template" width="1600" height="600px">}}
 
 When creating a new Task Template, you have the following options:
 
@@ -48,7 +48,7 @@ Click the `Save` button to save the current state of the `Task Template`.
 
 ### Adding a New Task
 
-{{< figure src="/images/tasks_templates/tasks_templates_4.png" caption="Adding a new Tasks template" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_4.png" caption="Adding a new Tasks template" width="1600" height="600px">}}
 
 Clicking the `Add Task` button opens the sidebar with options for a new Task. The following options are available:
 
@@ -61,13 +61,13 @@ Click the `Configure` button to retrieve the list of available categories. Final
 
 ### Select Categories
 
-{{< figure src="/images/tasks_templates/tasks_templates_5.png" caption="Select categories" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_5.png" caption="Select categories" width="1600" height="600px">}}
 
 After clicking the `Configure` button, you can search and select the categories that will trigger the addition of the `Task` being created.
 
 ## Editing a Task Template
 
-{{< figure src="/images/tasks_templates/tasks_templates_6.png" caption="Editing a tasks template" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_6.png" caption="Editing a tasks template" width="1600" height="600px">}}
 
 When editing a `Task Template`, you can drag individual tasks up and down to reorder them according to your desired sequence when added to a `Case`.
 
@@ -77,10 +77,10 @@ You can also `Edit`, `View`, and `Delete` individual tasks in the `Tasks Templat
 
 ## Mapping Task Template to Form
 
-{{< figure src="/images/tasks_templates/tasks_templates_8.png" caption="Mapping Tasks template to form" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_8.png" caption="Mapping Tasks template to form" width="1600" height="600px">}}
 
 When creating or editing a `Form`, you have the option to associate a `Tasks Template` from the list of templates visible to the current user's department.
 
-{{< figure src="/images/tasks_templates/tasks_templates_9.png" caption="" width="1024">}}
+{{< zoomableImage src="/images/tasks_templates/tasks_templates_9.png" caption="" width="1600" height="600px">}}
 
 When a user registers a new message using this form, the resulting `Case` will include a list of `Tasks` based on the associated `Tasks Template`. This ensures that appropriate tasks are generated for each case according to the predefined templates, helping maintain consistency and adherence to organizational processes.

@@ -18,13 +18,13 @@ Ved å klikke på `Administrator/Dokument Dashboard` får du tilgang til dokumen
 
 ## Liste over dokumentdashbord
 
-{{< figure src="/images/document_dashboards/document_dashboards_1_no.png" caption="Liste over dashbord" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_1_no.png" caption="Liste over dashbord" width="1600" height="600px">}}
 
 Listen over dashbord gir grunnleggende informasjon om hvert dashbord, inkludert tittel, opprettelsesdato, avdelingen som dashbordet er registrert på, synlighet og posisjon i listen over dashbord som brukeren vil se. Fra dette grensesnittet kan du også slette dashbord.
 
 ## Opprett et nytt dokumentdashbord
 
-{{< figure src="/images/document_dashboards/document_dashboards_16_no.png" caption="Opprett et nytt dokumentdashbord" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_16_no.png" caption="Opprett et nytt dokumentdashbord" width="1600" height="600px">}}
 
 For å lage et nytt `Dokument Dashboard` må du fylle ut følgende felt:
 
@@ -47,7 +47,7 @@ Når du bygger nye dashbord eller redigerer eksisterende, er det tre faner vi br
 
 ## Forhåndsvisning
 
-{{< figure src="/images/document_dashboards/document_dashboards_4_no.png" caption="Forhåndsvis dashbordet" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_4_no.png" caption="Forhåndsvis dashbordet" width="1600" height="600px">}}
 
 `Forhåndsvisning`-fanen brukes til å konfigurere utseendet og innholdet i det aktuelle dokumentdashbordet. De tilgjengelige alternativene er:
 
@@ -59,7 +59,7 @@ Når du bygger nye dashbord eller redigerer eksisterende, er det tre faner vi br
 
 ### Forhåndsvisning > Konfigurer
 
-{{< figure src="/images/document_dashboards/document_dashboards_5_no.png" caption="Konfigurer et dashbord" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_5_no.png" caption="Konfigurer et dashbord" width="1600" height="600px">}}
 
 Konfigurer-knappen åpner `Konfigurer`-sidebar, som gir tilgang til å legge til konfigurasjoner fra enten `Generell`-komponentlisten eller brukerens `Mine komponenter`-liste.
 
@@ -73,7 +73,7 @@ Ved å klikke på `Legg til komponent` kan du legge til en ny `Struktur` eller `
 
 ### Forhåndsvisning > Legg til komponent
 
-{{< figure src="/images/document_dashboards/document_dashboards_6_no.png" caption="Legg til en komponent i et dashbord" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_6_no.png" caption="Legg til en komponent i et dashbord" width="1600" height="600px">}}
 
 Når du klikker på `Legg til komponent`-knappen, kan du velge mellom `Statisk Struktur` og `Liste`-alternativene.
 
@@ -84,7 +84,7 @@ Når du klikker på `Legg til komponent`-knappen, kan du velge mellom `Statisk S
 
 ### Forhåndsvisning > Legg til strukturkomponent
 
-{{< figure src="/images/document_dashboards/document_dashboards_10_no.png" caption="Legg til en strukturkomponent i et dashbord" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_10_no.png" caption="Legg til en strukturkomponent i et dashbord" width="1600" height="600px">}}
 
 Strukturkomponentene lar deg bygge helt egendefinerte katalog- og filkomponenter, og organisere strukturen etter behov. Feltalternativene er:
 
@@ -100,23 +100,23 @@ Strukturkomponentene lar deg bygge helt egendefinerte katalog- og filkomponenter
 
 Ved å klikke på `Legg til dokument`-ikonet åpnes en sidebar, som lar deg bla gjennom dokumentbehandlerfiler og legge til dokumenter.
 
-{{< figure src="/images/document_dashboards/document_dashboards_11_no.png" caption="Bla etter dokumenter" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_11_no.png" caption="Bla etter dokumenter" width="1600" height="600px">}}
 
 Du kan bla gjennom dokumentmappene, filtrere og søke etter filer, og deretter velge flere filer for å legge til på en gang. Når du er klar, klikker du på `Velg N dokumenter`-knappen for å legge dem til `Struktur`-komponenten din.
 
 Ved å klikke på `Legg til mappe`-ikonet åpnes en sidebar som lar deg lage en ny dokumentmappe og legge den til i `Struktur`-komponenten din.
 
-{{< figure src="/images/document_dashboards/document_dashboards_12_no.png" caption="Legg til en mappe i strukturkomponenten" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_12_no.png" caption="Legg til en mappe i strukturkomponenten" width="1600" height="600px">}}
 
 Skriv inn navnet på mappen (støtter flere språk) og klikk på `Lagre endringer`-knappen for å legge til mappen i strukturen din.
 
-{{< figure src="/images/document_dashboards/document_dashboards_13_no.png" caption="Eksempel på strukturkomponent" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_13_no.png" caption="Eksempel på strukturkomponent" width="1600" height="600px">}}
 
 Ovenfor er et bilde av en `Struktur`-komponent som inneholder en `Filmappe` og et par `Dokumenter`. Du kan endre rekkefølgen på elementene ved å dra dem. For å flytte et dokument under en `Filmappe`, drar du det fra venstre til høyre under en mappe, og det vil bli festet under den `Filmappen`. Dokumenter og mapper kan også fjernes fra strukturkomponenten.
 
 ### Forhåndsvisning > Legg til liste komponent
 
-{{< figure src="/images/document_dashboards/document_dashboards_8_no.png" caption="Legg til en liste komponent" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_8_no.png" caption="Legg til en liste komponent" width="1600" height="600px">}}
 
 En liste komponent er en komponent som kjører et `Søk` etter dokumenter og viser eventuelle matchende dokumenter. Alternativene for komponenten er:
 
@@ -148,6 +148,6 @@ For å filtrere listen er det følgende alternativer:
 
 ### Forhåndsvis resultat
 
-{{< figure src="/images/document_dashboards/document_dashboards_14_no.png" caption="Forhåndsvisning av dashbord med struktur- og listekomponent" width="1024">}}
+{{< zoomableImage src="/images/document_dashboards/document_dashboards_14_no.png" caption="Forhåndsvisning av dashbord med struktur- og listekomponent" width="1600" height="600px">}}
 
 Ovenfor er et eksempel på et `Dashboard` med en `Liste` og `Struktur`-komponent. Som vi kan se, kan vi `Minimer/Maksimer` komponenten, samt endre størrelse og flytte komponenten på dashbordet. Eksisterende komponenter kan også rekonfigureres og fjernes fra `Dashbordet`.

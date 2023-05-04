@@ -18,7 +18,7 @@ Ved å klikke på `Administrator/Innstillinger` får du tilgang til listen over 
 
 ## Generelle innstillinger
 
-{{< figure src="/images/preferences/preferences_1_no.png" caption="Generelle innstillinger" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_1_no.png" caption="Generelle innstillinger" width="1600" height="600px">}}
 
 De generelle innstillingene lar deg kontrollere følgende egenskaper.
 
@@ -29,7 +29,7 @@ De generelle innstillingene lar deg kontrollere følgende egenskaper.
 
 ## Saksrelaterte innstillinger
 
-{{< figure src="/images/preferences/preferences_2_no.png" caption="Saksrelaterte innstillinger" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_2_no.png" caption="Saksrelaterte innstillinger" width="1600" height="600px">}}
 
 Disse preferansene kontrollerer grunnleggende forfallsdatoer og varslingsinnstillinger. Disse innstillingene kan overstyres på arbeidsflyt- og skjemanivå.
 
@@ -40,7 +40,7 @@ Disse preferansene kontrollerer grunnleggende forfallsdatoer og varslingsinnstil
 
 ## E-post
 
-{{< figure src="/images/preferences/preferences_4_no.png" caption="E-postinnstillinger" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_4_no.png" caption="E-postinnstillinger" width="1600" height="600px">}}
 
 Denne delen lar deg overstyre plattformens e-postinnstillinger. Dette lar brukeren bruke sitt eget SMTP-endepunkt for å sende e-post fra Q. Dette kan være nyttig hvis kunden ønsker at varslene skal komme fra sitt eget e-postdomene eller hvis e-postinnstillingene deres forhindrer vanlig e-post fra Q i å bli levert.
 
@@ -65,7 +65,7 @@ På høyre side er det et enkelt send e-post skjema som lar deg teste utsending 
 
 ## Varsler
 
-{{< figure src="/images/preferences/preferences_5_no.png" caption="Varslingsinnstillinger" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_5_no.png" caption="Varslingsinnstillinger" width="1600" height="600px">}}
 
 Varslingsinnstillingene lar deg angi standard varslingsinnstillinger for systemet som helhet.
 
@@ -79,7 +79,7 @@ Hvis du ønsker å angi forskjellige påminnelserstider per prioritet, velg `Spe
 
 ## Sikkerhetsinnstillinger
 
-{{< figure src="/images/preferences/preferences_6_no.png" caption="Sikkerhetsinnstillinger" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_6_no.png" caption="Sikkerhetsinnstillinger" width="1600" height="600px">}}
 
 Sikkerhetsinnstillinger lar deg konfigurere følgende alternativer.
 
@@ -90,7 +90,7 @@ Sikkerhetsinnstillinger lar deg konfigurere følgende alternativer.
 
 ## Mobile innstillinger
 
-{{< figure src="/images/preferences/preferences_7_no.png" caption="Mobile innstillinger" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_7_no.png" caption="Mobile innstillinger" width="1600" height="600px">}}
 
 Mobile innstillinger lar deg konfigurere applikasjonsnivå delte innstillinger for alle mobile klientbrukere.
 
@@ -109,7 +109,7 @@ Mobile innstillinger lar deg konfigurere applikasjonsnivå delte innstillinger f
 
 ## Innstillinger for opplasting av logoer
 
-{{< figure src="/images/preferences/preferences_8_no.png" caption="Innstillinger for opplasting av logoer" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_8_no.png" caption="Innstillinger for opplasting av logoer" width="1600" height="600px">}}
 
 Innstillingene for opplasting av logoer lar deg laste opp egendefinerte logoer som skal vises på forskjellige steder.
 
@@ -120,7 +120,7 @@ Innstillingene for opplasting av logoer lar deg laste opp egendefinerte logoer s
 
 ## Statusoversikt
 
-{{< figure src="/images/preferences/preferences_9_no.png" caption="Statusoversikt" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_9_no.png" caption="Statusoversikt" width="1600" height="600px">}}
 
 Viser applikasjonsstatistikker. Følgende statistikker er tilgjengelige.
 
@@ -131,7 +131,7 @@ Viser applikasjonsstatistikker. Følgende statistikker er tilgjengelige.
 
 ## Integrasjoner
 
-{{< figure src="/images/preferences/preferences_10_no.png" caption="Innstillinger for integrasjoner" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_10_no.png" caption="Innstillinger for integrasjoner" width="1600" height="600px">}}
 
 Viser alle tilgjengelige integrasjonsalternativer for abonnementet ditt.
 

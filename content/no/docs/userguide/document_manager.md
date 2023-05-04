@@ -18,11 +18,11 @@ Ved å klikke på `Administrator/Dokument Administrator`, får du tilgang til do
 
 ## Dokumentbehandler
 
-{{< figure src="/images/document_manager/document_manager_1_no.png" caption="Dokument administrator" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_1_no.png" caption="Dokument administrator" width="1600" height="600px">}}
 
 Dokumentbehandleren er det sentrale knutepunktet for dokumenthåndteringssystemet. Den lar deg organisere dokumenter, opprette nye, laste opp eksisterende, redigere dem eller deaktivere dem.
 
-{{< figure src="/images/document_manager/document_manager_3_no.png" caption="Filtrering av dokumenter" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_3_no.png" caption="Filtrering av dokumenter" width="1600" height="600px">}}
 
 Ved å bruke filteret kan du avgrense dokumentene som vises i dokumentbehandleren for å fokusere på et bestemt dokument.
 
@@ -30,13 +30,13 @@ Ved å bruke filteret kan du avgrense dokumentene som vises i dokumentbehandlere
 
 ## Opprett en ny mappe
 
-{{< figure src="/images/document_manager/document_manager_4_no.png" caption="Lag en ny mappe" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_4_no.png" caption="Lag en ny mappe" width="1600" height="600px">}}
 
 For å opprette en ny mappe, oppgi mappenavnet på flere språk, hvis det støttes.
 
 ## Dokumentmappesvisning
 
-{{< figure src="/images/document_manager/document_manager_5_no.png" caption="Dokumentmappevisning" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_5_no.png" caption="Dokumentmappevisning" width="1600" height="600px">}}
 
 Når du velger en dokumentmappesvisning, har du følgende alternativer tilgjengelig:
 
@@ -50,7 +50,7 @@ Når du velger en dokumentmappesvisning, har du følgende alternativer tilgjenge
 
 > Du kan også laste opp dokumenter ved å dra og slippe dem direkte i dokumentmappen.
 
-{{< figure src="/images/document_manager/document_manager_18_no.png" caption="Opplastingsskjema etter å ha droppet fil på dokumentmappen" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_18_no.png" caption="Opplastingsskjema etter å ha droppet fil på dokumentmappen" width="1600" height="600px">}}
 
 Når en eller flere filer slippes på dokumentmappen, dukker det opp en opplastingsdialog med følgende alternativer:
 
@@ -64,7 +64,7 @@ Når en eller flere filer slippes på dokumentmappen, dukker det opp en opplasti
 
 ## Opprett et nytt dokument
 
-{{< figure src="/images/document_manager/document_manager_19_no.png" caption="Opprett dokumentvisning" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_19_no.png" caption="Opprett dokumentvisning" width="1600" height="600px">}}
 
 Når du klikker på `Nytt dokument`-knappen, vises dialogen for nytt dokument med følgende alternativer:
 
@@ -92,7 +92,7 @@ De støttede dokumenttypene er som følger:
 
 ### Opprett et nytt `Fildokument`
 
-{{< figure src="/images/document_manager/document_manager_20_no.png" caption="Opprett et nytt fildokument" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_20_no.png" caption="Opprett et nytt fildokument" width="1600" height="600px">}}
 
 De viktigste aspektene unike for dokumenttilfellet inkluderer:
 
@@ -103,7 +103,7 @@ De viktigste aspektene unike for dokumenttilfellet inkluderer:
 | `Lagrede filer` | Filer lagret for dette dokumenttilfellet. |
 | `Versjoner` | Alle versjonene av dette dokumenttilfellet. |
 
-{{< figure src="/images/document_manager/document_manager_21_no.png" caption="Tittel og beskrivelse-fanen" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_21_no.png" caption="Tittel og beskrivelse-fanen" width="1600" height="600px">}}
 
 På fanen `Tittel og beskrivelse` kan du endre `tittelen`, `beskrivelsen` for alle språk. Du kan også laste opp nye versjoner av filen eller nye filer for forskjellige språk.
 
@@ -111,17 +111,17 @@ På fanen `Tittel og beskrivelse` kan du endre `tittelen`, `beskrivelsen` for al
 
 ### Opprett et nytt **Tekstdokument**
 
-{{< figure src="/images/document_manager/document_manager_24_no.png" caption="Opprette et nytt tekstdokument" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_24_no.png" caption="Opprette et nytt tekstdokument" width="1600" height="600px">}}
 
 `Tekstdokumentet` har en `Innhold`-fane som lar deg redigere dokumentet.
 
-{{< figure src="/images/document_manager/document_manager_23_no.png" caption="Rediger tekstinnhold" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_23_no.png" caption="Rediger tekstinnhold" width="1600" height="600px">}}
 
 Innholdsredigereren lar deg redigere HTML-lignende innhold med et grunnleggende sett med formateringsalternativer.
 
 ### Opprett et nytt **Lenkedokument**
 
-{{< figure src="/images/document_manager/document_manager_25_no.png" caption="Opprette et nytt lenkedokument" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_25_no.png" caption="Opprette et nytt lenkedokument" width="1600" height="600px">}}
 
 Det unike området for et `Lenke`-dokument er under fanen `Tittel og beskrivelse`, der du kan angi den eksterne lenken som er knyttet til dette dokumentet.
 
@@ -129,13 +129,13 @@ Det unike området for et `Lenke`-dokument er under fanen `Tittel og beskrivelse
 
 ### Opprett et nytt **Prosesskartdokument**
 
-{{< figure src="/images/document_manager/document_manager_32_no.png" caption="Opprette et nytt prosessdokument" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_32_no.png" caption="Opprette et nytt prosessdokument" width="1600" height="600px">}}
 
 Prosesskartverktøyet lar deg lage enkle prosesskart som du kan lagre som dokumenter, bygge inn i dashbord eller lenke til andre dokumenter, og lage klikkbare kart.
 
 ### Opprett et nytt **Richtext-dokument**
 
-{{< figure src="/images/document_manager/document_manager_33_no.png" caption="Opprett et nytt Rik tekst-dokument" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_33_no.png" caption="Opprett et nytt Rik tekst-dokument" width="1600" height="600px">}}
 
 Et mer Microsoft Word-lignende grensesnitt for rikere dokumenter.
 
@@ -143,11 +143,11 @@ Et mer Microsoft Word-lignende grensesnitt for rikere dokumenter.
 
 Et grunnleggende Excel-lignende grensesnitt for mer sofistikerte regneark.
 
-{{< figure src="/images/document_manager/document_manager_34_no.png" caption="Opprett et nytt regneark" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_34_no.png" caption="Opprett et nytt regneark" width="1600" height="600px">}}
 
 ## Redigere et eksisterende dokument
 
-{{< figure src="/images/document_manager/document_manager_42_no.png" caption="Redigere et eksisterende dokument" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_42_no.png" caption="Redigere et eksisterende dokument" width="1600" height="600px">}}
 
 Når du arbeider med dokumenter, er det viktig å forstå at det er to hovedtilstander dokumenter eksisterer i:
 
@@ -162,27 +162,27 @@ Et dokument kan også merkes som en `Mal`, noe som gjør at du kan bruke det som
 
 ## Kopier dokument til en annen mappe
 
-{{< figure src="/images/document_manager/document_manager_6_no.png" caption="Kopier dokumentet til en annen katalog" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_6_no.png" caption="Kopier dokumentet til en annen katalog" width="1600" height="600px">}}
 
 Velg et dokument. Når et dokument er valgt, endres verktøylinjen, slik at du kan klikke på `Kopier til`-knappen.
 
-{{< figure src="/images/document_manager/document_manager_7_no.png" caption="Velg målkatalog" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_7_no.png" caption="Velg målkatalog" width="1600" height="600px">}}
 
 Velg en målmappe og klikk på `Velg`-knappen for å lage en kopi av dokumentet i en annen mappe.
 
 ## Flytt dokument til en annen mappe
 
-{{< figure src="/images/document_manager/document_manager_8_no.png" caption="Flytt dokumentet til en annen katalog" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_8_no.png" caption="Flytt dokumentet til en annen katalog" width="1600" height="600px">}}
 
 For å flytte et dokument til en ny mappe, klikk på `Send til`-knappen og velg deretter en destinasjonsmappe for filen.
 
 ## Importer dokumenter fra SharePoint
 
-{{< figure src="/images/document_manager/document_manager_10_no.png" caption="Sharepoint import" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_10_no.png" caption="Sharepoint import" width="1600" height="600px">}}
 
 Hvis `SharePoint` er aktivert som et integrasjonspunkt for organisasjonen din, vil du ha tilgang til en `Importer`-knapp som lar deg importere dokumenter fra konfigurerte `SharePoint`-delinger.
 
-{{< figure src="/images/document_manager/document_manager_36_no.png" caption="Sharepoint import dialog" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_36_no.png" caption="Sharepoint import dialog" width="1600" height="600px">}}
 
 Når du importerer dokumenter fra `SharePoint`, må du fylle inn flere felter som beskrevet nedenfor:
 
@@ -196,25 +196,25 @@ Når du importerer dokumenter fra `SharePoint`, må du fylle inn flere felter so
 
 Å klikke på `Dokument`-knappen vil åpne en filbehandler, som lar deg velge dokumenter fra det angitte `SharePoint`-nettstedet.
 
-{{< figure src="/images/document_manager/document_manager_37_no.png" caption="Valgte filer å importere" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_37_no.png" caption="Valgte filer å importere" width="1600" height="600px">}}
 
 Når du har valgt filene du ønsker å importere, klikk på `Bekreft`-knappen for å gå tilbake til `Importer fra SharePoint`-dialogen.
 
-{{< figure src="/images/document_manager/document_manager_38_no.png" caption="Importer valgte filer" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_38_no.png" caption="Importer valgte filer" width="1600" height="600px">}}
 
 For å fullføre importprosessen, klikk på `Importer`-knappen.
 
-{{< figure src="/images/document_manager/document_manager_31_no.png" caption="Visning av importerte filer" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_31_no.png" caption="Visning av importerte filer" width="1600" height="600px">}}
 
 Som du kan se, har de importerte filene fra `SharePoint` et `SharePoint-logo` og et symbol som indikerer at de ble importert fra `SharePoint`.
 
 ## Eksporter dokumenter til SharePoint
 
-{{< figure src="/images/document_manager/document_manager_39_no.png" caption="Eksporterer filer til Sharepoint" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_39_no.png" caption="Eksporterer filer til Sharepoint" width="1600" height="600px">}}
 
 Velg en eller flere filer, og hvis organisasjonen din har `SharePoint` aktivert, vil brukerne se en `Eksporter`-knapp som lar dem eksportere de valgte dokumentene til `SharePoint`.
 
-{{< figure src="/images/document_manager/document_manager_40_no.png" caption="Eksport fildialog" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_40_no.png" caption="Eksport fildialog" width="1600" height="600px">}}
 
 Når du eksporterer dokumenter til `SharePoint`, må du fylle inn flere felter som beskrevet nedenfor:
 
@@ -227,6 +227,6 @@ Når du eksporterer dokumenter til `SharePoint`, må du fylle inn flere felter s
 
 Til slutt, klikk på `Eksporter`-knappen for å fullføre eksporten av dokumenter til `SharePoint`.
 
-{{< figure src="/images/document_manager/document_manager_41_no.png" caption="Visning av eksporterte filer" width="1024">}}
+{{< zoomableImage src="/images/document_manager/document_manager_41_no.png" caption="Visning av eksporterte filer" width="1600" height="600px">}}
 
 Når du har eksportert dokumentene, vil de være synlige i dokumentbehandleren med et `SharePoint`-symbol og et `Eksport`-symbol.

@@ -20,13 +20,13 @@ Clicking on `Administrator/Form Types` provides access to the list of form types
 
 ## List of Form Types
 
-{{< figure src="/images/form_types/form_types_1.png" caption="List of form types" width="1024">}}
+{{< zoomableImage src="/images/form_types/form_types_1.png" caption="List of form types" width="1600" height="600px">}}
 
 You can filter form types by their status as `Active` or `Inactive` or view `All` of them. Click the button on the right of each form type to `Activate` or `Deactivate` a specific form type. Additionally, you can create a new `Form Type` by clicking the `Create` button.
 
 ### Creating a New Form Type
 
-{{< figure src="/images/form_types/form_types_2.png" caption="Creating a new form type" width="1024">}}
+{{< zoomableImage src="/images/form_types/form_types_2.png" caption="Creating a new form type" width="1600" height="600px">}}
 
 A Form Type allows you to manage a set of expectations for forms based on this specific `Form Type`. To create one, you need to provide the following options:
 

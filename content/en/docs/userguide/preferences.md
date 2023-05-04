@@ -18,7 +18,7 @@ Clicking on the `Administrator/Preferences` gives access to the list of preferen
 
 ## General Settings
 
-{{< figure src="/images/preferences/preferences_1.png" caption="General preference settings" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_1.png" caption="General preference settings" width="1600" height="600px">}}
 
 The General settings allow you to control the following properties.
 
@@ -29,7 +29,7 @@ The General settings allow you to control the following properties.
 
 ## Case related
 
-{{< figure src="/images/preferences/preferences_2.png" caption="Case related settings" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_2.png" caption="Case related settings" width="1600" height="600px">}}
 
 These preferences control basic due date and notification settings. These settings can be overridden at the workflow and form level.
 
@@ -40,7 +40,7 @@ These preferences control basic due date and notification settings. These settin
 
 ## Email
 
-{{< figure src="/images/preferences/preferences_4.png" caption="Email related settings" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_4.png" caption="Email related settings" width="1600" height="600px">}}
 
 This section allows you to override the platform's email sending settings. This lets the user use their own SMTP endpoint to send email from Q. This might be useful if the customer wants the notifications to be from their own email domain or if their email spam settings are making the delivery of regular email from Q impossible.
 
@@ -68,7 +68,7 @@ DONE
 
 ## Notifications
 
-{{< figure src="/images/preferences/preferences_5.png" caption="Notifications settings" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_5.png" caption="Notifications settings" width="1600" height="600px">}}
 
 The notifications settings allow you to set default notification settings for the system as a whole.
 
@@ -82,7 +82,7 @@ If you wish to set different reminder times per priority, select `Specific for e
 
 ## Security Settings
 
-{{< figure src="/images/preferences/preferences_6.png" caption="Security settings" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_6.png" caption="Security settings" width="1600" height="600px">}}
 
 Security settings allow you to configure the following options.
 
@@ -93,7 +93,7 @@ Security settings allow you to configure the following options.
 
 ## Mobile Settings
 
-{{< figure src="/images/preferences/preferences_7.png" caption="Mobile settings" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_7.png" caption="Mobile settings" width="1600" height="600px">}}
 
 Mobile settings allow you to configure application-level shared settings for all mobile client users.
 
@@ -114,7 +114,7 @@ DONE
 ---------------------------------------------------------------------------------------------------------
 ## Upload Logos Settings
 
-{{< figure src="/images/preferences/preferences_8.png" caption="Upload logos settings" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_8.png" caption="Upload logos settings" width="1600" height="600px">}}
 
 The upload logos settings allow you to upload custom logos to be shown in different places.
 
@@ -125,7 +125,7 @@ The upload logos settings allow you to upload custom logos to be shown in differ
 
 ## Status Overview
 
-{{< figure src="/images/preferences/preferences_9.png" caption="Status overview" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_9.png" caption="Status overview" width="1600" height="600px">}}
 
 Shows application statistics. The following statistics are available.
 
@@ -136,7 +136,7 @@ Shows application statistics. The following statistics are available.
 
 ## Integrations
 
-{{< figure src="/images/preferences/preferences_10.png" caption="Integrations settings" width="1024">}}
+{{< zoomableImage src="/images/preferences/preferences_10.png" caption="Integrations settings" width="1600" height="600px">}}
 
 Shows all available integration options for your subscription.
 
