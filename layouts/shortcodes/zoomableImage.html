@@ -5,6 +5,7 @@
 {{ $id := .Get "id" | default (printf "zoom-%s" (substr (md5 $src) 0 6)) }}
 {{ $height := .Get "height" }}
 {{ $width := .Get "width" | default "1280" }}
+{{ $zoom := .Get "zoom" | default 2 }}
 
 <style>
   .zoom-container {
@@ -41,9 +42,10 @@
       var container = document.getElementById('{{ $id }}');
       var image = document.getElementById('{{ $id }}-img');
       var zoomLevel = 1;
+      var maxZoom = parseInt('{{ $zoom }}', 10);
   
       container.addEventListener('click', function() {
-        zoomLevel = (zoomLevel === 1) ? 2 : 1;
+        zoomLevel = (zoomLevel === 1) ? maxZoom : 1;
         container.style.transform = 'scale(' + zoomLevel + ')';
         container.style.cursor = (zoomLevel === 1) ? 'zoom-in' : 'zoom-out';
       });
