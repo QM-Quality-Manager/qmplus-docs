@@ -167,7 +167,6 @@ Notification rules will trigger notifications to the users specified in the rule
 | --- | --- | --- |
 | `Notify about closing case` | `All` | Notify the users of the rule when a case enters a close state. |
 | `Notify about new case` | `All` | Notify the users of the rule when a new case is created. |
-| `Overdue notification trigger` | `All` | Notify the users of the rule if a case is over the number of threshold days after being overdue.  |
 
 ### Creating a new rule
 {{< zoomableImage src="/images/rules/rules_img_8.png" caption="rules_img_8.png" width="1600" height="600px">}}
@@ -181,7 +180,6 @@ When creating a new rule we have the following fields.
 | `Rule type` | `All` | Lets you select the type of rule you are building. The available rules depends on the `Case type` selected. See the table below for available mappings per type. |
 | `Description` | `All` | A longer description about the rule and what it's used for. |
 | `Users` | `All` | Select the users that the rule will return if it matches. |
-| `Days past overdue date to send notification` | `Threshold notification trigger` | Select the users that the rule will return if it matches. |
 | `Case properties` | `All` | Attributes that will be used when matching against the rule. |
 
 | Case property | Description |
@@ -226,20 +224,6 @@ If the rule matches the following users are notified.
 
 > `Ihor Samilo`
 
-#### Overdue notification trigger
-{{< zoomableImage src="/images/rules/rules_img_11.png" caption="rules_img_19.png" width="1600" height="600px">}}
-
-An example of an `Overdue notification trigger` rule that will match on the following combined criteria.
-
-| Criteria | Match on at least one value for each Criteria |
-| --- | --- |
-
-> No Criteria means the users will be notified on every single new message.
-
-If the rule matches the following users are notified.
-
-> `Ihor Samilo`
-
 ## Test Rules
 
 {{< zoomableImage src="/images/rules/rules_img_12.png" caption="rules_img_12.png" width="1600" height="600px">}}
@@ -259,7 +243,6 @@ Lets look at how we can test casehandler rules to see what matches. Case handler
 | `Approve action` | A rule that will add action case handlers, when selecting a case handler that can approve a case. |
 | `Notify close case` | A rule that will add action case handlers, when selecting a case handler that can approve a case. |
 | `Notify new case` | A rule that will add action case handlers, when selecting a case handler that can approve a case. |
-| `Notify overdue trigger` | A rule that will add action case handlers, when selecting a case handler that can approve a case. |
 
 All these rules return a set of candidate users.
 
