@@ -20,7 +20,7 @@ Clicking on the `Administrator/Rule` gives access to the list of rules.
 
 {{< zoomableImage src="/images/rules/rules_img_7.png" caption="rules_img_7.png" width="1600" height="600px">}}
 
-Workflow rules impact the workflow of entities such as messages and actions. The include the following types.
+Workflow rules impact the workflow of entities such as messages and actions. They include the following types.
 
 > The case types are `Message`, `Action`, `Hearing`, `Audit` and `Document`.
 
