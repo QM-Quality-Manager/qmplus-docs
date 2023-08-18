@@ -79,6 +79,12 @@ In the left-hand menu of your application dashboard, look for the "API permissio
 
 Click on the "Add a permission" button to add new permissions. Follow the prompts to add the necessary permissions for your application.
 
+### Configure API claims
+
+{{< zoomableImage src="/images/oauth_azure/oauth_azure_12.png" caption="Add claims to JWT token" width="1600" height="600px" zoom="3">}}
+
+You can add additional claims to the token returned by Oauth to Q allowing you to for example use `upn` to match against the `username` or `email` field in Q.
+
 ### Configure reply URLs
 
 In the left-hand menu of your application dashboard, look for the "Authentication" link and click on it. Under the "Platform configurations" section, click on "Add a platform" and provide the redirect URIs your application will use after completing the OAuth process.
@@ -118,6 +124,7 @@ The following fields can be configured for an OAuth integration.
 | `Client Secret` || The OAuth Client Secret. |
 | `Scopes`|| Oauth Scopes used when authorizing the Oauth flow. |
 | `Principal Resolver` | MICROSOFT_GRAPH | What resolver to use to retrieve the user information from after an authentication flow. |
+| `Claim Field` || Optional field. Set the name of the claim field you wish to use to identify the user when matching against the users in Q. |
 | `Principle Field` || What field from the principle resolver to use to match Qm users against. Ex: userPrincipalName, https://learn.microsoft.com/en-us/graph/api/user-get?view=graph-rest-1.0&tabs=http |
 | `Application Principle Field` | USERNAME, EMAIL | What user field to use in Qm to match the Oauth user. We can use the username itself or the email address. |
 
