@@ -12,9 +12,6 @@ menu:
 weight: 100
 toc: true
 ---
-# Hidden Fields
-In this tutorial we are going to look at how we can create hidden fields in our forms only accessible by people with the permission can see hidden fields.
-
 This lets us ensure that the content of a field is only visible to people who have the permission to see it.
 
 The associated permission needed to see hidden fields is as follows.
